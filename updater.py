@@ -25,9 +25,13 @@ def token():
     value = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if value:
         return value
+    gh_candidates = ["gh", r"C:\Program Files\GitHub CLI\gh.exe"]
     try:
-        return subprocess.check_output(["gh", "auth", "token"], text=True, stderr=subprocess.DEVNULL).strip()
-    except (OSError, subprocess.CalledProcessError):
+        for executable in gh_candidates:
+            try:
+                return subprocess.check_output([executable, "auth", "token"], text=True, stderr=subprocess.DEVNULL).strip()
+            except (OSError, subprocess.CalledProcessError):
+                continue
         return ""
 
 

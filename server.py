@@ -29,6 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import bundle   # noqa: E402
 import build    # noqa: E402  (shared validation + filenames)
+import updater  # noqa: E402
 
 WEB_DIR = os.path.join(HERE, "web")
 WEB2_DIR = os.path.join(HERE, "web2")
@@ -560,6 +561,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send_json(bundle.meta())
             if route == "/api/server-info":
                 return self._send_json({"projectPath": HERE})
+            if route == "/api/update/check":
+                return self._send_json(updater.check())
             if route == "/api/units":
                 return self._send_json(bundle.units())
             if route == "/api/items":
@@ -620,6 +623,8 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as ex:
             return self._error("Bad JSON: %s" % ex)
         try:
+            if route == "/api/update/apply":
+                return self._send_json(updater.apply())
             if route == "/api/ais":
                 if not isinstance(payload, list) or any(
                     not isinstance(row, dict) or not isinstance(row.get("id"), int)

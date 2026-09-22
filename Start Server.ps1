@@ -5,7 +5,9 @@ Set-Location -LiteralPath $PSScriptRoot
 function Find-Python {
     $candidates = @(
         "$env:LOCALAPPDATA\Programs\Python\Python314\python.exe",
+        "$env:LOCALAPPDATA\Programs\Python\Python313\python.exe",
         "$env:ProgramFiles\Python314\python.exe",
+        "$env:ProgramFiles\Python313\python.exe",
         "$env:WINDIR\py.exe",
         'py',
         'python'
@@ -17,8 +19,8 @@ function Find-Python {
     ) -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName)
     foreach ($candidate in $candidates) {
         if (-not (Get-Command $candidate -ErrorAction SilentlyContinue)) { continue }
-        $arguments = @('-c', 'import sys, sqlite3; assert sys.version_info[:3] == (3, 14, 7); print(sys.executable)')
-        if ($candidate -eq 'py') { $arguments = @('-3.14') + $arguments }
+        $arguments = @('-c', 'import sys, sqlite3; assert sys.version_info[:2] in ((3, 14), (3, 13)); print(sys.executable)')
+        if ([IO.Path]::GetFileNameWithoutExtension($candidate) -eq 'py') { $arguments = @('-3.14') + $arguments }
         try {
             $executable = & $candidate @arguments 2>$null
             if ($LASTEXITCODE -eq 0 -and $executable) { return [string]($executable | Select-Object -Last 1) }
@@ -76,14 +78,14 @@ function Invoke-Updater {
 
 try {
     $python = Find-Python
-    if ($python) { Write-Host "Python 3.14.7 already found. Skipping Python installation." -ForegroundColor Green }
+    if ($python) { Write-Host "A supported Python version is already installed. Skipping Python installation." -ForegroundColor Green }
     if (-not $python -and $Install) {
         if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
             throw 'Install Python 3.14.7 from https://www.python.org/downloads/release/python-3147/ and then run Install and Start.bat again.'
         }
         $installedPython = winget list --id Python.Python.3.14 --exact --source winget --accept-source-agreements 2>$null | Out-String
         if ($installedPython -match 'Python 3\.14\.7') {
-            Write-Host 'Python 3.14.7 is already installed. Skipping Python upgrade and continuing to Java.' -ForegroundColor Green
+            Write-Host 'A supported Python package is already installed. Skipping Python upgrade and continuing to Java.' -ForegroundColor Green
         } else {
             Write-Host 'Installing Python 3.14.7. This may take a few minutes...'
             & winget install --id Python.Python.3.14 --version 3.14.7 --exact --source winget --scope user --accept-package-agreements --accept-source-agreements --disable-interactivity

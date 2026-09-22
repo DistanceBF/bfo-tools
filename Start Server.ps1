@@ -66,6 +66,7 @@ function Invoke-Updater {
 
 try {
     $python = Find-Python
+    if ($python) { Write-Host "Python 3.14.7 already found. Skipping Python installation." -ForegroundColor Green }
     if (-not $python -and $Install) {
         if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
             throw 'Install Python 3.14.7 from https://www.python.org/downloads/release/python-3147/ and then run Install and Start.bat again.'
@@ -78,6 +79,7 @@ try {
     if (-not $python) { throw 'Python 3.14.7 was not found. Run Install and Start.bat first.' }
     if ($Install) {
         $java = Find-Java
+        if ($java) { Write-Host "Java already found. Skipping Java installation." -ForegroundColor Green }
         if (-not $java) {
             if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
                 throw 'Java is missing. Install Java from https://adoptium.net/ and run Install and Start.bat again.'

@@ -3,7 +3,13 @@ $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
 
 function Find-Python {
-    $candidates = @('py', 'python', "$env:WINDIR\py.exe")
+    $candidates = @(
+        "$env:LOCALAPPDATA\Programs\Python\Python314\python.exe",
+        "$env:ProgramFiles\Python314\python.exe",
+        "$env:WINDIR\py.exe",
+        'py',
+        'python'
+    )
     $candidates += @(Get-ChildItem -Path @(
         "$env:LOCALAPPDATA\Programs\Python\Python*\python.exe",
         "$env:ProgramFiles\Python*\python.exe",
@@ -75,10 +81,15 @@ try {
         if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
             throw 'Install Python 3.14.7 from https://www.python.org/downloads/release/python-3147/ and then run Install and Start.bat again.'
         }
-        Write-Host 'Installing Python 3.14.7. This may take a few minutes...'
-        & winget install --id Python.Python.3.14 --version 3.14.7 --exact --source winget --scope user --accept-package-agreements --accept-source-agreements
+        $installedPython = winget list --id Python.Python.3.14 --exact --source winget --accept-source-agreements 2>$null | Out-String
+        if ($installedPython -match 'Python 3\.14\.7') {
+            Write-Host 'Python 3.14.7 is already installed. Skipping Python upgrade and continuing to Java.' -ForegroundColor Green
+        } else {
+            Write-Host 'Installing Python 3.14.7. This may take a few minutes...'
+            & winget install --id Python.Python.3.14 --version 3.14.7 --exact --source winget --scope user --accept-package-agreements --accept-source-agreements --disable-interactivity
+        }
         $python = Find-Python
-        if (-not $python) { throw 'Python 3.14.7 was not found after setup. If WinGet says it is already installed, restart Windows or add Python to PATH, then run this launcher again.' }
+        if (-not $python) { throw 'Python 3.14.7 was not found after setup. Install it from python.org, then run this launcher again.' }
     }
     if (-not $python) { throw 'Python 3.14.7 was not found. Run Install and Start.bat first.' }
     if ($Install) {

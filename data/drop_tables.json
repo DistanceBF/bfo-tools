@@ -1,0 +1,1872 @@
+{
+ "100": {
+  "area": "Mistral",
+  "area_id": 100,
+  "items": [
+   {
+    "item_id": 10200,
+    "locations": [
+     "Cave of Flames: Wielder of the Fire - 29-34 with Zelnite",
+     "Magutagal Wetlands: Commander of the Thunder"
+    ],
+    "name": "Don Nut"
+   },
+   {
+    "item_id": 10201,
+    "locations": [
+     "Cave of Flames: Wielder of the Fire - (Warlock Liza:2 per drop)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10202,
+    "locations": [
+     "Egor Snowfield - Breath Freezing Snowfield (8-23)",
+     "Egor Snowfield - Manipulator of the Water (17-23)",
+     "Egor Snowfield - The Pirate on Ice (8-28)",
+     "Egor Snowfield - The Dragon Hunting Ice Knight (4-24)",
+     "Forest of Beasts - Shadowy Forests (12-24)",
+     "Forest of Beasts - Puppeteer of the Trees",
+     "Tower of Mistral - Monsters of the Corridor (2-3)"
+    ],
+    "name": "Buru Nut"
+   },
+   {
+    "item_id": 10205,
+    "locations": [
+     "Remains of Mirza - Sacred Ruins (13-20)",
+     "Remains of Mirza - Wielder of the Light (18-25)",
+     "Remains of Mirza - The White Horse of Light (29-39)",
+     "Remains of Mirza - Moonlit Battle (19-29)",
+     "Tower of Mistral - The Skyhigh Tower (0-2)",
+     "Tower of Mistral - Monsters of the Corridor (0-4)",
+     "Tower of Mistral - The Stairs of Trial (5-13)",
+     "Tower of Mistral - The Pillars of Force (0-4)",
+     "Tower of Mistral - The Forged Gigantor (0-8)"
+    ],
+    "name": "Bara Nut"
+   },
+   {
+    "item_id": 10300,
+    "locations": [
+     "Mistral - Adventurer's Prairie"
+    ],
+    "name": "Green Drop"
+   },
+   {
+    "item_id": 10301,
+    "locations": [
+     "Adventurer's Prairie - Start of Adventure (2-5)",
+     "Adventurer's Prairie - Monsters of the Prairie (4-5)",
+     "Adventurer's Prairie - Guardians of the Prairie (2-5)",
+     "Cave of Flames - Cave of Dancing Flames (7-11)",
+     "Cave of Flames - Wielder of Fire (4-12)",
+     "Cave of Flames - The Thief's Hideout (7-13)",
+     "Cave of Flames - The Blazing Beast (4-8)",
+     "Egor Snowfield - Breath Freezing Snowfields (4-11)",
+     "Egor Snowfield - Manipulator of the Water (9-14)",
+     "Egor Snowfield - Pirate on Ice (8-13)",
+     "Egor Snowfield - The Dragon Hunting Ice Knight (4-12)",
+     "Forest of Beasts - Shadowy Forests (0-4)",
+     "Forest of Beasts - Pupeteer of the Trees",
+     "Monster's Nest - Manipulator of the Dark (8-18)",
+     "Tower of Mistral - Monsters of the Corridor (8-16)"
+    ],
+    "name": "Blue Drop"
+   },
+   {
+    "item_id": 10601,
+    "locations": [
+     "Egor Snowfield"
+    ],
+    "name": "Water Eye"
+   },
+   {
+    "item_id": 10602,
+    "locations": [
+     "Forest of Beasts"
+    ],
+    "name": "Earth Eye"
+   },
+   {
+    "item_id": 10603,
+    "locations": [
+     "Magutagal Wetlands"
+    ],
+    "name": "Thunder Eye"
+   },
+   {
+    "item_id": 11006,
+    "locations": [
+     "Tower of Mistral - Monsters of the Corridor",
+     "Tower of Mistral - Behemoth",
+     "Tower of Mistral - The Stairs of Trial",
+     "Tower of Mistral - Wyvern",
+     "Tower of Mistral - The Forged Gigantor",
+     "Tower of Mistral - Juggernaut"
+    ],
+    "name": "Blue Stone"
+   }
+  ],
+  "land_id": 1
+ },
+ "1000": {
+  "area": "Mirvana",
+  "area_id": 1000,
+  "items": [
+   {
+    "item_id": 10110,
+    "locations": [
+     "Mirvana - : Goltovah, Jaegar, Ristrall, Raiden, Mila, Bahvel can drop chests containing one.",
+     "Cave of Darkness - Sword of Fire - Lava",
+     "Arvest Snowfield - The Blizzard Begins - Mega",
+     "Marleg Ocean of Trees - Showdown Under the Flowers - Douglas (up to 2)",
+     "Bog of Eternal Rain - Terminal Thunderstorm - Emilia",
+     "Cape Narasta - Impending Radience - Aem",
+     "Mirvana Ruins - Penetrate the Impenetrable Darkness - Bahvel",
+     "Mirvana Ruins - The Endless Blackout - Alice",
+     "Tower of the Gods - The Burning Hero - Vargas"
+    ],
+    "name": "Riff Feather"
+   },
+   {
+    "item_id": 10409,
+    "locations": [
+     "Cave of Darkness - Cave of Darkness",
+     "Cave of Darkness - The Commander of Fire (10)"
+    ],
+    "name": "Brute Claw"
+   },
+   {
+    "item_id": 10711,
+    "locations": [
+     "Arvest Snowfield - Princess of the Snowscape: Black Rose Elize, Lizard Man"
+    ],
+    "name": "Brute Pelt"
+   },
+   {
+    "item_id": 10906,
+    "locations": [
+     "Cave of Darkness - Scorching Roars: Zegar. - Cave of Darkness - Scorching Roars: Zegar.",
+     "Arvest Snowfield - Battling the Ice Dragon: Zephu. - Arvest Snowfield - Battling the Ice Dragon: Zephu.",
+     "Marleg Ocean of Trees - Hunter in the Green: Lario. - Marleg Ocean of Trees - Hunter in the Green: Lario.",
+     "Bog of Eternal Rain - Lightning Strikes: Weiss. - Bog of Eternal Rain - Lightning Strikes: Weiss.",
+     "Cape Narnasta - Lightning to the Heart: Luna. - Cape Narnasta - Lightning to the Heart: Luna.",
+     "Mirvana Ruins - Those Who Live by the Sword: Mifune. - Mirvana Ruins - Those Who Live by the Sword: Mifune.",
+     "Tower of the Gods - Drenched in Crimson: Mifune. - Tower of the Gods - Drenched in Crimson: Mifune.",
+     "Tower of the Gods - The Divine Emperor: Zevalhua. - Tower of the Gods - The Divine Emperor: Zevalhua."
+    ],
+    "name": "Mimic Bug"
+   },
+   {
+    "item_id": 11017,
+    "locations": [
+     "Cave of Darkness - Cave of Darkness",
+     "Cave of Darkness - Sword of Fire: Lorand",
+     "Arvest Snowfield - Arvest Snowfield",
+     "Arvest Snowfield - The Blizzard Begins: Dean",
+     "Marleg Ocean of Trees - Marleg Ocean of Trees",
+     "Marleg Ocean of Trees - Showdown Under the Flowers: Edea",
+     "Bog of Eternal Rain - Bog of Eternal Rain",
+     "Bog of Eternal Rain - Terminal Thunderstorm: Loch",
+     "Tower of the Gods - Tower of the Gods",
+     "Tower of the Gods - The Golden Halo: Melchio",
+     "Tower of the Gods - The Rainbow Battlefield: Duel-GX, Lodin, Michele, Tiara, Zelban  (Best with Farming Leader, 5 per run)"
+    ],
+    "name": "Rouge Stone"
+   }
+  ],
+  "land_id": 5
+ },
+ "10100": {
+  "area": "Celgrad",
+  "area_id": 10100,
+  "items": [
+   {
+    "item_id": 10505,
+    "locations": [
+     "Poisonous Bug Forest - Blood's Shine: Kikuri"
+    ],
+    "name": "Worn Fang"
+   },
+   {
+    "item_id": 10706,
+    "locations": [
+     "Hogun Acid Cascades",
+     "Thunder Grotto Yuuram - Thunder Rock Garden",
+     "Piercing Light Tower - Noble Light: God Knight Will",
+     "Poisonous Bug Forest - Secret in the Dark"
+    ],
+    "name": "Azure Pelt"
+   }
+  ],
+  "land_id": 11
+ },
+ "10200": {
+  "area": "Lem",
+  "area_id": 10200,
+  "items": [
+   {
+    "item_id": 10608,
+    "locations": [
+     "Jimug Lava Caverns - Lava Rock Furnace: Granmeria x 4",
+     "Jimug Lava Caverns - Rakshasa & Disaster",
+     "Baraku Wetlands - Sea of Steel: Vordos x 4",
+     "Baraku Wetlands - The Queen & Ice Tower",
+     "Vordo Primeval Forest - Dangerous Imps: Impal x 4",
+     "Vordo Primeval Forest - Tempered Demon Rocks",
+     "Fossilized Dragon - Roaring Thunder Lands: Bagura Nagia x 4",
+     "Fossilized Dragon - Angel of the Heavens",
+     "Lem Shrine Ruins - Magic Square of Light: Del Bardo x 4"
+    ],
+    "name": "Tidal Eye"
+   },
+   {
+    "item_id": 10807,
+    "locations": [
+     "Jimug Lava Caverns - Rakshasa & Disaster",
+     "Jimug Lava Caverns - Burning Claws & Tusks: Ragnaberus",
+     "Baraku Wetlands - Swirling Scales: Lotan",
+     "Vordo Primeval Forest - Tempered Demon Rocks",
+     "Vordo Primeval Forest - Forest Bud: Finkell",
+     "Fossilized Dragon - Angel of the Heavens",
+     "Fossilized Dragon - Past Giant Bones",
+     "Dark Sierra Oritira - Fear Filled Darkness"
+    ],
+    "name": "Blood Bone"
+   }
+  ],
+  "land_id": 12
+ },
+ "10300": {
+  "area": "Beiorg",
+  "area_id": 10300,
+  "items": [
+   {
+    "item_id": 10107,
+    "locations": [
+     "Moldia Lava Road - Roaring Pyre: Luther",
+     "Moldia Lava Road - Blistering March: Flame King Goltovah",
+     "Crimson Beach Shurin - Scarlet Seashore: Ice King Jaegar",
+     "Crimson Beach Shurin - Struggle to the Death: Phee",
+     "Reis's Lab Ruins - Leftover Mark: Phantom Ristrall",
+     "Windmill Garden - Alarming Squall: Uda"
+    ],
+    "name": "Rhoa Feather"
+   },
+   {
+    "item_id": 10201,
+    "locations": [
+     "Ancient City Maldoor - : Beiorg Strikes Again (around 40+ at best)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10304,
+    "locations": [
+     "Ancient City Maldoor - Beiorg Strikes Again - La Guardo '''(17~20)'''"
+    ],
+    "name": "Purple Drop"
+   },
+   {
+    "item_id": 10408,
+    "locations": [
+     "Reis's Lab Ruins - Eroded by the Forest: Lemenara",
+     "Windmill Garden - Alarming Squall: Drake God Lodin",
+     "Ancient City Maldoor - Temple Ruins: Legendary Jona",
+     "Endless Staircase - Curtain of Night: Legion"
+    ],
+    "name": "Hades Claw"
+   },
+   {
+    "item_id": 10508,
+    "locations": [
+     "Moldia Lava Road - Fire Dragon's Nest",
+     "Moldia Lava Road - Malvan",
+     "Reis's Lab Ruins - Eroded by the Forest",
+     "Reis's Lab Ruins - Xipe Totec",
+     "Windmill Garden - Alarming Squall",
+     "Windmill Garden - Bolt Goddess Amy",
+     "Ancient City Maldoor - Temple Ruins",
+     "Ancient City Maldoor - Saint Maria"
+    ],
+    "name": "Crypt Fang"
+   },
+   {
+    "item_id": 10630,
+    "locations": [
+     "Destroyed God - One time completion reward of"
+    ],
+    "name": "Black Eye"
+   },
+   {
+    "item_id": 10904,
+    "locations": [
+     "Crimson Beach Shurin - Waves of Blood: Azure Warrior Lucina",
+     "Reis's Lab Ruins - Foliage Valley: Gun God Douglas",
+     "Windmill Garden - Gale Path: Goddess Emilia",
+     "Windmill Garden - Strong Wind Dynamics: Lightning Sage Bran",
+     "Ancient City Maldoor - Aurora Boulevard: God Knight Will",
+     "Endless Staircase - Decaying Corpses: Scythe God Alice"
+    ],
+    "name": "Comet Bug"
+   },
+   {
+    "item_id": 11014,
+    "locations": [
+     "Reis's Lab Ruins - Foliage Valley: Pixy King Leore",
+     "Windmill Garden - Gale Path: Bolt Mallet Elulu",
+     "Ancient City Maldoor - Aurora Boulevard: Holy Master Aem",
+     "Endless Staircase - Decaying Corpses: Soul Keeper Lemia"
+    ],
+    "name": "Abyss Stone"
+   }
+  ],
+  "land_id": 13
+ },
+ "10400": {
+  "area": "Wulgee",
+  "area_id": 10400,
+  "items": [
+   {
+    "item_id": 10509,
+    "locations": [
+     "Burning Capital Garm - A City Ablaze",
+     "Burning Capital Garm - Overwhelming Fire (~2)",
+     "Burning Capital Garm - Within the Smoke",
+     "Waste Disposal Lake - Stagnant Water",
+     "Waste Disposal Lake - Poison-Filled Lake",
+     "Waste Disposal Lake - Polluted Water (~2)",
+     "Waste Disposal Lake - Within the Mud",
+     "Wulgee Flower Bed - Giant Miasma Flowers",
+     "Wulgee Flower Bed - Sprinkling Miasma",
+     "Wulgee Flower Bed - Within the Stench (~2)",
+     "Avor Lightning Bridge - Avor Lightning Bridge",
+     "Avor Lightning Bridge - Thunder Path: Amy",
+     "Avor Lightning Bridge - Within the Electricity: Behemoth",
+     "Forsaken Disciple's Lair - Forsaken Disciple's Lair",
+     "Forsaken Disciple's Lair - Remaining Light - Jona",
+     "Forsaken Disciple's Lair - Luminous Tower - Sefia",
+     "Forsaken Disciple's Lair - Flickering Past - Del Bardo and Lotan",
+     "Forsaken Disciple's Lair - Within the Flashes - Melchio",
+     "Demon Cavern Feig - Demon Cavern Feig",
+     "Demon Cavern Feig - Hole of Darkness - Legion",
+     "Demon Cavern Feig - Demon Crystal Cave",
+     "Demon Cavern Feig - Secretive Demon - Baldeura and Granmeria",
+     "Demon Cavern Feig - Within the Darkness - Lodaga"
+    ],
+    "name": "Sky Fang"
+   },
+   {
+    "item_id": 10809,
+    "locations": [
+     "Avor Lightning Bridge - Avor Lightning Bridge",
+     "Avor Lightning Bridge - Thunder Path: Amy",
+     "Avor Lightning Bridge - Lightning Run: Weiss",
+     "Forsaken Disciple's Lair - Forsaken Disciple's Lair",
+     "Forsaken Disciple's Lair - Remaining Light - Lubradine",
+     "Forsaken Disciple's Lair - Luminous Tower - Sefia",
+     "Forsaken Disciple's Lair - Overflowing Light - Luna and Lilith",
+     "Demon Cavern Feig - Demon Cavern Feig",
+     "Demon Cavern Feig - Hole of Darkness - Lira",
+     "Demon Cavern Feig - Demon Crystal Cave",
+     "Demon Cavern Feig - Falling Shadow"
+    ],
+    "name": "Forever Bone"
+   },
+   {
+    "item_id": 10909,
+    "locations": [
+     "Wulgee Flower Bed - Wulgee Flower Bed",
+     "Wulgee Flower Bed - Rotting Body - Decay Demon Melord",
+     "Avor Lightning Bridge - Avor Lightning Bridge",
+     "Avor Lightning Bridge - Lightning Run - Rashil",
+     "Avor Lightning Bridge - Someone Draws Near - Shusui",
+     "Avor Lightning Bridge - Within the Electricity - Bran and Lodin",
+     "Avor Lightning Bridge - Someone else drops Miasma Bug in this run, up to 3 can be captured in one run.",
+     "Forsaken Disciple's Lair - Forsaken Disciple's Lair",
+     "Forsaken Disciple's Lair - Overflowing Light - Mireia",
+     "Forsaken Disciple's Lair - Within the Flashes - Melchio",
+     "Demon Cavern Feig - Demon Cavern Feig",
+     "Demon Cavern Feig - Falling Shadow",
+     "Demon Cavern Feig - Within the Darkness - Eric and Duel-SGX II",
+     "Forsaken Castle Biorad - Forsaken Castle Biorad",
+     "Forsaken Castle Biorad - Arrogance - Mireia, Zelha, and Lymle",
+     "Forsaken Castle Biorad - Beacon of Opposition - Mau, Lionel, and Neid",
+     "Forsaken Castle Biorad - Submissive Power - Douglas",
+     "Forsaken Castle Biorad - Scorn and Envy - Emilia",
+     "Forsaken Castle Biorad - Shining Lamp - Will and Lava",
+     "Forsaken Castle Biorad - Losing Oneself - Melord"
+    ],
+    "name": "Miasma Bug"
+   },
+   {
+    "item_id": 11015,
+    "locations": [
+     "Demon Cavern Feig - Demon Cavern Feig",
+     "Demon Cavern Feig - Secretive Demon - Lulujann and Ragnaberus",
+     "Forsaken Castle Biorad - Forsaken Castle Biorad",
+     "Forsaken Castle Biorad - Arrogance - Anje",
+     "Forsaken Castle Biorad - Beacon of Opposition - Luther",
+     "Forsaken Castle Biorad - Submissive Power - Uda and Kajah",
+     "Forsaken Castle Biorad - Scorn and Envy - Phee and Nalmika"
+    ],
+    "name": "Dream Stone"
+   }
+  ],
+  "land_id": 14
+ },
+ "10500": {
+  "area": "Rakshult",
+  "area_id": 10500,
+  "items": [
+   {
+    "item_id": 10409,
+    "locations": [
+     "Gadoum Furnace - Gadoum Furnace",
+     "Gadoum Furnace - Flowing Heat",
+     "Gadoum Furnace - Burning Splash",
+     "Gadoum Furnace - Within the Melting Point",
+     "Luminous River Falun - Luminous River Falun",
+     "Luminous River Falun - Within the Light",
+     "Luminous River Falun - Shining Ripples",
+     "Luminous River Falun - Dancing Lights - Lotan x3",
+     "Luminous River Falun - Solemn River of Light",
+     "Botanical Garden - Botanical Garden",
+     "Botanical Garden - Growing Power",
+     "Botanical Garden - Jumping Plants",
+     "Botanical Garden - Fragrance of Nature - Finkell x3",
+     "Gimo Junkyard - Gimo Junkyard",
+     "Gimo Junkyard - Broken Order",
+     "Gimo Junkyard - Scattered Past",
+     "Gimo Junkyard - Ruins Full of Power",
+     "Shining Capital - Shining Capital",
+     "Shining Capital - Brilliant Megalopolis",
+     "Shining Capital - Nightless Castle",
+     "Rakshult Underground - Rakshult Underground",
+     "Rakshult Underground - The World Below",
+     "Rakshult Underground - Secret in the Dark",
+     "Rakshult Underground - Treacherous Heart - Lulujann",
+     "Weather Tower - Weather Tower",
+     "Weather Tower - Pouring Rain",
+     "Weather Tower - Enshrouding Clouds"
+    ],
+    "name": "Brute Claw"
+   },
+   {
+    "item_id": 10820,
+    "locations": [
+     "Gadoum Furnace - Gadoum Furnace",
+     "Gadoum Furnace - Burning Splash",
+     "Gadoum Furnace - Endless Fire",
+     "Luminous River Falun - Luminous River Falun",
+     "Luminous River Falun - Shining Ripples",
+     "Luminous River Falun - Solemn River of Light",
+     "Botanical Garden - Botanical Garden",
+     "Botanical Garden - Jumping Plants",
+     "Botanical Garden - Artificial Nature",
+     "Gimo Junkyard - Gimo Junkyard",
+     "Gimo Junkyard - Accumulating Wreckage",
+     "Gimo Junkyard - Broken Order",
+     "Gimo Junkyard - Ruins Full of Power",
+     "Shining Capital - Shining Capital",
+     "Shining Capital - Nightless Castle",
+     "Shining Capital - Towards the Light",
+     "Shining Capital - Dashing Ray of Light",
+     "Rakshult Underground - Rakshult Underground",
+     "Rakshult Underground - Secret in the Dark",
+     "Rakshult Underground - Treacherous Heart",
+     "Rakshult Underground - City of Shadows",
+     "Weather Tower - Weather Tower",
+     "Weather Tower - Clear Skies",
+     "Weather Tower - Pouring Rain",
+     "Weather Tower - Freedom - up to two per run",
+     "Weather Tower - Master of Creation"
+    ],
+    "name": "Phoenix Bone"
+   },
+   {
+    "item_id": 11017,
+    "locations": [
+     "Gadoum Furnace - Gadoum Furnace",
+     "Gadoum Furnace - Flowing Heat",
+     "Gadoum Furnace - Sickening Heat",
+     "Gadoum Furnace - Burning Splash",
+     "Gadoum Furnace - Within the Melting Point",
+     "Gadoum Furnace - Endless Fire",
+     "Gadoum Furnace - Within the Light",
+     "Gadoum Furnace - Outrageous Torrent",
+     "Luminous River Falun - Luminous River Falun",
+     "Luminous River Falun - Dancing Lights",
+     "Botanical Garden - Botanical Garden",
+     "Botanical Garden - Growing Power",
+     "Botanical Garden - Circle of Life",
+     "Botanical Garden - Fragrance of Nature",
+     "Gimo Junkyard - Gimo Junkyard",
+     "Gimo Junkyard - Rumbling Earthquake",
+     "Gimo Junkyard - Scattered Past",
+     "Shining Capital - Shining Capital",
+     "Shining Capital - Brilliant Megalopolis",
+     "Shining Capital - Ten Thousand Lights",
+     "Shining Capital - Nightless Castle",
+     "Rakshult Underground - Rakshult Underground",
+     "Rakshult Underground - The World Below",
+     "Rakshult Underground - Suppressive Corruption",
+     "Rakshult Underground - Treacherous Heart",
+     "Rakshult Underground - City of Shadows",
+     "Weather Tower - Weather Tower",
+     "Weather Tower - Clear Skies",
+     "Weather Tower - Enshrouding Clouds",
+     "Weather Tower - Blowing Wind"
+    ],
+    "name": "Rouge Stone"
+   }
+  ],
+  "land_id": 15
+ },
+ "1100": {
+  "area": "Lanara",
+  "area_id": 1100,
+  "items": [
+   {
+    "item_id": 10201,
+    "locations": [
+     "Alnakeid Castle - : Call of the Storm (around 12-20s, but drops more God Stones and a fair amount of Fujin Eyes)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10625,
+    "locations": [
+     "Ulga Lava Cave - Absolute Heat - Dalimaone",
+     "Ulga Lava Cave - Whirling Vapors - King Bozdell, Lava",
+     "Sea Capital Almeria - Young Lady's Guardian - Meltia",
+     "Sea Capital Almeria - Overflowing Power - Pilaf, Mega",
+     "Forest of Old - Dweller in the Depths - Lemenara",
+     "Forest of Old - The Endless Forest - Finia, Douglas",
+     "Danrard Fortress - Lightning Blockade - Zazabis",
+     "Danrard Fortress - Intersecting Light - Catoblepas, Emilia",
+     "Lanara's Light Ruins - Talented War Maiden - Jona",
+     "Lanara's Light Ruins - The Last Defender - GS-1000, Will",
+     "Cave of Dark Crystals - Power in the Darkness - Legion",
+     "Cave of Dark Crystals - A Seductive Trap - Arachna, Alice",
+     "Alnakeid Castle - Light & Dark Concerto - Jona, Legion",
+     "Alnakeid Castle - Dance of Ice - Alice",
+     "Alnakeid Castle - Call of the Storm - Catoblepas, GS-1000, King Bozdell, Finia, Demon Duglere"
+    ],
+    "name": "Zealot Eye"
+   }
+  ],
+  "land_id": 6
+ },
+ "1200": {
+  "area": "Vriksha",
+  "area_id": 1200,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Olmond Volcano - Joint Wings Ablaze (40)"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10111,
+    "locations": [
+     "Olmond Volcano - Sacred Bird of Flame - Phoenix",
+     "Olmond Volcano - Fire Drake Cry - Dalimaone",
+     "Olmond Volcano - Joint Wings Ablaze - Vargas, Lava",
+     "Olmond Volcano - Power of Survival - Kagutsuchi",
+     "Rownor Beach - Dragon in the Abyss - Malnaplis",
+     "Rownor Beach - Crystal Love Song - Meltia",
+     "Rownor Beach - Recital Waves - Selena, Mega",
+     "Rownor Beach - Overwhelming Power - Tesla",
+     "Principality of Vriksha - The Great Tree's Life - Eltri",
+     "Principality of Vriksha - A Fairy's Smile - Lemenara",
+     "Principality of Vriksha - Dark Green Concerto - Lance, Douglas",
+     "Principality of Vriksha - Defense at Any Cost - Golem",
+     "The Red Lake - Collapse of the Beast - Behemoth",
+     "The Red Lake - Thunder Batter - Zazabis",
+     "The Red Lake - Lightning Feast - Eze, Emilia",
+     "The Red Lake - Unleashed Power - Elsel",
+     "Sky Palace Talahr - The Supreme Dragon - Rameldria",
+     "Sky Palace Talahr - The God's Martial Art - Jona",
+     "Sky Palace Talahr - The Knight's Guidance - Atro, Will",
+     "Sky Palace Talahr - The Power of Guidance - Lubradine",
+     "Dark Castle Damrigia - Death God of Darkness - Lodaga",
+     "Dark Castle Damrigia - Demon King's Reign - Legion",
+     "Dark Castle Damrigia - The Fury of Darkness - Magress, Alice",
+     "Dark Castle Damrigia - Piercing Power - Lira",
+     "Adan's Tower - Gate of Invitation - Loch, Melchio, Il & Mina",
+     "Adan's Tower - The Endless Hallway - Dean, Amy, Duel-GX",
+     "Adan's Tower - The Crooked Slope - Lorand, Sefia, Tiara",
+     "Adan's Tower - Black Hole Plaza - Edea, Kikuri, Michele",
+     "Adan's Tower - Path of No Return - Homusubi, Copra, Golem, Kushra",
+     "Adan's Tower - Narrow Stairs - Selena",
+     "Adan's Tower - The Speech Maker - Zurg"
+    ],
+    "name": "Zeta Feather"
+   },
+   {
+    "item_id": 10416,
+    "locations": [
+     "Olmond Volcano - Fire Drake’s Cry (7)",
+     "Olmond Volcano - Leon, Goltovah, Bozdell",
+     "Principality of Vriksha - Zaza, Ristrall, Tinpall",
+     "Sky Palace Talahr - Mila, GS-1000"
+    ],
+    "name": "Prison Talon"
+   },
+   {
+    "item_id": 10512,
+    "locations": [
+     "Rownor Beach - Battle of the coast (5-12)",
+     "Rownor Beach - Jaegar, Pilaf, Verica",
+     "The Red Lake - Unleashed Power (7) - Raiden, Catoblepas, Grafl",
+     "Dark Castle Damrigia - Bahvel, Arachna"
+    ],
+    "name": "Pair Fang"
+   },
+   {
+    "item_id": 10805,
+    "locations": [
+     "Olmond Volcano",
+     "Rownor Beach",
+     "Principality of Vriksha",
+     "The Red Lake - Unleashed Power"
+    ],
+    "name": "Hard Bone"
+   }
+  ],
+  "land_id": 6
+ },
+ "1300": {
+  "area": "Aldahlia",
+  "area_id": 1300,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Ogurono Desert - Desert Hound"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10301,
+    "locations": [
+     "Ogurono Desert - Desert Hound"
+    ],
+    "name": "Blue Drop"
+   },
+   {
+    "item_id": 10721,
+    "locations": [
+     "La Grenna Deadlands - Fighting Death",
+     "Aldahlia of the Rain - No Surrender",
+     "Wolf's Lair - God of Truth"
+    ],
+    "name": "Cursed Pelt"
+   },
+   {
+    "item_id": 10907,
+    "locations": [
+     "Wolf's Lair - The God of Truth"
+    ],
+    "name": "Mirror Bug"
+   },
+   {
+    "item_id": 11024,
+    "locations": [
+     "Great Temple Eveneze",
+     "Abyss of Sea Snakes - Scylla, Lotan - Abyss of Sea Snakes - Scylla, Lotan",
+     "Rainbow Bubble - Siren, Meltia, Pilaf - Rainbow Bubble - Siren, Meltia, Pilaf",
+     "Across the Raging Sea - Zephu, Mega - Across the Raging Sea - Zephu, Mega",
+     "Shelf of Ice Crystals - Elimo, Rickel - Shelf of Ice Crystals - Elimo, Rickel",
+     "Unforgettable Heart - Malnaplis, Tiara - Unforgettable Heart - Malnaplis, Tiara",
+     "Aldahlia of the Rain",
+     "Electric Eyes - Cyclops, Gigas - Electric Eyes - Cyclops, Gigas",
+     "Thunder Beast's Clash - Ziz, Zazabis, Catoblepas - Thunder Beast's Clash - Ziz, Zazabis, Catoblepas",
+     "Like a Lightning Flash - Weiss, Emilia - Like a Lightning Flash - Weiss, Emilia",
+     "Creator of Ruin - Elulu, Amy - Creator of Ruin - Elulu, Amy",
+     "No Surrender - Rameldria, Melchio - No Surrender - Rameldria, Melchio",
+     "La Grenna Deadlands",
+     "The Lifeless Snake - Zahhak, Lulujann - The Lifeless Snake - Zahhak, Lulujann",
+     "Crawling Towards Death - Legion, Lich, Arachna - Crawling Towards Death - Legion, Lich, Arachna",
+     "The Putrid Tome - Shida, Nyx, Bahvel - The Putrid Tome - Shida, Nyx, Bahvel",
+     "The Final Hour - Lemia, Kikuri - The Final Hour - Lemia, Kikuri",
+     "Fighting Death - Duel-GX II, Lodaga - Fighting Death - Duel-GX II, Lodaga"
+    ],
+    "name": "Royal Stone"
+   }
+  ],
+  "land_id": 6
+ },
+ "1400": {
+  "area": "Atharva",
+  "area_id": 1400,
+  "items": [
+   {
+    "item_id": 10513,
+    "locations": [
+     "Ghost Town Ornea - Idle Gossip (2)",
+     "Ghost Town Ornea - Within the Commotion (2)",
+     "Ghost Town Ornea - Meeting the Maidens (2)",
+     "Great Argant Desert - Vast Sea of Sand",
+     "Great Argant Desert - The Sword & Axe Dance",
+     "Ekmet River - Surging Bay Breeze",
+     "Mt. Granakia - A Painful Climb",
+     "Lowe Grimm Garden - The Garden of Life (2)",
+     "Lowe Grimm Garden - Wind of Beginnings",
+     "Amuris Cemetery - Where Souls Sleep",
+     "Crystal Palace - Changing the World: Goltovah, Jaegar, Eriole (3)"
+    ],
+    "name": "Thunder Fang"
+   },
+   {
+    "item_id": 10908,
+    "locations": [
+     "Crystal Palace - Crystal Palace",
+     "Crystal Palace - Changing the World (1)"
+    ],
+    "name": "Parasite Bug"
+   }
+  ],
+  "land_id": 7
+ },
+ "1500": {
+  "area": "Bariura",
+  "area_id": 1500,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Ancient Dragon's Wood - The Dragon's Welcome (14)"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10202,
+    "locations": [
+     "Ancient Dragon's Wood - The Dragons' Welcome (8)"
+    ],
+    "name": "Buru Nut"
+   },
+   {
+    "item_id": 10301,
+    "locations": [
+     "Ancient Dragon's Wood - The Dragons' Welcome (4)"
+    ],
+    "name": "Blue Drop"
+   },
+   {
+    "item_id": 10304,
+    "locations": [
+     "Ancient Dragon's Wood - The Dragons' Welcome (4 max)"
+    ],
+    "name": "Purple Drop"
+   },
+   {
+    "item_id": 10514,
+    "locations": [
+     "Ancient Dragon's Wood - Ancient Dragon's Wood",
+     "Ancient Dragon's Wood - The Dragons' Welcome - 2 per run",
+     "Ancient Dragon's Wood - The Demons' Feast - 3-4 per run"
+    ],
+    "name": "Phantom Fang"
+   },
+   {
+    "item_id": 10626,
+    "locations": [
+     "Tower of the Oracle - Twilight of Heroes",
+     "Grand Gaia Crater - Facing the Sealed God"
+    ],
+    "name": "Heavenly Eye"
+   },
+   {
+    "item_id": 10722,
+    "locations": [
+     "Ancient Dragon's Wood - The Dragons' Welcome (1)",
+     "Imperial Capital - Legnaura",
+     "Grand Gaia Crater"
+    ],
+    "name": "Phantom Pelt"
+   },
+   {
+    "item_id": 10816,
+    "locations": [
+     "Ancient Dragon's Wood - Dance of the Pixies",
+     "Sacred Mt. Bari - Before the Dawn",
+     "Grand Gaia Crater - Void of Ignorance"
+    ],
+    "name": "Ancient Bone"
+   },
+   {
+    "item_id": 11001,
+    "locations": [
+     "Boruk Blazing Dunes - Flickering Heat Haze (~15~40)"
+    ],
+    "name": "Paladin Stone"
+   }
+  ],
+  "land_id": 8
+ },
+ "200": {
+  "area": "Morgan",
+  "area_id": 200,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Shrine of Lystia - The Magnificent Pegasus (48+)",
+     "Shrine of Lystia - Sword of Lightning Speed '''(64+)'''"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10003,
+    "locations": [
+     "Kagan Desert: Bandit of the Desert - Morgan",
+     "Kagan Desert: The Power-Seeking Swordsman - Morgan"
+    ],
+    "name": "Red Grass"
+   },
+   {
+    "item_id": 10201,
+    "locations": [
+     "Nocturnal Forest: Thief of the Forest - (Mandragora:1 per drop)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10203,
+    "locations": [
+     "Nocturnal Forest: Thief of the Forest"
+    ],
+    "name": "Hoku Nut"
+   },
+   {
+    "item_id": 10205,
+    "locations": [
+     "Shrine of Lystia - The Magnificent Pegasus"
+    ],
+    "name": "Bara Nut"
+   },
+   {
+    "item_id": 10300,
+    "locations": [
+     "Morgan - Asekutt Wastelands - A Flash of Lightning (8-10)"
+    ],
+    "name": "Green Drop"
+   },
+   {
+    "item_id": 10301,
+    "locations": [
+     "Nocturnal Forest - The Hunter of Time",
+     "Shrine of Lystia - The Magnificent Pegasus",
+     "Destroyed Cathedral - The Lusting Snake"
+    ],
+    "name": "Blue Drop"
+   },
+   {
+    "item_id": 10304,
+    "locations": [
+     "Kagan Desert - The Power-Seeking Swordsman - Vargas (4 max)"
+    ],
+    "name": "Purple Drop"
+   },
+   {
+    "item_id": 10401,
+    "locations": [
+     "Kagan Desert - The Power-Seeking Swordsman (35)",
+     "Kagan Desert - Leon",
+     "Kagan Desert - Orthos",
+     "Shrine of Lystia - The Magnificent Pegasus"
+    ],
+    "name": "Blue Claw"
+   },
+   {
+    "item_id": 10607,
+    "locations": [
+     "Nocturnal Forest - Pitch Dark Forests: Princess Lidith",
+     "Nocturnal Forest - The Hunter of Time: Lario",
+     "Nocturnal Forest - The Earth Shattering Spear: Lance",
+     "Asekutt Wastelands - The Thunder Wrecked Land",
+     "Asekutt Wastelands - The Bewitching Tactician: Weiss (1-3)",
+     "Asekutt Wastelands - A Flash of Lightning: Eze",
+     "Tower of Morgan - Stairway to the Heavens",
+     "Tower of Morgan - Gale of the Ice Tree"
+    ],
+    "name": "Guardian Eye"
+   },
+   {
+    "item_id": 10701,
+    "locations": [
+     "Breeze Beach - Pirate of the Shallow Waters",
+     "Breeze Beach - Ramia",
+     "Shrine of Lystia - The Magnificent Pegasus"
+    ],
+    "name": "Blue Pelt"
+   },
+   {
+    "item_id": 10801,
+    "locations": [
+     "Asekutt Wastelands - Thief from the Skies (12)",
+     "Asekutt Wastelands - Minotaur",
+     "Nocturnal Forest - Bandit Zaza",
+     "Destroyed Cathedral - The Lusting Snake (5)"
+    ],
+    "name": "Blue Bone"
+   },
+   {
+    "item_id": 10901,
+    "locations": [
+     "Nocturnal Forest - The Hunter Of Time",
+     "Nocturnal Forest - The Earth Shattering Spear",
+     "Destroyed Cathedral - The Lusting Snake"
+    ],
+    "name": "Blue Bug"
+   }
+  ],
+  "land_id": 1
+ },
+ "20000": {
+  "area": "Cordelica",
+  "area_id": 20000,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Giant's Ruins - Rampage of the Giants"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10003,
+    "locations": [
+     "Greyska Caves: Inferno Gate - Cordelica"
+    ],
+    "name": "Red Grass"
+   },
+   {
+    "item_id": 10201,
+    "locations": [
+     "Greyska Caves: Inferno Gate - (Medusa)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10202,
+    "locations": [
+     "Ignia Falls - Behind the Waterfall",
+     "Ignia Falls - The Battleaxe Descends"
+    ],
+    "name": "Buru Nut"
+   },
+   {
+    "item_id": 10205,
+    "locations": [
+     "Ignia Falls - The Foot of the Rainbow (1-8)",
+     "Ignia Falls - Beneath the Cascade",
+     "Ignia Falls - An Invisible Presence"
+    ],
+    "name": "Bara Nut"
+   },
+   {
+    "item_id": 10301,
+    "locations": [
+     "Greskya Caves - Inferno Gate",
+     "Greskya Caves - Before the Flame Princess",
+     "Ignia Falls - The Foot of the Rainbow",
+     "Ignia Falls - And Invisible Presence",
+     "Ignia Falls - The Battleaxe Descends"
+    ],
+    "name": "Blue Drop"
+   },
+   {
+    "item_id": 10304,
+    "locations": [
+     "Greskya Caves - Cave Dwelling Assassins - Shida (4 max)"
+    ],
+    "name": "Purple Drop"
+   },
+   {
+    "item_id": 10401,
+    "locations": [
+     "Greskya Caves - Inferno Gate",
+     "Greskya Caves - Orthos",
+     "Greskya Caves - The Bandits' Feast",
+     "Greskya Caves - Leon",
+     "Greskya Caves - Before the Flame Princess"
+    ],
+    "name": "Blue Claw"
+   },
+   {
+    "item_id": 10607,
+    "locations": [
+     "Greskya Caves - Inferno Gate: Weiss",
+     "Greskya Caves - Hot Gale's Caress: Falma",
+     "Ignia Falls - The Foot of the Rainbow: Lario",
+     "Ignia Falls - Behind the Waterfall: Sergio",
+     "Ignia Falls - An Invisible Presence: Lidith",
+     "Ignia Falls - The Battleaxe Descends: Mega",
+     "Lomass Forest - The Bandits' Trap"
+    ],
+    "name": "Guardian Eye"
+   },
+   {
+    "item_id": 10608,
+    "locations": [
+     "Giant's Ruins - The Giant God Awakes - Grantos"
+    ],
+    "name": "Tidal Eye"
+   },
+   {
+    "item_id": 10701,
+    "locations": [
+     "Greskya Caves - Inferno Gate",
+     "Greskya Caves - Before the Flame Princess",
+     "Ignia Falls - The Foot of the Rainbow",
+     "Ignia Falls - Behind the Waterfall (up to 45)",
+     "Ignia Falls - An Invisible Presence",
+     "Ignia Falls - The Battleaxe Descends"
+    ],
+    "name": "Blue Pelt"
+   },
+   {
+    "item_id": 10801,
+    "locations": [
+     "Greskya Cave - Inferno Gate (2)",
+     "Greskya Cave - Before the Flame Princess",
+     "Ignia Falls - An Invisible Presence",
+     "Ignia Falls - The Battleaxe Descends"
+    ],
+    "name": "Blue Bone"
+   },
+   {
+    "item_id": 10807,
+    "locations": [
+     "Giant's Ruins - A Guiding Star: Emilia",
+     "Giant's Ruins - The Giant God Awakes: Grantos"
+    ],
+    "name": "Blood Bone"
+   },
+   {
+    "item_id": 10901,
+    "locations": [
+     "Ignia Falls - The Foot of the Rainbow",
+     "Ignia Falls - Behind the Waterfall",
+     "Ignia Falls - An Invisible Presence",
+     "Ignia Falls - The Battleaxe Descends"
+    ],
+    "name": "Blue Bug"
+   },
+   {
+    "item_id": 11001,
+    "locations": [
+     "Tower of Light: Dance of the Knight"
+    ],
+    "name": "Paladin Stone"
+   },
+   {
+    "item_id": 11002,
+    "locations": [
+     "Tower of Light - The Shining Tower (~5)",
+     "Tower of Light - A Roar from the Darkness (~5)",
+     "Tower of Light - Deadly Melody (~4)",
+     "Tower of Light - Phoenix and the Sea Monster (~5)",
+     "Tower of Light - Dance of the Knight (~11)",
+     "Tower of Light - Howls and Gunshots (~12)",
+     "Tower of Light - The Voice of God (~11)",
+     "Cordelica Mine - Into the Darkness (~8)",
+     "Cordelica Mine - Protector of Nature (~2)",
+     "Cordelica Mine - Howls in the Void (~5)",
+     "Cordelica Mine - Where Lightning Strikes (~8)",
+     "Cordelica Mine - Unifier of Demons (~5)",
+     "Cordelica Mine - Hunter of Death (~10)",
+     "Cordelica Mine - Rondo of Nightmares (~5)",
+     "Giant's Ruins - Wandering the Ruins (~2)",
+     "Giant's Ruins - Last Light of the Ruins (~6)",
+     "Giant's Ruins - Beneath Ebony Wing (~3)",
+     "Giant's Ruins - A Guiding Star (~5)",
+     "Giant's Ruins - The Spoiled Fresco (~2)",
+     "Giant's Ruins - The Meaning of Irate Souls (~4)",
+     "Giant's Ruins - Rampage of the Giants (~3)",
+     "Giant's Ruins - The Giant God Awakes (~3)"
+    ],
+    "name": "Wicked Stone"
+   },
+   {
+    "item_id": 11005,
+    "locations": [
+     "Drops 40+ at best - Drops 40+ at best"
+    ],
+    "name": "Spirit Stone"
+   }
+  ],
+  "land_id": 2
+ },
+ "25600001": {
+  "area": "Full Metal Hare",
+  "area_id": 25600001,
+  "items": [
+   {
+    "item_id": 819373,
+    "locations": [
+     "The Ultimate Bunny - First Clear Reward - The Ultimate Bunny - First Clear Reward"
+    ],
+    "name": "Discord DX"
+   }
+  ],
+  "land_id": 99
+ },
+ "300": {
+  "area": "St. Lamia",
+  "area_id": 300,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Volcano Eldent - Scorching Trails (5-31)",
+     "Volcano Eldent - Watchdog From Hell"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10202,
+    "locations": [
+     "Sacred Mt. Craylia - The Captivated Water Sprite",
+     "Mt. Wistorea - The Riotous Thunderbird",
+     "Mt. Wistorea - The Raged Beast of Destruction"
+    ],
+    "name": "Buru Nut"
+   },
+   {
+    "item_id": 10205,
+    "locations": [
+     "Blood Forest - To the Crimson Forest"
+    ],
+    "name": "Bara Nut"
+   },
+   {
+    "item_id": 10304,
+    "locations": [
+     "Mt. Wistorea - The Rages Beast of Destruction - Behemoth (4 max)"
+    ],
+    "name": "Purple Drop"
+   },
+   {
+    "item_id": 10307,
+    "locations": [
+     "Volcano Edent - The Banished Fire Dragon (3-4)",
+     "St. Lamia Palace - The Phony Paradise"
+    ],
+    "name": "Angel Tear"
+   },
+   {
+    "item_id": 10502,
+    "locations": [
+     "Blood Forest - Frail Spirit of the Forests - Claris",
+     "Mt. Wistorea - The Riotous Thunderbird - May",
+     "Cave of Malice - The Midnight Aristocrat - Lilin (good rate)"
+    ],
+    "name": "Red Fang"
+   },
+   {
+    "item_id": 10600,
+    "locations": [
+     "Volcano Edent: The Banished Fire Dragon"
+    ],
+    "name": "Fire Eye"
+   },
+   {
+    "item_id": 10601,
+    "locations": [
+     "Sacred Mt.Craylia"
+    ],
+    "name": "Water Eye"
+   },
+   {
+    "item_id": 10603,
+    "locations": [
+     "Mt. Wistorea: Tarnished Peaks"
+    ],
+    "name": "Thunder Eye"
+   },
+   {
+    "item_id": 10604,
+    "locations": [
+     "Secluded Sanctuary: The Goddess of War"
+    ],
+    "name": "Light Eye"
+   },
+   {
+    "item_id": 10605,
+    "locations": [
+     "Cave of Malice: The Midnight Aristocrat"
+    ],
+    "name": "Dark Eye"
+   },
+   {
+    "item_id": 10706,
+    "locations": [
+     "Mt. Wistorea - The Riotous Thunderbird: Thunderbird",
+     "Mt. Wistorea - The Raged Beast of Destruction: Behemoth",
+     "St. Lamia Palace - The Fourfold Pillar: Falma"
+    ],
+    "name": "Azure Pelt"
+   },
+   {
+    "item_id": 10805,
+    "locations": [
+     "Secluded Sanctuary - Dropped from Unicorns, average of 5 to 8. Also drops a lot of Spirit Stones."
+    ],
+    "name": "Hard Bone"
+   },
+   {
+    "item_id": 11004,
+    "locations": [
+     "Volcano Edent: Phoenix of the Volcano",
+     "Volcano Edent: The Banished Fire Dragon"
+    ],
+    "name": "Gospel Stone"
+   },
+   {
+    "item_id": 11005,
+    "locations": [
+     "Secluded Sanctuary - Dropped from Unicorns. Yield 20+ at best."
+    ],
+    "name": "Spirit Stone"
+   }
+  ],
+  "land_id": 1
+ },
+ "400": {
+  "area": "Amdahl",
+  "area_id": 400,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Julep Village - The Scars of War (2-7)",
+     "Julep Village - Abandoned Ruins"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10808,
+    "locations": [
+     "Amdahl Castle - Dark Surge: Lemia, Scythe Alice, Hell King Hades"
+    ],
+    "name": "Yellow Bone"
+   }
+  ],
+  "land_id": 3
+ },
+ "500": {
+  "area": "Encervis",
+  "area_id": 500,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Land of the Dead - The Skies Above (12-23)",
+     "Sky Fort Solaris - Escape the Sky Fort",
+     "Sky Fort Solaris - Evade the Oncoming Hordes",
+     "Sky Fort Solaris - Endless Barrage",
+     "Sky Fort Solaris - No Turning Back",
+     "Sky Fort Solaris - The Commander's Pet",
+     "Sky Fort Solaris - Mad God Descends"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10107,
+    "locations": [
+     "Elsta Crater - Dinner for Watchdogs: Lancia",
+     "Lake Adela - The Lake's Allure: Elimo",
+     "Castle Avenia - Fairy Royalty: Leore",
+     "Gadillian Ravine - One Eyed Giant: Elulu",
+     "Sky Fort Solaris - The Commander's Pets: Mega, Emilia, Lava, and Douglas"
+    ],
+    "name": "Rhoa Feather"
+   },
+   {
+    "item_id": 10205,
+    "locations": [
+     "Sky Fort Solaris - Escape the Sky Fort",
+     "Sky Fort Solaris - Evade the Oncoming Hordes",
+     "Sky Fort Solaris - Endless Barrage",
+     "Sky Fort Solaris - The Commander's Pet",
+     "Sky Fort Solaris - The Mad God Descends"
+    ],
+    "name": "Bara Nut"
+   },
+   {
+    "item_id": 10307,
+    "locations": [
+     "Land of the Dead - The Skies Above (3-4)",
+     "Sky Fort Solaris - The Mad God Descends (0-1)"
+    ],
+    "name": "Angel Tear"
+   },
+   {
+    "item_id": 10507,
+    "locations": [
+     "Elsta Crater - Dinner for Watchdogs: Great Thief Leon - Elsta Crater - Dinner for Watchdogs: Great Thief Leon",
+     "Lake Adela - The Lake's Allure: Sea Prince Verica - Lake Adela - The Lake's Allure: Sea Prince Verica",
+     "Castle Avenia - Fairy Royalty: Wild Bandit Zaza - Castle Avenia - Fairy Royalty: Wild Bandit Zaza",
+     "Gadillian Ravine - One Eyed Giant: Grafl - Gadillian Ravine - One Eyed Giant: Grafl",
+     "Sky Fort Solaris - The Mad God Descends: Grafl - Sky Fort Solaris - The Mad God Descends: Grafl"
+    ],
+    "name": "Golden Fang"
+   },
+   {
+    "item_id": 10508,
+    "locations": [
+     "Elsta Crater - Death and Rebirth",
+     "Elsta Crater - Vargas",
+     "Elsta Crater - The Black Flame Warrior",
+     "Elsta Crater - Lava",
+     "Lake Adela - The Ice Cold Warrior",
+     "Lake Adela - Selena",
+     "Lake Adela - The Ocean Master",
+     "Lake Adela - Mega",
+     "Castle Avenia - World Tree and the Savior",
+     "Castle Avenia - Lance",
+     "Castle Avenia - Deception of the Spirit World",
+     "Castle Avenia - Douglas",
+     "Gadillian Ravine - Thunderous Nemesis",
+     "Gadillian Ravine - Eze",
+     "Gadillian Ravine - Noble War Hero",
+     "Gadillian Ravine - Emilia",
+     "Alman Mausoleum - Blade of the Victor",
+     "Alman Mausoleum - Atro",
+     "Alman Mausoleum - Where the Light Shines",
+     "Alman Mausoleum - Will",
+     "Land of the Dead - Wicked Hostility",
+     "Land of the Dead - Magress",
+     "Land of the Dead - The Skies Above",
+     "Land of the Dead - Alice"
+    ],
+    "name": "Crypt Fang"
+   }
+  ],
+  "land_id": 3
+ },
+ "600": {
+  "area": "Palmyna",
+  "area_id": 600,
+  "items": [
+   {
+    "item_id": 10001,
+    "locations": [
+     "Dejour Ruins - The Scorched Pathway",
+     "Dejour Ruins - Raging Heat Wave",
+     "Dejour Ruins - The Great Wall"
+    ],
+    "name": "Blue Grass"
+   },
+   {
+    "item_id": 10305,
+    "locations": [
+     "Noera Battleground - Those Who Coveth Death - Noera Battleground - Those Who Coveth Death",
+     "Spirit World Palmyna - A Formidable Presence '''(12 max)''' - Spirit World Palmyna - A Formidable Presence '''(12 max)'''"
+    ],
+    "name": "Silver Drop"
+   },
+   {
+    "item_id": 10307,
+    "locations": [
+     "Dejour Ruins - The Scorched Pathway",
+     "Dejour Ruins - Raging Heat Wave",
+     "Dejour Ruins - The Great Wall"
+    ],
+    "name": "Angel Tear"
+   },
+   {
+    "item_id": 10607,
+    "locations": [
+     "Dejour Ruins - The Scorched Pathway: Agni",
+     "Obselion Castle - The Ice Covered Castle: Sergio",
+     "Emerald Path - In the Sunlight: Lidith",
+     "Grandelt Ruins - The Crumbling City: Falma",
+     "Arlind Seminary - A Response to Devotion",
+     "Noera Battleground - Scars from the Great War"
+    ],
+    "name": "Guardian Eye"
+   },
+   {
+    "item_id": 10608,
+    "locations": [
+     "Obselion Castle - The Ice Covered Castle - Sergio",
+     "Grandelt Ruins - A Response to Devotion - Sergio"
+    ],
+    "name": "Tidal Eye"
+   },
+   {
+    "item_id": 10609,
+    "locations": [
+     "Emerald Path - Emerald Path",
+     "Emerald Path - The Forest's Saviour",
+     "Arlind Seminary - Arlind Seminary",
+     "Arlind Seminary - The Mischievious Goddess",
+     "Noera Battleground - Noera Battleground",
+     "Noera Battleground - Dregs of War",
+     "Noera Battleground - Those Who Covet Death",
+     "Spirit World Palmyna - Spirit World Palmyna",
+     "Spirit World Palmyna - The Spirit World Descends",
+     "Spirit World Palmyna - Wavering Ambition",
+     "Spirit World Palmyna - A Formidable Presence"
+    ],
+    "name": "Demon Eye"
+   },
+   {
+    "item_id": 10904,
+    "locations": [
+     "Dejour Ruins - The Commander of Flames: Phoenix",
+     "Obselion Castle - The Path Forward: Malnaplis",
+     "Emerald Path - Forest of the Nymphs: Eltri",
+     "Grandelt Ruins - The Trembling Earth: Behemoth",
+     "Arlind Seminary - Solemn Grounds: Rameldria",
+     "Noera Battleground - The Endless Struggle: Lodaga",
+     "Spirit World Palmyna - Faith in Comrades: Eltri",
+     "Spirit World Palmyna - The Seal Breaks: Behemoth",
+     "Spirit World Palmyna - A Formidable Presence: Lance"
+    ],
+    "name": "Comet Bug"
+   },
+   {
+    "item_id": 11014,
+    "locations": [
+     "Dejour Ruins - A Blistering Exchange: Lava",
+     "Obselion Castle - Beast Above the Wall: Mega",
+     "Emerald Path - Living With Might: Douglas",
+     "Grandelt Ruins - A Thunderous Attack: Emilia",
+     "Spirit World Palmyna - The Open Seal: Cardes"
+    ],
+    "name": "Abyss Stone"
+   }
+  ],
+  "land_id": 3
+ },
+ "700": {
+  "area": "Lizeria",
+  "area_id": 700,
+  "items": [
+   {
+    "item_id": 10307,
+    "locations": [
+     "The Black Bridge - A Hero's Destiny"
+    ],
+    "name": "Angel Tear"
+   },
+   {
+    "item_id": 10509,
+    "locations": [
+     "Golzo Mountains - Fire Breath, Thunder Fangs",
+     "Golzo Mountains - A Timeless Blaze: Lorand",
+     "Lodan Frozen Lake - The Bullet in the Ice: Heidt",
+     "Lodan Frozen Lake - The Frozen Surface: Dean",
+     "The Impassable Marshlands - Endless Wisdom and Vitality",
+     "The Impassable Marshlands - Rooted to the Earth",
+     "Lightning Forest Zaljiba - Bursts of Lightning",
+     "Lightning Forest Zaljiba - All-Piercing Lightning: Loch",
+     "Lost City La Veda - Sword of Protection: Sergio",
+     "Lost City La Veda - A Young Girl's Wish (~2)",
+     "Lost City La Veda - Proof of a Hero (~3)",
+     "The Black Bridge - Denial of Death's Curse",
+     "The Black Bridge - Challenge from the Underworld",
+     "The Black Bridge - Brave in the Face of Darkness (~2)",
+     "The Black Bridge - A Hero's Destiny: Magress, Eze, and Lance (3 Sky Fangs maximum)",
+     "Tower of Destruction - Period of Mortality (~2)",
+     "Tower of Destruction - Extermination Barrier (~4)"
+    ],
+    "name": "Sky Fang"
+   },
+   {
+    "item_id": 10809,
+    "locations": [
+     "Lodan Frozen Lake - Lodan Frozen Lake",
+     "Lodan Frozen Lake - The Bullet in the Ice: Siren",
+     "The Impassable Marshlands - The Impassable Marshlands",
+     "The Impassable Marshlands - Boiling Muddy Water: Vampire",
+     "The Impassable Marshlands - Roots in Nirvana: Eltri, Lodaga",
+     "The Black Bridge - The Black Bridge",
+     "The Black Bridge - A Hero's Destiny: Vampire, Ziz, Dryad (5th battle)(3)"
+    ],
+    "name": "Forever Bone"
+   },
+   {
+    "item_id": 11004,
+    "locations": [
+     "Golzo Mountains: Flames in the Night"
+    ],
+    "name": "Gospel Stone"
+   },
+   {
+    "item_id": 11015,
+    "locations": [
+     "Lightning Forest Zaljiba - Lightning Forest Zaljiba",
+     "Lightning Forest Zaljiba - Stormy Surprise Attack: Lugina (also drop 1 Forever Bone)",
+     "The Black Bridge - The Black Bridge",
+     "The Black Bridge - Duel on the Bridge: Lugina",
+     "Tower of Destruction - Tower of Destruction",
+     "Tower of Destruction - The Corpse Producing Machine: Defense System"
+    ],
+    "name": "Dream Stone"
+   }
+  ],
+  "land_id": 4
+ },
+ "800": {
+  "area": "Ryvern",
+  "area_id": 800,
+  "items": [
+   {
+    "item_id": 10409,
+    "locations": [
+     "Glomore Hallow - Glomore Hallow",
+     "Glomore Hallow - The Steamy Path: Agni",
+     "Glomore Hallow - Swift Blowing Flames: Lava",
+     "Snow Area Khelne - Snow Area Khelne",
+     "Snow Area Khelne - Standing in the Snow: Sergio",
+     "Snow Area Khelne - A Wave of Blades: Mega",
+     "Stokhelna Forest - Stokhelna Forest",
+     "Stokhelna Forest - One Day in the Woods: Lidith",
+     "Stokhelna Forest - The Roar in the Trees: Douglas",
+     "Azura Ruins - Azura Ruins",
+     "Azura Ruins - Secret of the Blade: Falma",
+     "Azura Ruins - Fall of the Lightning Fortress: Emilia",
+     "Ryvern Mountains - Ryvern Mountains",
+     "Ryvern Mountains - The Foreboding Gunshot: Heidt",
+     "Ryvern Mountains - The Warrior and the Dragon: Will",
+     "The Abyss Caves - The Abyss Caves",
+     "The Abyss Caves - The Coiling Shadows: Shida",
+     "The Abyss Caves - Unshakeable Fear: Alice"
+    ],
+    "name": "Brute Claw"
+   },
+   {
+    "item_id": 11017,
+    "locations": [
+     "Glomore Hallow - Glomore Hallow",
+     "Glomore Hallow - Dragon Captain's Roadblock: Aisha",
+     "Snow Area Khelne - Snow Area Khelne",
+     "Snow Area Khelne - The Swift Marksman: Rickel",
+     "Stokhelna Forest - Stokhelna Forest",
+     "Stokhelna Forest - The Sal Trees: Il & Mina",
+     "Azura Ruins - Azura Ruins",
+     "Azura Ruins - The Spear of Justice: Amy",
+     "Ryvern Mountains - Ryvern Mountains",
+     "Ryvern Mountains - Evil Conviction: Sefia",
+     "The Abyss Caves - The Abyss Caves",
+     "The Abyss Caves - A Glorious Bloody End: Kikuri",
+     "White Tower - White Tower",
+     "White Tower - Fletchings of Anticipation: Loch",
+     "White Tower - The Indestructible Formation: Edea",
+     "White Tower - Freezing Stillness: Dean",
+     "White Tower - Wedging Deep: Lorand",
+     "White Tower - Rallying Spirits: Aisha, Amy, Il & Mina, Rickel",
+     "White Tower - Exceeding Defiance: Kikuri, Sefia"
+    ],
+    "name": "Rouge Stone"
+   }
+  ],
+  "land_id": 5
+ },
+ "800020": {
+  "area": "Leon's Deception",
+  "area_id": 800020,
+  "items": [
+   {
+    "item_id": 818881,
+    "locations": [
+     "Band of Thieves - First Clear Reward - Band of Thieves - First Clear Reward",
+     "Undaunted Uprising - First Clear Reward - Undaunted Uprising - First Clear Reward"
+    ],
+    "name": "Guardian Cloak"
+   }
+  ],
+  "land_id": 99
+ },
+ "800120": {
+  "area": "Omni Arcanum",
+  "area_id": 800120,
+  "items": [
+   {
+    "item_id": 120000,
+    "locations": [
+     "Omni Arcanum - Lv. 1 & 2"
+    ],
+    "name": "Experience Token"
+   },
+   {
+    "item_id": 120001,
+    "locations": [
+     "Omni Arcanum - Lv. 3"
+    ],
+    "name": "Experience Badge"
+   },
+   {
+    "item_id": 120010,
+    "locations": [
+     "Omni Arcanum - Lv. 1 & 2"
+    ],
+    "name": "Fortune Box"
+   },
+   {
+    "item_id": 120011,
+    "locations": [
+     "Omni Arcanum - Lv. 3"
+    ],
+    "name": "Fortune Coffer"
+   }
+  ],
+  "land_id": 99
+ },
+ "800134": {
+  "area": "Of Snow and Flames",
+  "area_id": 800134,
+  "items": [
+   {
+    "item_id": 802004,
+    "locations": [
+     "Story of Snow - A Shadowy Meeting",
+     "Story of Flames - Chasing Shadows",
+     "Story of Harmony - Battle for Everyone's Winter"
+    ],
+    "name": "Kindling Notes"
+   }
+  ],
+  "land_id": 99
+ },
+ "800145": {
+  "area": "Burden of Aesys",
+  "area_id": 800145,
+  "items": [
+   {
+    "item_id": 890041,
+    "locations": [
+     "Path of Devotion - Path of Devotion",
+     "Path of Devotion - In Sickness and In Death",
+     "Path of Valor - Path of Valor",
+     "Path of Valor - Pangs of the Past",
+     "Path of Celerity - Path of Celerity",
+     "Path of Celerity - The Shards of Power"
+    ],
+    "name": "Shattered Faith"
+   },
+   {
+    "item_id": 890042,
+    "locations": [
+     "Path of Devotion - Path of Devotion",
+     "Path of Devotion - The Doom of Love",
+     "Path of Valor - Path of Valor",
+     "Path of Valor - A Stranger's Memories",
+     "Path of Celerity - Path of Celerity",
+     "Path of Celerity - Divine Resonance"
+    ],
+    "name": "Amulet of Renewal"
+   },
+   {
+    "item_id": 890043,
+    "locations": [
+     "Path of Devotion - Path of Devotion",
+     "Path of Devotion - A Wife's Pain",
+     "Path of Valor - Path of Valor",
+     "Path of Valor - In the Face of Darkness",
+     "Path of Celerity - Path of Celerity",
+     "Path of Celerity - The Old Gods' Legacies"
+    ],
+    "name": "Enveloping Grief"
+   },
+   {
+    "item_id": 890044,
+    "locations": [
+     "Redemption of Osiris - Redemption of Osiris"
+    ],
+    "name": "Glittersand"
+   }
+  ],
+  "land_id": 99
+ },
+ "800147": {
+  "area": "Candy Crash",
+  "area_id": 800147,
+  "items": [
+   {
+    "item_id": 800103,
+    "locations": [
+     "Candy Crash - (Special Event) - Azucar Abbey & Calavera City First Clear Rewards"
+    ],
+    "name": "Candy Treat"
+   }
+  ],
+  "land_id": 99
+ },
+ "800148": {
+  "area": "Amduat",
+  "area_id": 800148,
+  "items": [
+   {
+    "item_id": 890045,
+    "locations": [
+     "Amduat",
+     "Mysteries of the Gods - Mysteries of the Gods",
+     "The First Truth - The First Truth",
+     "Shadowed Sun - Shadowed Sun"
+    ],
+    "name": "Scribesblood"
+   },
+   {
+    "item_id": 890046,
+    "locations": [
+     "Amduat",
+     "Night Falls - Night Falls"
+    ],
+    "name": "Arcane Remnant"
+   }
+  ],
+  "land_id": 99
+ },
+ "800149": {
+  "area": "Traversing Eternity",
+  "area_id": 800149,
+  "items": [
+   {
+    "item_id": 890047,
+    "locations": [
+     "Traversing Eternity",
+     "An Uneasy Reunion - An Uneasy Reunion",
+     "Burning Dread - Burning Dread"
+    ],
+    "name": "Oculus of Truth"
+   },
+   {
+    "item_id": 890048,
+    "locations": [
+     "Traversing Eternity",
+     "Fates in Our Hands - Fates in Our Hands"
+    ],
+    "name": "Blood Soil"
+   }
+  ],
+  "land_id": 99
+ },
+ "801030": {
+  "area": "Prosperity Brawl",
+  "area_id": 801030,
+  "items": [
+   {
+    "item_id": 800014,
+    "locations": [
+     "Prosperity Brawl - (Special Event) - Lv. 2 & 3"
+    ],
+    "name": "Miracle Drop"
+   },
+   {
+    "item_id": 800303,
+    "locations": [
+     "Longevity Scuffle (Lv. 3) - First clear reward of ."
+    ],
+    "name": "Embroidered Ball"
+   },
+   {
+    "item_id": 800306,
+    "locations": [
+     "Prosperity Brawl (Special Event)"
+    ],
+    "name": "Longevity Dew"
+   },
+   {
+    "item_id": 800307,
+    "locations": [
+     "Prosperity Brawl (Special Event)"
+    ],
+    "name": "Prosperity Essence"
+   },
+   {
+    "item_id": 800309,
+    "locations": [
+     "Prosperity Brawl - (Special Event)"
+    ],
+    "name": "Happy Charm"
+   },
+   {
+    "item_id": 800310,
+    "locations": [
+     "Prosperity Brawl"
+    ],
+    "name": "Lucky Coin"
+   },
+   {
+    "item_id": 800311,
+    "locations": [
+     "Prosperity Brawl"
+    ],
+    "name": "Phoenix Feather"
+   }
+  ],
+  "land_id": 99
+ },
+ "806050": {
+  "area": "Witch of the Abyss",
+  "area_id": 806050,
+  "items": [
+   {
+    "item_id": 800605,
+    "locations": [
+     "Witch of the Abyss - Chest drop from Xie'Jing"
+    ],
+    "name": "Broken Pendant"
+   }
+  ],
+  "land_id": 99
+ },
+ "900": {
+  "area": "Agni",
+  "area_id": 900,
+  "items": [
+   {
+    "item_id": 10201,
+    "locations": [
+     "Ocean Shrine Albina - : Trespasser into the Mind (around 20-40s, also drops a lot of Fujin Eyes and fair amount of God Stones)"
+    ],
+    "name": "Koka Nut"
+   },
+   {
+    "item_id": 10203,
+    "locations": [
+     "Ocean Shrine Albina: Trespasser into the Mind"
+    ],
+    "name": "Hoku Nut"
+   },
+   {
+    "item_id": 10305,
+    "locations": [
+     "Thunder Summit Navara - Thunder Summit Navara"
+    ],
+    "name": "Silver Drop"
+   },
+   {
+    "item_id": 10409,
+    "locations": [
+     "Agni Empire - Agni Empire",
+     "Agni Empire - Wild Bravery: Zegar",
+     "Agniria Coast - Agniria Coast",
+     "Agniria Coast - The Shining Ice Flow: Zephu",
+     "Granasta Plateau - Granasta Plateau",
+     "Granasta Plateau - Balance of Power: Lario",
+     "Thunder Summit Navara - Thunder Summit Navara",
+     "Thunder Summit Navara - Accumulation of Lightning: Weiss",
+     "King's Tomb - King's Tomb",
+     "King's Tomb - Where the Light Points: Luna",
+     "Lognea Cove - Lognea Cove",
+     "Lognea Cove - Living for Battle: Mifune"
+    ],
+    "name": "Brute Claw"
+   }
+  ],
+  "land_id": 5
+ }
+}

@@ -1,0 +1,23 @@
+[
+ {
+  "actions": [
+   {
+    "act_target": 2,
+    "action": {
+     "flag_changes": [],
+     "type": "attack",
+     "unknown_bool": true,
+     "unknown_int_1": 0,
+     "unknown_int_2": 0
+    },
+    "party_conditions": [],
+    "percent": 100.0,
+    "priority": 1,
+    "search_term": "random",
+    "self_conditions": []
+   }
+  ],
+  "id": 1,
+  "name": "Attack random"
+ }
+]

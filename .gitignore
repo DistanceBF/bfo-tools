@@ -1,0 +1,18 @@
+# Personal profiles and editable local data
+web2/*.sqlite
+web2/*.db
+web2/*.sqllite
+web2/.active-gme-path.txt
+missions/*.json
+.backups/
+backup/
+
+# Local build/cache files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Editor and machine-specific files
+.vscode/
+.idea/
+Thumbs.db

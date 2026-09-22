@@ -1,0 +1,8342 @@
+[
+ {
+  "id": 10000,
+  "name": "Green Grass",
+  "named": true
+ },
+ {
+  "id": 10001,
+  "name": "Blue Grass",
+  "named": true
+ },
+ {
+  "id": 10002,
+  "name": "Yellow Grass",
+  "named": true
+ },
+ {
+  "id": 10003,
+  "name": "Red Grass",
+  "named": true
+ },
+ {
+  "id": 10004,
+  "name": "Brown Grass",
+  "named": true
+ },
+ {
+  "id": 10005,
+  "name": "Sakura Leaf",
+  "named": true
+ },
+ {
+  "id": 10006,
+  "name": "Flower Core",
+  "named": true
+ },
+ {
+  "id": 10007,
+  "name": "Forbidden Vines",
+  "named": true
+ },
+ {
+  "id": 10008,
+  "name": "Spirit Grass",
+  "named": true
+ },
+ {
+  "id": 10100,
+  "name": "Theo Feather",
+  "named": true
+ },
+ {
+  "id": 10101,
+  "name": "Lynn Feather",
+  "named": true
+ },
+ {
+  "id": 10102,
+  "name": "Rhau Feather",
+  "named": true
+ },
+ {
+  "id": 10103,
+  "name": "Saku Feather",
+  "named": true
+ },
+ {
+  "id": 10104,
+  "name": "Yomi Feather",
+  "named": true
+ },
+ {
+  "id": 10105,
+  "name": "Heth Feather",
+  "named": true
+ },
+ {
+  "id": 10106,
+  "name": "Musa Feather",
+  "named": true
+ },
+ {
+  "id": 10107,
+  "name": "Rhoa Feather",
+  "named": true
+ },
+ {
+  "id": 10108,
+  "name": "ムヴの羽",
+  "named": true
+ },
+ {
+  "id": 10109,
+  "name": "セフの羽",
+  "named": true
+ },
+ {
+  "id": 10110,
+  "name": "Riff Feather",
+  "named": true
+ },
+ {
+  "id": 10111,
+  "name": "Zeta Feather",
+  "named": true
+ },
+ {
+  "id": 10112,
+  "name": "Kuu Feather",
+  "named": true
+ },
+ {
+  "id": 10113,
+  "name": "凝固した炎",
+  "named": true
+ },
+ {
+  "id": 10114,
+  "name": "業焔の翼",
+  "named": true
+ },
+ {
+  "id": 10115,
+  "name": "炎麟の羽",
+  "named": true
+ },
+ {
+  "id": 10116,
+  "name": "Dragonlord Wing",
+  "named": true
+ },
+ {
+  "id": 10117,
+  "name": "幻鳥の聖邪羽",
+  "named": true
+ },
+ {
+  "id": 10118,
+  "name": "深緋の導翼",
+  "named": true
+ },
+ {
+  "id": 10119,
+  "name": "Benizuru Feather",
+  "named": true
+ },
+ {
+  "id": 10200,
+  "name": "Don Nut",
+  "named": true
+ },
+ {
+  "id": 10201,
+  "name": "Koka Nut",
+  "named": true
+ },
+ {
+  "id": 10202,
+  "name": "Buru Nut",
+  "named": true
+ },
+ {
+  "id": 10203,
+  "name": "Hoku Nut",
+  "named": true
+ },
+ {
+  "id": 10204,
+  "name": "Suzu Nut",
+  "named": true
+ },
+ {
+  "id": 10205,
+  "name": "Bara Nut",
+  "named": true
+ },
+ {
+  "id": 10206,
+  "name": "Mow Nut",
+  "named": true
+ },
+ {
+  "id": 10207,
+  "name": "Timber Nut",
+  "named": true
+ },
+ {
+  "id": 10208,
+  "name": "Shiny Nut",
+  "named": true
+ },
+ {
+  "id": 10209,
+  "name": "メルの実",
+  "named": true
+ },
+ {
+  "id": 10210,
+  "name": "Fairy Fruit",
+  "named": true
+ },
+ {
+  "id": 10211,
+  "name": "Bubblefruit",
+  "named": true
+ },
+ {
+  "id": 10300,
+  "name": "Green Drop",
+  "named": true
+ },
+ {
+  "id": 10301,
+  "name": "Blue Drop",
+  "named": true
+ },
+ {
+  "id": 10302,
+  "name": "Red Drop",
+  "named": true
+ },
+ {
+  "id": 10303,
+  "name": "Gold Drop",
+  "named": true
+ },
+ {
+  "id": 10304,
+  "name": "Purple Drop",
+  "named": true
+ },
+ {
+  "id": 10305,
+  "name": "Silver Drop",
+  "named": true
+ },
+ {
+  "id": 10306,
+  "name": "Hero Blood",
+  "named": true
+ },
+ {
+  "id": 10307,
+  "name": "Angel Tear",
+  "named": true
+ },
+ {
+  "id": 10308,
+  "name": "Honor Drop",
+  "named": true
+ },
+ {
+  "id": 10309,
+  "name": "Smoky Drop",
+  "named": true
+ },
+ {
+  "id": 10310,
+  "name": "Ruin Tear",
+  "named": true
+ },
+ {
+  "id": 10311,
+  "name": "悪意の涙",
+  "named": true
+ },
+ {
+  "id": 10312,
+  "name": "禍水の雫",
+  "named": true
+ },
+ {
+  "id": 10313,
+  "name": "Northstar Water",
+  "named": true
+ },
+ {
+  "id": 10314,
+  "name": "Aroma Water",
+  "named": true
+ },
+ {
+  "id": 10400,
+  "name": "Green Claw",
+  "named": true
+ },
+ {
+  "id": 10401,
+  "name": "Blue Claw",
+  "named": true
+ },
+ {
+  "id": 10402,
+  "name": "Red Claw",
+  "named": true
+ },
+ {
+  "id": 10403,
+  "name": "Yellow Claw",
+  "named": true
+ },
+ {
+  "id": 10404,
+  "name": "Evil Claw",
+  "named": true
+ },
+ {
+  "id": 10405,
+  "name": "Honor Claw",
+  "named": true
+ },
+ {
+  "id": 10406,
+  "name": "Giant Claw",
+  "named": true
+ },
+ {
+  "id": 10407,
+  "name": "Demon Claw",
+  "named": true
+ },
+ {
+  "id": 10408,
+  "name": "Hades Claw",
+  "named": true
+ },
+ {
+  "id": 10409,
+  "name": "Brute Claw",
+  "named": true
+ },
+ {
+  "id": 10410,
+  "name": "Dark Claw",
+  "named": true
+ },
+ {
+  "id": 10411,
+  "name": "Daze Claw",
+  "named": true
+ },
+ {
+  "id": 10412,
+  "name": "迷亡の爪",
+  "named": true
+ },
+ {
+  "id": 10413,
+  "name": "Frozen Claw",
+  "named": true
+ },
+ {
+  "id": 10414,
+  "name": "Fallen Hand",
+  "named": true
+ },
+ {
+  "id": 10415,
+  "name": "悪意の腕",
+  "named": true
+ },
+ {
+  "id": 10416,
+  "name": "Prison Talon",
+  "named": true
+ },
+ {
+  "id": 10417,
+  "name": "機獣の爪",
+  "named": true
+ },
+ {
+  "id": 10418,
+  "name": "Shock Claw",
+  "named": true
+ },
+ {
+  "id": 10419,
+  "name": "断獄の拳",
+  "named": true
+ },
+ {
+  "id": 10420,
+  "name": "魔獣剛爪",
+  "named": true
+ },
+ {
+  "id": 10421,
+  "name": "透光爪",
+  "named": true
+ },
+ {
+  "id": 10422,
+  "name": "Hot Iron Claw",
+  "named": true
+ },
+ {
+  "id": 10423,
+  "name": "Sharp Claw",
+  "named": true
+ },
+ {
+  "id": 10424,
+  "name": "Plague Claw",
+  "named": true
+ },
+ {
+  "id": 10425,
+  "name": "Dragonbird Claw",
+  "named": true
+ },
+ {
+  "id": 10500,
+  "name": "Green Fang",
+  "named": true
+ },
+ {
+  "id": 10501,
+  "name": "Blue Fang",
+  "named": true
+ },
+ {
+  "id": 10502,
+  "name": "Red Fang",
+  "named": true
+ },
+ {
+  "id": 10503,
+  "name": "Yellow Fang",
+  "named": true
+ },
+ {
+  "id": 10504,
+  "name": "Evil Fang",
+  "named": true
+ },
+ {
+  "id": 10505,
+  "name": "Worn Fang",
+  "named": true
+ },
+ {
+  "id": 10506,
+  "name": "Honor Fang",
+  "named": true
+ },
+ {
+  "id": 10507,
+  "name": "Golden Fang",
+  "named": true
+ },
+ {
+  "id": 10508,
+  "name": "Crypt Fang",
+  "named": true
+ },
+ {
+  "id": 10509,
+  "name": "Sky Fang",
+  "named": true
+ },
+ {
+  "id": 10510,
+  "name": "Purple Fang",
+  "named": true
+ },
+ {
+  "id": 10511,
+  "name": "Blaze Fang",
+  "named": true
+ },
+ {
+  "id": 10512,
+  "name": "Pair Fang",
+  "named": true
+ },
+ {
+  "id": 10513,
+  "name": "Thunder Fang",
+  "named": true
+ },
+ {
+  "id": 10514,
+  "name": "Phantom Fang",
+  "named": true
+ },
+ {
+  "id": 10515,
+  "name": "Burrow Fang",
+  "named": true
+ },
+ {
+  "id": 10516,
+  "name": "Ruling Fang",
+  "named": true
+ },
+ {
+  "id": 10517,
+  "name": "冥狼牙",
+  "named": true
+ },
+ {
+  "id": 10518,
+  "name": "Black Dragon Fang",
+  "named": true
+ },
+ {
+  "id": 10519,
+  "name": "Frozen Fang",
+  "named": true
+ },
+ {
+  "id": 10520,
+  "name": "Dragon Crystals",
+  "named": true
+ },
+ {
+  "id": 10600,
+  "name": "Fire Eye",
+  "named": true
+ },
+ {
+  "id": 10601,
+  "name": "Water Eye",
+  "named": true
+ },
+ {
+  "id": 10602,
+  "name": "Earth Eye",
+  "named": true
+ },
+ {
+  "id": 10603,
+  "name": "Thunder Eye",
+  "named": true
+ },
+ {
+  "id": 10604,
+  "name": "Light Eye",
+  "named": true
+ },
+ {
+  "id": 10605,
+  "name": "Dark Eye",
+  "named": true
+ },
+ {
+  "id": 10606,
+  "name": "Fujin's Eye",
+  "named": true
+ },
+ {
+  "id": 10607,
+  "name": "Guardian Eye",
+  "named": true
+ },
+ {
+  "id": 10608,
+  "name": "Tidal Eye",
+  "named": true
+ },
+ {
+  "id": 10609,
+  "name": "Demon Eye",
+  "named": true
+ },
+ {
+  "id": 10610,
+  "name": "Acute Eye",
+  "named": true
+ },
+ {
+  "id": 10611,
+  "name": "Grief Eye",
+  "named": true
+ },
+ {
+  "id": 10612,
+  "name": "覇霊の瞳",
+  "named": true
+ },
+ {
+  "id": 10613,
+  "name": "覇妃霊珠",
+  "named": true
+ },
+ {
+  "id": 10614,
+  "name": "Dark Jewel",
+  "named": true
+ },
+ {
+  "id": 10615,
+  "name": "炎纏宝珠",
+  "named": true
+ },
+ {
+  "id": 10616,
+  "name": "輝煌閃珠",
+  "named": true
+ },
+ {
+  "id": 10617,
+  "name": "Fallen Eye",
+  "named": true
+ },
+ {
+  "id": 10618,
+  "name": "悪意の瞳",
+  "named": true
+ },
+ {
+  "id": 10619,
+  "name": "Ominous Eye",
+  "named": true
+ },
+ {
+  "id": 10620,
+  "name": "Disaster Eye",
+  "named": true
+ },
+ {
+  "id": 10621,
+  "name": "Calamity Eye",
+  "named": true
+ },
+ {
+  "id": 10622,
+  "name": "Doom Jewel",
+  "named": true
+ },
+ {
+  "id": 10623,
+  "name": "幻朧の瞳",
+  "named": true
+ },
+ {
+  "id": 10624,
+  "name": "迷妄幻珠",
+  "named": true
+ },
+ {
+  "id": 10625,
+  "name": "Zealot Eye",
+  "named": true
+ },
+ {
+  "id": 10626,
+  "name": "Heavenly Eye",
+  "named": true
+ },
+ {
+  "id": 10627,
+  "name": "Blaze Pearl",
+  "named": true
+ },
+ {
+  "id": 10628,
+  "name": "魔獣心珠",
+  "named": true
+ },
+ {
+  "id": 10629,
+  "name": "大業焔珠",
+  "named": true
+ },
+ {
+  "id": 10630,
+  "name": "Black Eye",
+  "named": true
+ },
+ {
+  "id": 10631,
+  "name": "All-Seeing Eye",
+  "named": true
+ },
+ {
+  "id": 10632,
+  "name": "Beiorg's Bulb",
+  "named": true
+ },
+ {
+  "id": 10633,
+  "name": "狂戦士の思念",
+  "named": true
+ },
+ {
+  "id": 10634,
+  "name": "操命の天瞳",
+  "named": true
+ },
+ {
+  "id": 10635,
+  "name": "Dragon Phantasm",
+  "named": true
+ },
+ {
+  "id": 10700,
+  "name": "Green Pelt",
+  "named": true
+ },
+ {
+  "id": 10701,
+  "name": "Blue Pelt",
+  "named": true
+ },
+ {
+  "id": 10702,
+  "name": "Red Pelt",
+  "named": true
+ },
+ {
+  "id": 10705,
+  "name": "Blood Pelt",
+  "named": true
+ },
+ {
+  "id": 10706,
+  "name": "Azure Pelt",
+  "named": true
+ },
+ {
+  "id": 10707,
+  "name": "Honor Pelt",
+  "named": true
+ },
+ {
+  "id": 10708,
+  "name": "Giant Pelt",
+  "named": true
+ },
+ {
+  "id": 10709,
+  "name": "Yellow Pelt",
+  "named": true
+ },
+ {
+  "id": 10710,
+  "name": "銀麗の皮",
+  "named": true
+ },
+ {
+  "id": 10711,
+  "name": "Brute Pelt",
+  "named": true
+ },
+ {
+  "id": 10712,
+  "name": "Dark Pelt",
+  "named": true
+ },
+ {
+  "id": 10713,
+  "name": "Blaze Pelt",
+  "named": true
+ },
+ {
+  "id": 10714,
+  "name": "輝鱗の皮",
+  "named": true
+ },
+ {
+  "id": 10715,
+  "name": "Verdant Pelt",
+  "named": true
+ },
+ {
+  "id": 10716,
+  "name": "Cobalt Pelt",
+  "named": true
+ },
+ {
+  "id": 10717,
+  "name": "Solid Pelt",
+  "named": true
+ },
+ {
+  "id": 10718,
+  "name": "Frozen Pelt",
+  "named": true
+ },
+ {
+  "id": 10719,
+  "name": "Beryl Pelt",
+  "named": true
+ },
+ {
+  "id": 10720,
+  "name": "Mammoth Pelt",
+  "named": true
+ },
+ {
+  "id": 10721,
+  "name": "Cursed Pelt",
+  "named": true
+ },
+ {
+  "id": 10722,
+  "name": "Phantom Pelt",
+  "named": true
+ },
+ {
+  "id": 10723,
+  "name": "剛雷豪皮",
+  "named": true
+ },
+ {
+  "id": 10724,
+  "name": "裁雷の鬣",
+  "named": true
+ },
+ {
+  "id": 10725,
+  "name": "魔獣緋毛",
+  "named": true
+ },
+ {
+  "id": 10726,
+  "name": "Eternal Bark",
+  "named": true
+ },
+ {
+  "id": 10727,
+  "name": "黒邪豪鱗",
+  "named": true
+ },
+ {
+  "id": 10728,
+  "name": "Blaze Scale",
+  "named": true
+ },
+ {
+  "id": 10729,
+  "name": "剛搦の茎",
+  "named": true
+ },
+ {
+  "id": 10730,
+  "name": "蒼龍の光鱗",
+  "named": true
+ },
+ {
+  "id": 10731,
+  "name": "武神の闘髪",
+  "named": true
+ },
+ {
+  "id": 10732,
+  "name": "蛇竜銀皮",
+  "named": true
+ },
+ {
+  "id": 10733,
+  "name": "Dragonlord's Scale",
+  "named": true
+ },
+ {
+  "id": 10734,
+  "name": "魔蟲幻糸",
+  "named": true
+ },
+ {
+  "id": 10735,
+  "name": "幽玄麗衣",
+  "named": true
+ },
+ {
+  "id": 10736,
+  "name": "Metal Armor",
+  "named": true
+ },
+ {
+  "id": 10737,
+  "name": "Cavern Fragment",
+  "named": true
+ },
+ {
+  "id": 10738,
+  "name": "深淵の翼",
+  "named": true
+ },
+ {
+  "id": 10739,
+  "name": "Ashen Bark",
+  "named": true
+ },
+ {
+  "id": 10800,
+  "name": "Green Bone",
+  "named": true
+ },
+ {
+  "id": 10801,
+  "name": "Blue Bone",
+  "named": true
+ },
+ {
+  "id": 10802,
+  "name": "Red Bone",
+  "named": true
+ },
+ {
+  "id": 10805,
+  "name": "Hard Bone",
+  "named": true
+ },
+ {
+  "id": 10806,
+  "name": "Honor Bone",
+  "named": true
+ },
+ {
+  "id": 10807,
+  "name": "Blood Bone",
+  "named": true
+ },
+ {
+  "id": 10808,
+  "name": "Yellow Bone",
+  "named": true
+ },
+ {
+  "id": 10809,
+  "name": "Forever Bone",
+  "named": true
+ },
+ {
+  "id": 10810,
+  "name": "紫夜骨",
+  "named": true
+ },
+ {
+  "id": 10811,
+  "name": "Thunder Bone",
+  "named": true
+ },
+ {
+  "id": 10812,
+  "name": "Dark Bone",
+  "named": true
+ },
+ {
+  "id": 10813,
+  "name": "Sand Bone",
+  "named": true
+ },
+ {
+  "id": 10814,
+  "name": "Burst Bone",
+  "named": true
+ },
+ {
+  "id": 10815,
+  "name": "Sacred Bone",
+  "named": true
+ },
+ {
+  "id": 10816,
+  "name": "Ancient Bone",
+  "named": true
+ },
+ {
+  "id": 10817,
+  "name": "Fallen Screw",
+  "named": true
+ },
+ {
+  "id": 10818,
+  "name": "悪意の螺子",
+  "named": true
+ },
+ {
+  "id": 10819,
+  "name": "黒邪豪角",
+  "named": true
+ },
+ {
+  "id": 10820,
+  "name": "Phoenix Bone",
+  "named": true
+ },
+ {
+  "id": 10821,
+  "name": "Molten Bones",
+  "named": true
+ },
+ {
+  "id": 10822,
+  "name": "鮮血の鋭角",
+  "named": true
+ },
+ {
+  "id": 10823,
+  "name": "迦具神骨",
+  "named": true
+ },
+ {
+  "id": 10824,
+  "name": "Dragon Bones",
+  "named": true
+ },
+ {
+  "id": 10825,
+  "name": "Waterbird Bone",
+  "named": true
+ },
+ {
+  "id": 10900,
+  "name": "Green Bug",
+  "named": true
+ },
+ {
+  "id": 10901,
+  "name": "Blue Bug",
+  "named": true
+ },
+ {
+  "id": 10902,
+  "name": "Red Bug",
+  "named": true
+ },
+ {
+  "id": 10903,
+  "name": "Golden Bug",
+  "named": true
+ },
+ {
+  "id": 10904,
+  "name": "Comet Bug",
+  "named": true
+ },
+ {
+  "id": 10905,
+  "name": "Glowing Bug",
+  "named": true
+ },
+ {
+  "id": 10906,
+  "name": "Mimic Bug",
+  "named": true
+ },
+ {
+  "id": 10907,
+  "name": "Mirror Bug",
+  "named": true
+ },
+ {
+  "id": 10908,
+  "name": "Parasite Bug",
+  "named": true
+ },
+ {
+  "id": 10909,
+  "name": "Miasma Bug",
+  "named": true
+ },
+ {
+  "id": 10910,
+  "name": "Allurifly",
+  "named": true
+ },
+ {
+  "id": 10911,
+  "name": "Iceblade Bug",
+  "named": true
+ },
+ {
+  "id": 10912,
+  "name": "Midnight Bug",
+  "named": true
+ },
+ {
+  "id": 10913,
+  "name": "Magicatalyst Bug",
+  "named": true
+ },
+ {
+  "id": 11000,
+  "name": "Fate Stone",
+  "named": true
+ },
+ {
+  "id": 11001,
+  "name": "Paladin Stone",
+  "named": true
+ },
+ {
+  "id": 11002,
+  "name": "Wicked Stone",
+  "named": true
+ },
+ {
+  "id": 11003,
+  "name": "God Stone",
+  "named": true
+ },
+ {
+  "id": 11004,
+  "name": "Gospel Stone",
+  "named": true
+ },
+ {
+  "id": 11005,
+  "name": "Spirit Stone",
+  "named": true
+ },
+ {
+  "id": 11006,
+  "name": "Blue Stone",
+  "named": true
+ },
+ {
+  "id": 11007,
+  "name": "Red Stone",
+  "named": true
+ },
+ {
+  "id": 11008,
+  "name": "蹟業石",
+  "named": true
+ },
+ {
+  "id": 11009,
+  "name": "至宝石",
+  "named": true
+ },
+ {
+  "id": 11010,
+  "name": "虚空岩",
+  "named": true
+ },
+ {
+  "id": 11011,
+  "name": "泉透石",
+  "named": true
+ },
+ {
+  "id": 11012,
+  "name": "業焔石",
+  "named": true
+ },
+ {
+  "id": 11013,
+  "name": "英散石",
+  "named": true
+ },
+ {
+  "id": 11014,
+  "name": "Abyss Stone",
+  "named": true
+ },
+ {
+  "id": 11015,
+  "name": "Dream Stone",
+  "named": true
+ },
+ {
+  "id": 11016,
+  "name": "Smooth Stone",
+  "named": true
+ },
+ {
+  "id": 11017,
+  "name": "Rouge Stone",
+  "named": true
+ },
+ {
+  "id": 11018,
+  "name": "刻環の歯車",
+  "named": true
+ },
+ {
+  "id": 11019,
+  "name": "Dark Stone",
+  "named": true
+ },
+ {
+  "id": 11020,
+  "name": "神の歯車",
+  "named": true
+ },
+ {
+  "id": 11021,
+  "name": "神の回路",
+  "named": true
+ },
+ {
+  "id": 11022,
+  "name": "翠晶石",
+  "named": true
+ },
+ {
+  "id": 11023,
+  "name": "覇鬼石",
+  "named": true
+ },
+ {
+  "id": 11024,
+  "name": "Royal Stone",
+  "named": true
+ },
+ {
+  "id": 11025,
+  "name": "虚空玉",
+  "named": true
+ },
+ {
+  "id": 11026,
+  "name": "Divine Core",
+  "named": true
+ },
+ {
+  "id": 11027,
+  "name": "Divine Fuse",
+  "named": true
+ },
+ {
+  "id": 11028,
+  "name": "雷脈の心臓",
+  "named": true
+ },
+ {
+  "id": 11029,
+  "name": "Cataract Ore",
+  "named": true
+ },
+ {
+  "id": 11030,
+  "name": "Doom Ring",
+  "named": true
+ },
+ {
+  "id": 11031,
+  "name": "欺瞞結晶",
+  "named": true
+ },
+ {
+  "id": 11032,
+  "name": "Evil Eye",
+  "named": true
+ },
+ {
+  "id": 11033,
+  "name": "雷の剛晶",
+  "named": true
+ },
+ {
+  "id": 11034,
+  "name": "Azure Sphere",
+  "named": true
+ },
+ {
+  "id": 11035,
+  "name": "狂神の赤晶",
+  "named": true
+ },
+ {
+  "id": 11036,
+  "name": "Calamity Core",
+  "named": true
+ },
+ {
+  "id": 11037,
+  "name": "六輝石",
+  "named": true
+ },
+ {
+  "id": 11038,
+  "name": "武神の剛石",
+  "named": true
+ },
+ {
+  "id": 11039,
+  "name": "Beiorg's Scrap",
+  "named": true
+ },
+ {
+  "id": 11040,
+  "name": "Axe Fragment",
+  "named": true
+ },
+ {
+  "id": 11041,
+  "name": "転現粒晶",
+  "named": true
+ },
+ {
+  "id": 11042,
+  "name": "闇魔霊晶",
+  "named": true
+ },
+ {
+  "id": 11043,
+  "name": "Demonblood Clot",
+  "named": true
+ },
+ {
+  "id": 11044,
+  "name": "Crystal Soul",
+  "named": true
+ },
+ {
+  "id": 11045,
+  "name": "Crest Seal",
+  "named": true
+ },
+ {
+  "id": 11046,
+  "name": "Frost Stone",
+  "named": true
+ },
+ {
+  "id": 11047,
+  "name": "北方四神玉",
+  "named": true
+ },
+ {
+  "id": 11048,
+  "name": "煉機車具",
+  "named": true
+ },
+ {
+  "id": 11049,
+  "name": "Armor Shard",
+  "named": true
+ },
+ {
+  "id": 11050,
+  "name": "Divine Adornment",
+  "named": true
+ },
+ {
+  "id": 11051,
+  "name": "Demon Soul Gem",
+  "named": true
+ },
+ {
+  "id": 13381,
+  "name": "Trash",
+  "named": true
+ },
+ {
+  "id": 13382,
+  "name": "Useless Object",
+  "named": true
+ },
+ {
+  "id": 13383,
+  "name": "Pointless Item",
+  "named": true
+ },
+ {
+  "id": 13384,
+  "name": "Garbage",
+  "named": true
+ },
+ {
+  "id": 13385,
+  "name": "Junk",
+  "named": true
+ },
+ {
+  "id": 20000,
+  "name": "Cure",
+  "named": true
+ },
+ {
+  "id": 20001,
+  "name": "High Cure",
+  "named": true
+ },
+ {
+  "id": 20002,
+  "name": "Mega Cure",
+  "named": true
+ },
+ {
+  "id": 20100,
+  "name": "Divine Light",
+  "named": true
+ },
+ {
+  "id": 20101,
+  "name": "Holy Light",
+  "named": true
+ },
+ {
+  "id": 20102,
+  "name": "Sacred Light",
+  "named": true
+ },
+ {
+  "id": 20200,
+  "name": "Antidote",
+  "named": true
+ },
+ {
+  "id": 20210,
+  "name": "Tonic",
+  "named": true
+ },
+ {
+  "id": 20220,
+  "name": "Holy Water",
+  "named": true
+ },
+ {
+  "id": 20230,
+  "name": "Stimulant",
+  "named": true
+ },
+ {
+  "id": 20240,
+  "name": "Remedy",
+  "named": true
+ },
+ {
+  "id": 20250,
+  "name": "Nullifier",
+  "named": true
+ },
+ {
+  "id": 20400,
+  "name": "Atk Potion",
+  "named": true
+ },
+ {
+  "id": 20401,
+  "name": "Brute Elixir",
+  "named": true
+ },
+ {
+  "id": 20600,
+  "name": "Def Potion",
+  "named": true
+ },
+ {
+  "id": 20601,
+  "name": "Titan Elixir",
+  "named": true
+ },
+ {
+  "id": 20700,
+  "name": "Ares' Elixir",
+  "named": true
+ },
+ {
+  "id": 20800,
+  "name": "Fire Ore",
+  "named": true
+ },
+ {
+  "id": 20810,
+  "name": "Water Ore",
+  "named": true
+ },
+ {
+  "id": 20820,
+  "name": "Earth Ore",
+  "named": true
+ },
+ {
+  "id": 20830,
+  "name": "Thunder Ore",
+  "named": true
+ },
+ {
+  "id": 20840,
+  "name": "Light Ore",
+  "named": true
+ },
+ {
+  "id": 20850,
+  "name": "Dark Ore",
+  "named": true
+ },
+ {
+  "id": 20900,
+  "name": "Fire Seal",
+  "named": true
+ },
+ {
+  "id": 20910,
+  "name": "Water Seal",
+  "named": true
+ },
+ {
+  "id": 20920,
+  "name": "Earth Seal",
+  "named": true
+ },
+ {
+  "id": 20930,
+  "name": "Thunder Seal",
+  "named": true
+ },
+ {
+  "id": 20940,
+  "name": "Light Seal",
+  "named": true
+ },
+ {
+  "id": 20950,
+  "name": "Dark Seal",
+  "named": true
+ },
+ {
+  "id": 20960,
+  "name": "Blaze Stone",
+  "named": true
+ },
+ {
+  "id": 20961,
+  "name": "Wave Stone",
+  "named": true
+ },
+ {
+  "id": 20962,
+  "name": "Flora Stone",
+  "named": true
+ },
+ {
+  "id": 20963,
+  "name": "Bolt Stone",
+  "named": true
+ },
+ {
+  "id": 20964,
+  "name": "Gleam Stone",
+  "named": true
+ },
+ {
+  "id": 20965,
+  "name": "Shade Stone",
+  "named": true
+ },
+ {
+  "id": 21000,
+  "name": "Fujin Potion",
+  "named": true
+ },
+ {
+  "id": 21010,
+  "name": "Fujin Tonic",
+  "named": true
+ },
+ {
+  "id": 21100,
+  "name": "Winged Harp",
+  "named": true
+ },
+ {
+  "id": 22200,
+  "name": "Angel Idol",
+  "named": true
+ },
+ {
+  "id": 22210,
+  "name": "女神の像",
+  "named": true
+ },
+ {
+  "id": 22300,
+  "name": "Ares' Flute",
+  "named": true
+ },
+ {
+  "id": 22310,
+  "name": "Holy Flute",
+  "named": true
+ },
+ {
+  "id": 22400,
+  "name": "Revive",
+  "named": true
+ },
+ {
+  "id": 22410,
+  "name": "Revive Light",
+  "named": true
+ },
+ {
+  "id": 22420,
+  "name": "Hero Crystal",
+  "named": true
+ },
+ {
+  "id": 30000,
+  "name": "Famous Blade",
+  "named": true
+ },
+ {
+  "id": 30001,
+  "name": "Holy Blade",
+  "named": true
+ },
+ {
+  "id": 30002,
+  "name": "Beast Blade",
+  "named": true
+ },
+ {
+  "id": 30003,
+  "name": "Dragon Blade",
+  "named": true
+ },
+ {
+  "id": 30004,
+  "name": "Divine Sword",
+  "named": true
+ },
+ {
+  "id": 30005,
+  "name": "God Sword",
+  "named": true
+ },
+ {
+  "id": 30006,
+  "name": "Chosen Blade",
+  "named": true
+ },
+ {
+  "id": 30007,
+  "name": "Carnage Edge",
+  "named": true
+ },
+ {
+  "id": 30008,
+  "name": "Item 30008",
+  "named": false
+ },
+ {
+  "id": 30100,
+  "name": "Giant Shield",
+  "named": true
+ },
+ {
+  "id": 30101,
+  "name": "Dragon Seal",
+  "named": true
+ },
+ {
+  "id": 30102,
+  "name": "Goddess Seal",
+  "named": true
+ },
+ {
+  "id": 30103,
+  "name": "Star Shield",
+  "named": true
+ },
+ {
+  "id": 30104,
+  "name": "King Shield",
+  "named": true
+ },
+ {
+  "id": 30105,
+  "name": "Dogma Shield",
+  "named": true
+ },
+ {
+  "id": 30106,
+  "name": "Grand Shield",
+  "named": true
+ },
+ {
+  "id": 30107,
+  "name": "Ruler Shield",
+  "named": true
+ },
+ {
+  "id": 30108,
+  "name": "Sky Shield",
+  "named": true
+ },
+ {
+  "id": 30200,
+  "name": "Item 30200",
+  "named": false
+ },
+ {
+  "id": 30201,
+  "name": "Item 30201",
+  "named": false
+ },
+ {
+  "id": 30202,
+  "name": "Holy Cane",
+  "named": true
+ },
+ {
+  "id": 30203,
+  "name": "Sky Staff",
+  "named": true
+ },
+ {
+  "id": 30204,
+  "name": "Item 30204",
+  "named": false
+ },
+ {
+  "id": 30205,
+  "name": "Order Staff",
+  "named": true
+ },
+ {
+  "id": 30206,
+  "name": "Worship Cane",
+  "named": true
+ },
+ {
+  "id": 30207,
+  "name": "Nature Staff",
+  "named": true
+ },
+ {
+  "id": 30208,
+  "name": "Item 30208",
+  "named": false
+ },
+ {
+  "id": 30300,
+  "name": "Item 30300",
+  "named": false
+ },
+ {
+  "id": 30301,
+  "name": "Beast Armor",
+  "named": true
+ },
+ {
+  "id": 30302,
+  "name": "Holy Robe",
+  "named": true
+ },
+ {
+  "id": 30303,
+  "name": "Shiny Armor",
+  "named": true
+ },
+ {
+  "id": 30304,
+  "name": "Item 30304",
+  "named": false
+ },
+ {
+  "id": 30305,
+  "name": "Ember Armor",
+  "named": true
+ },
+ {
+  "id": 30306,
+  "name": "Dark Armor",
+  "named": true
+ },
+ {
+  "id": 30307,
+  "name": "Odd Armor",
+  "named": true
+ },
+ {
+  "id": 30308,
+  "name": "Item 30308",
+  "named": false
+ },
+ {
+  "id": 30400,
+  "name": "Champion Axe",
+  "named": true
+ },
+ {
+  "id": 30401,
+  "name": "魔神斧ロード・マグレス",
+  "named": true
+ },
+ {
+  "id": 30402,
+  "name": "Havoc Axe",
+  "named": true
+ },
+ {
+  "id": 31000,
+  "name": "Muramasa",
+  "named": true
+ },
+ {
+  "id": 31001,
+  "name": "Angelic Foil",
+  "named": true
+ },
+ {
+  "id": 31002,
+  "name": "Amanohabaken",
+  "named": true
+ },
+ {
+  "id": 31100,
+  "name": "Royal Shield",
+  "named": true
+ },
+ {
+  "id": 31101,
+  "name": "Exyl Shield",
+  "named": true
+ },
+ {
+  "id": 31102,
+  "name": "Evil Shield",
+  "named": true
+ },
+ {
+  "id": 31200,
+  "name": "Death Scythe",
+  "named": true
+ },
+ {
+  "id": 31201,
+  "name": "Dragon Sword (Unreleased)",
+  "named": true
+ },
+ {
+  "id": 31300,
+  "name": "Gilded Pearl",
+  "named": true
+ },
+ {
+  "id": 31301,
+  "name": "宝珠ミラビアス",
+  "named": true
+ },
+ {
+  "id": 31400,
+  "name": "xxx精霊の首飾り",
+  "named": true
+ },
+ {
+  "id": 31401,
+  "name": "大精霊の首飾り",
+  "named": true
+ },
+ {
+  "id": 31500,
+  "name": "Death Axe",
+  "named": true
+ },
+ {
+  "id": 31600,
+  "name": "毒の短剣『ポズ』",
+  "named": true
+ },
+ {
+  "id": 31601,
+  "name": "毒双竜ポズ=ディリス",
+  "named": true
+ },
+ {
+  "id": 31602,
+  "name": "毒華閃ポズ=ソフラ",
+  "named": true
+ },
+ {
+  "id": 31700,
+  "name": "Demon Rifle",
+  "named": true
+ },
+ {
+  "id": 31701,
+  "name": "魔装銃ルキュリアン",
+  "named": true
+ },
+ {
+  "id": 31702,
+  "name": "魔轟砲ミュステム",
+  "named": true
+ },
+ {
+  "id": 31800,
+  "name": "菌の鉾マシェイド",
+  "named": true
+ },
+ {
+  "id": 31801,
+  "name": "幻地鉾グランロイド",
+  "named": true
+ },
+ {
+  "id": 31802,
+  "name": "碧殻矛ネイトアガロン",
+  "named": true
+ },
+ {
+  "id": 31900,
+  "name": "Beast Spear",
+  "named": true
+ },
+ {
+  "id": 31901,
+  "name": "鬼皇槍『毘沙門』",
+  "named": true
+ },
+ {
+  "id": 31902,
+  "name": "冥槍『荒覇吐』",
+  "named": true
+ },
+ {
+  "id": 32000,
+  "name": "Cursed Sabre",
+  "named": true
+ },
+ {
+  "id": 32001,
+  "name": "呪われた剣『魔怨』",
+  "named": true
+ },
+ {
+  "id": 32002,
+  "name": "呪機剣-ガヌ-",
+  "named": true
+ },
+ {
+  "id": 32100,
+  "name": "雷弓ライジング・サン",
+  "named": true
+ },
+ {
+  "id": 32101,
+  "name": "空神の弓『雷電』",
+  "named": true
+ },
+ {
+  "id": 32102,
+  "name": "雷帝弓トール・テンペスト",
+  "named": true
+ },
+ {
+  "id": 32200,
+  "name": "Monster Robe",
+  "named": true
+ },
+ {
+  "id": 32201,
+  "name": "Prized Cloth",
+  "named": true
+ },
+ {
+  "id": 32202,
+  "name": "Divine Robe",
+  "named": true
+ },
+ {
+  "id": 32300,
+  "name": "Item 32300",
+  "named": false
+ },
+ {
+  "id": 32301,
+  "name": "毒晶光ポズグラス",
+  "named": true
+ },
+ {
+  "id": 32400,
+  "name": "Item 32400",
+  "named": false
+ },
+ {
+  "id": 32401,
+  "name": "衰晶光パリオン",
+  "named": true
+ },
+ {
+  "id": 32500,
+  "name": "Item 32500",
+  "named": false
+ },
+ {
+  "id": 32501,
+  "name": "菌晶光レフロイド",
+  "named": true
+ },
+ {
+  "id": 32600,
+  "name": "Broken Light",
+  "named": true
+ },
+ {
+  "id": 32601,
+  "name": "疲晶光ゼリオン",
+  "named": true
+ },
+ {
+  "id": 32700,
+  "name": "Cursed Light",
+  "named": true
+ },
+ {
+  "id": 32701,
+  "name": "呪晶光ラグジスト",
+  "named": true
+ },
+ {
+  "id": 32800,
+  "name": "Item 32800",
+  "named": false
+ },
+ {
+  "id": 32801,
+  "name": "痺晶光パラストル",
+  "named": true
+ },
+ {
+  "id": 32900,
+  "name": "星剣イオメティス",
+  "named": true
+ },
+ {
+  "id": 33000,
+  "name": "Divine Crest",
+  "named": true
+ },
+ {
+  "id": 33001,
+  "name": "Royal Crest",
+  "named": true
+ },
+ {
+  "id": 33002,
+  "name": "女神の旗幟",
+  "named": true
+ },
+ {
+  "id": 33400,
+  "name": "Ares' Crest",
+  "named": true
+ },
+ {
+  "id": 33500,
+  "name": "Cursed Robe",
+  "named": true
+ },
+ {
+  "id": 33501,
+  "name": "Demon Robe",
+  "named": true
+ },
+ {
+  "id": 33502,
+  "name": "神衣マナ・ラーグ",
+  "named": true
+ },
+ {
+  "id": 33600,
+  "name": "Soul Spear",
+  "named": true
+ },
+ {
+  "id": 33601,
+  "name": "XXX Soul Spear",
+  "named": true
+ },
+ {
+  "id": 33602,
+  "name": "Death Spear",
+  "named": true
+ },
+ {
+  "id": 33700,
+  "name": "Skill Bracer",
+  "named": true
+ },
+ {
+  "id": 33800,
+  "name": "Cure Bracer",
+  "named": true
+ },
+ {
+  "id": 33900,
+  "name": "ゼルナイトの指輪",
+  "named": true
+ },
+ {
+  "id": 33901,
+  "name": "ゼルマスターの指輪",
+  "named": true
+ },
+ {
+  "id": 34000,
+  "name": "闇魂の籠手",
+  "named": true
+ },
+ {
+  "id": 34001,
+  "name": "魔神魂の籠手",
+  "named": true
+ },
+ {
+  "id": 34100,
+  "name": "盗賊の腕輪",
+  "named": true
+ },
+ {
+  "id": 34300,
+  "name": "光兜セルティオン",
+  "named": true
+ },
+ {
+  "id": 34301,
+  "name": "星兜アンドロメダ",
+  "named": true
+ },
+ {
+  "id": 34302,
+  "name": "太陽兜ラリオン",
+  "named": true
+ },
+ {
+  "id": 34400,
+  "name": "Clear Cloak",
+  "named": true
+ },
+ {
+  "id": 34500,
+  "name": "般若の面",
+  "named": true
+ },
+ {
+  "id": 34600,
+  "name": "隠密のマント",
+  "named": true
+ },
+ {
+  "id": 34700,
+  "name": "聖冠マグナス・ゼブル",
+  "named": true
+ },
+ {
+  "id": 34701,
+  "name": "xxx帝冠リリー・マター",
+  "named": true
+ },
+ {
+  "id": 34702,
+  "name": "Divine Crown",
+  "named": true
+ },
+ {
+  "id": 34800,
+  "name": "Glass Crown",
+  "named": true
+ },
+ {
+  "id": 34801,
+  "name": "Ruin Helm",
+  "named": true
+ },
+ {
+  "id": 34802,
+  "name": "Dark Helm",
+  "named": true
+ },
+ {
+  "id": 34803,
+  "name": "技宝バトルブースター2",
+  "named": true
+ },
+ {
+  "id": 34804,
+  "name": "癒宝ハートブースター2",
+  "named": true
+ },
+ {
+  "id": 34805,
+  "name": "Royal Bud",
+  "named": true
+ },
+ {
+  "id": 34806,
+  "name": "Dragon Ring",
+  "named": true
+ },
+ {
+  "id": 34807,
+  "name": "Demon Lance",
+  "named": true
+ },
+ {
+  "id": 34808,
+  "name": "フェニックスの眼",
+  "named": true
+ },
+ {
+  "id": 34809,
+  "name": "Limbo Stone",
+  "named": true
+ },
+ {
+  "id": 34810,
+  "name": "Death Sword",
+  "named": true
+ },
+ {
+  "id": 34811,
+  "name": "Chaos Sword",
+  "named": true
+ },
+ {
+  "id": 34812,
+  "name": "【MVP】スパークカイザー",
+  "named": true
+ },
+ {
+  "id": 34813,
+  "name": "【MVP】オーバーキラー",
+  "named": true
+ },
+ {
+  "id": 34814,
+  "name": "【MVP】マルチスレイヤー",
+  "named": true
+ },
+ {
+  "id": 34815,
+  "name": "Burst King",
+  "named": true
+ },
+ {
+  "id": 34816,
+  "name": "【MVP】スピードスター",
+  "named": true
+ },
+ {
+  "id": 34817,
+  "name": "Challenger",
+  "named": true
+ },
+ {
+  "id": 34818,
+  "name": "Ally Savior",
+  "named": true
+ },
+ {
+  "id": 34819,
+  "name": "Item 34819",
+  "named": false
+ },
+ {
+  "id": 34820,
+  "name": "攻撃時BB上昇",
+  "named": true
+ },
+ {
+  "id": 34821,
+  "name": "Item 34821",
+  "named": false
+ },
+ {
+  "id": 34822,
+  "name": "Item 34822",
+  "named": false
+ },
+ {
+  "id": 34823,
+  "name": "Item 34823",
+  "named": false
+ },
+ {
+  "id": 34824,
+  "name": "Item 34824",
+  "named": false
+ },
+ {
+  "id": 34825,
+  "name": "Item 34825",
+  "named": false
+ },
+ {
+  "id": 34826,
+  "name": "Item 34826",
+  "named": false
+ },
+ {
+  "id": 34827,
+  "name": "MST SPHERES 34827 NAME",
+  "named": true
+ },
+ {
+  "id": 34828,
+  "name": "HP上乗せ",
+  "named": true
+ },
+ {
+  "id": 34829,
+  "name": "MST SPHERES 34829 NAME",
+  "named": true
+ },
+ {
+  "id": 34830,
+  "name": "MST SPHERES 34830 NAME",
+  "named": true
+ },
+ {
+  "id": 34831,
+  "name": "MST SPHERES 34831 NAME",
+  "named": true
+ },
+ {
+  "id": 34832,
+  "name": "HP低い時強化",
+  "named": true
+ },
+ {
+  "id": 34833,
+  "name": "HP高い時強化",
+  "named": true
+ },
+ {
+  "id": 34834,
+  "name": "スパーク時BBゲージ上昇",
+  "named": true
+ },
+ {
+  "id": 34835,
+  "name": "必要BBゲージ量減少25％",
+  "named": true
+ },
+ {
+  "id": 34836,
+  "name": "BB使用時減少量軽減BB",
+  "named": true
+ },
+ {
+  "id": 34837,
+  "name": "BB使用時減少量軽減SBB",
+  "named": true
+ },
+ {
+  "id": 34838,
+  "name": "MST SPHERES 34838 NAME",
+  "named": true
+ },
+ {
+  "id": 34839,
+  "name": "MST SPHERES 34839 NAME",
+  "named": true
+ },
+ {
+  "id": 34840,
+  "name": "Item 34840",
+  "named": false
+ },
+ {
+  "id": 34900,
+  "name": "Divine Spear",
+  "named": true
+ },
+ {
+  "id": 35000,
+  "name": "Hero Stone",
+  "named": true
+ },
+ {
+  "id": 35001,
+  "name": "巨宝ログ・ノード",
+  "named": true
+ },
+ {
+  "id": 35002,
+  "name": "Divine Stone",
+  "named": true
+ },
+ {
+  "id": 35100,
+  "name": "Refined Gem",
+  "named": true
+ },
+ {
+  "id": 35200,
+  "name": "Item 35200",
+  "named": false
+ },
+ {
+  "id": 35201,
+  "name": "Item 35201",
+  "named": false
+ },
+ {
+  "id": 35202,
+  "name": "Sacred Jewel",
+  "named": true
+ },
+ {
+  "id": 35300,
+  "name": "覇光ルーヴァ",
+  "named": true
+ },
+ {
+  "id": 35301,
+  "name": "王光メディアン",
+  "named": true
+ },
+ {
+  "id": 35400,
+  "name": "Cordelicite",
+  "named": true
+ },
+ {
+  "id": 35500,
+  "name": "Alter Blade",
+  "named": true
+ },
+ {
+  "id": 35501,
+  "name": "Dragon Sword",
+  "named": true
+ },
+ {
+  "id": 35600,
+  "name": "Vampire Spear",
+  "named": true
+ },
+ {
+  "id": 35700,
+  "name": "Drain Spear",
+  "named": true
+ },
+ {
+  "id": 35800,
+  "name": "Medulla Gem",
+  "named": true
+ },
+ {
+  "id": 35900,
+  "name": "Thief Gloves",
+  "named": true
+ },
+ {
+  "id": 36000,
+  "name": "賢宝バトルブースター",
+  "named": true
+ },
+ {
+  "id": 36100,
+  "name": "Blessed Robe",
+  "named": true
+ },
+ {
+  "id": 36200,
+  "name": "Wicked Blade",
+  "named": true
+ },
+ {
+  "id": 36300,
+  "name": "魔晶石の欠片",
+  "named": true
+ },
+ {
+  "id": 36400,
+  "name": "Steeple Rose",
+  "named": true
+ },
+ {
+  "id": 36401,
+  "name": "神臣の花",
+  "named": true
+ },
+ {
+  "id": 36500,
+  "name": "帝冠リリー・マター",
+  "named": true
+ },
+ {
+  "id": 36600,
+  "name": "フェルザーの眼",
+  "named": true
+ },
+ {
+  "id": 36700,
+  "name": "Item 36700",
+  "named": false
+ },
+ {
+  "id": 36701,
+  "name": "Abyss Sword",
+  "named": true
+ },
+ {
+  "id": 36702,
+  "name": "Item 36702",
+  "named": false
+ },
+ {
+  "id": 36800,
+  "name": "神竜のイヤリング",
+  "named": true
+ },
+ {
+  "id": 36900,
+  "name": "Alzeon Pearl",
+  "named": true
+ },
+ {
+  "id": 37000,
+  "name": "覇神斧ゲルダネイト",
+  "named": true
+ },
+ {
+  "id": 37100,
+  "name": "正宗",
+  "named": true
+ },
+ {
+  "id": 37200,
+  "name": "星晶デルエッド・ローム",
+  "named": true
+ },
+ {
+  "id": 37300,
+  "name": "魔晶原石",
+  "named": true
+ },
+ {
+  "id": 37400,
+  "name": "Item 37400",
+  "named": false
+ },
+ {
+  "id": 37500,
+  "name": "神覇剣ラグナネイド",
+  "named": true
+ },
+ {
+  "id": 37600,
+  "name": "Dandelga",
+  "named": true
+ },
+ {
+  "id": 37610,
+  "name": "Drevas",
+  "named": true
+ },
+ {
+  "id": 37620,
+  "name": "Batootha",
+  "named": true
+ },
+ {
+  "id": 37630,
+  "name": "宝剣レクシーダ",
+  "named": true
+ },
+ {
+  "id": 37640,
+  "name": "黒騎槍レオムルグ",
+  "named": true
+ },
+ {
+  "id": 37650,
+  "name": "聖光剣ユリアス",
+  "named": true
+ },
+ {
+  "id": 37660,
+  "name": "緑輝剣鎧ラフドラニア",
+  "named": true
+ },
+ {
+  "id": 37670,
+  "name": "八神剣オージュブライト",
+  "named": true
+ },
+ {
+  "id": 37680,
+  "name": "宝髪飾『緋血神刺』",
+  "named": true
+ },
+ {
+  "id": 37690,
+  "name": "幻異霊冠エル・リュード",
+  "named": true
+ },
+ {
+  "id": 37700,
+  "name": "煉光ミグ・デリン",
+  "named": true
+ },
+ {
+  "id": 37800,
+  "name": "Lizeria Gem",
+  "named": true
+ },
+ {
+  "id": 37900,
+  "name": "Divine Gem",
+  "named": true
+ },
+ {
+  "id": 38000,
+  "name": "Demon Shard",
+  "named": true
+ },
+ {
+  "id": 38001,
+  "name": "Mock Crystal",
+  "named": true
+ },
+ {
+  "id": 38100,
+  "name": "覇彩晶ミラヴィス",
+  "named": true
+ },
+ {
+  "id": 38200,
+  "name": "王彩晶エルディオン",
+  "named": true
+ },
+ {
+  "id": 38300,
+  "name": "Thief Guards",
+  "named": true
+ },
+ {
+  "id": 38400,
+  "name": "バハムート・レイジ",
+  "named": true
+ },
+ {
+  "id": 38401,
+  "name": "Blue Dragon",
+  "named": true
+ },
+ {
+  "id": 38402,
+  "name": "大天使の剣『セリエル』",
+  "named": true
+ },
+ {
+  "id": 38403,
+  "name": "Seal Sword",
+  "named": true
+ },
+ {
+  "id": 38404,
+  "name": "神斬剣ミスラテス",
+  "named": true
+ },
+ {
+  "id": 38405,
+  "name": "Sky Blade",
+  "named": true
+ },
+ {
+  "id": 38500,
+  "name": "Tree Shield",
+  "named": true
+ },
+ {
+  "id": 38501,
+  "name": "地霊の命盾ジャルバー",
+  "named": true
+ },
+ {
+  "id": 38502,
+  "name": "Alpha Shield",
+  "named": true
+ },
+ {
+  "id": 38503,
+  "name": "Demon Shield",
+  "named": true
+ },
+ {
+  "id": 38504,
+  "name": "Devil Shield",
+  "named": true
+ },
+ {
+  "id": 38505,
+  "name": "Sky Buckler",
+  "named": true
+ },
+ {
+  "id": 38600,
+  "name": "Item 38600",
+  "named": false
+ },
+ {
+  "id": 38601,
+  "name": "Malice Jewel",
+  "named": true
+ },
+ {
+  "id": 38700,
+  "name": "Divine Jewel",
+  "named": true
+ },
+ {
+  "id": 38701,
+  "name": "神宝クルトファナ",
+  "named": true
+ },
+ {
+  "id": 38800,
+  "name": "古の短剣『アリエル』",
+  "named": true
+ },
+ {
+  "id": 38801,
+  "name": "界双鉾マリッドフワル",
+  "named": true
+ },
+ {
+  "id": 38802,
+  "name": "異禍鉾ゲイズオーマ",
+  "named": true
+ },
+ {
+  "id": 38900,
+  "name": "霊壊銃バス=テス",
+  "named": true
+ },
+ {
+  "id": 38901,
+  "name": "冥槍スリーメニアン",
+  "named": true
+ },
+ {
+  "id": 38902,
+  "name": "冥破槍バスティマ",
+  "named": true
+ },
+ {
+  "id": 39000,
+  "name": "凶戟ゲヘナベルム",
+  "named": true
+ },
+ {
+  "id": 39001,
+  "name": "Demon Bow",
+  "named": true
+ },
+ {
+  "id": 39002,
+  "name": "魔怨弓ガルザペリオン",
+  "named": true
+ },
+ {
+  "id": 39100,
+  "name": "Demon Dress",
+  "named": true
+ },
+ {
+  "id": 39200,
+  "name": "White Bangle",
+  "named": true
+ },
+ {
+  "id": 39201,
+  "name": "金のバングル",
+  "named": true
+ },
+ {
+  "id": 39300,
+  "name": "Miroku Pearl",
+  "named": true
+ },
+ {
+  "id": 39400,
+  "name": "ファルバナの像",
+  "named": true
+ },
+ {
+  "id": 39500,
+  "name": "Summoner Hat",
+  "named": true
+ },
+ {
+  "id": 39600,
+  "name": "Goddess Flag",
+  "named": true
+ },
+ {
+  "id": 39700,
+  "name": "Demon Flag",
+  "named": true
+ },
+ {
+  "id": 39800,
+  "name": "魔晶帝冠リリー・レイズ",
+  "named": true
+ },
+ {
+  "id": 39900,
+  "name": "Phoenix Wing",
+  "named": true
+ },
+ {
+  "id": 40000,
+  "name": "Sol Creator",
+  "named": true
+ },
+ {
+  "id": 40100,
+  "name": "Luna Creator",
+  "named": true
+ },
+ {
+  "id": 40200,
+  "name": "人工魔石結晶",
+  "named": true
+ },
+ {
+  "id": 40300,
+  "name": "神幟の花",
+  "named": true
+ },
+ {
+  "id": 40400,
+  "name": "神器カタラ=マリヌス",
+  "named": true
+ },
+ {
+  "id": 40500,
+  "name": "盗賊王の外套",
+  "named": true
+ },
+ {
+  "id": 40600,
+  "name": "秘宝『ルナ=ラグリス』",
+  "named": true
+ },
+ {
+  "id": 40601,
+  "name": "煌宝『メド=ラグリス』",
+  "named": true
+ },
+ {
+  "id": 40602,
+  "name": "慈宝『レグ=ラグリス』",
+  "named": true
+ },
+ {
+  "id": 40603,
+  "name": "護宝『ハド=ラグリス』",
+  "named": true
+ },
+ {
+  "id": 40604,
+  "name": "憐宝『ギラド=ラグリス』",
+  "named": true
+ },
+ {
+  "id": 40605,
+  "name": "Perseverance Jewel",
+  "named": true
+ },
+ {
+  "id": 40700,
+  "name": "神切",
+  "named": true
+ },
+ {
+  "id": 40800,
+  "name": "鳳花のピアス",
+  "named": true
+ },
+ {
+  "id": 40900,
+  "name": "召喚老の帽子",
+  "named": true
+ },
+ {
+  "id": 41000,
+  "name": "Shiny Anklet",
+  "named": true
+ },
+ {
+  "id": 41100,
+  "name": "祖竜のイヤリング",
+  "named": true
+ },
+ {
+  "id": 41200,
+  "name": "Twinkle Gem",
+  "named": true
+ },
+ {
+  "id": 41300,
+  "name": "Lament Blade",
+  "named": true
+ },
+ {
+  "id": 41400,
+  "name": "炎装グランフラム",
+  "named": true
+ },
+ {
+  "id": 41401,
+  "name": "水装『凍甲』",
+  "named": true
+ },
+ {
+  "id": 41402,
+  "name": "樹装エールアルタ",
+  "named": true
+ },
+ {
+  "id": 41403,
+  "name": "雷装レジ・ストラ",
+  "named": true
+ },
+ {
+  "id": 41404,
+  "name": "光装キリエ・メイヴ",
+  "named": true
+ },
+ {
+  "id": 41405,
+  "name": "影装アルダ=ギール",
+  "named": true
+ },
+ {
+  "id": 41500,
+  "name": "Zombie Jabot",
+  "named": true
+ },
+ {
+  "id": 41600,
+  "name": "Starry Blade",
+  "named": true
+ },
+ {
+  "id": 41700,
+  "name": "黒竜のイヤリング",
+  "named": true
+ },
+ {
+  "id": 41800,
+  "name": "Pure Crystal",
+  "named": true
+ },
+ {
+  "id": 41900,
+  "name": "Comet Helmet",
+  "named": true
+ },
+ {
+  "id": 42000,
+  "name": "煉輝晶リグネス・ノヴァ",
+  "named": true
+ },
+ {
+  "id": 42100,
+  "name": "True Ore",
+  "named": true
+ },
+ {
+  "id": 42200,
+  "name": "Astral Robe",
+  "named": true
+ },
+ {
+  "id": 42300,
+  "name": "Item 42300",
+  "named": false
+ },
+ {
+  "id": 42400,
+  "name": "Virtue Stone",
+  "named": true
+ },
+ {
+  "id": 42500,
+  "name": "竜核剣リベリウス",
+  "named": true
+ },
+ {
+  "id": 42600,
+  "name": "Summoner Key",
+  "named": true
+ },
+ {
+  "id": 42700,
+  "name": "闘冠デルグランセ",
+  "named": true
+ },
+ {
+  "id": 42800,
+  "name": "布都御魂剣",
+  "named": true
+ },
+ {
+  "id": 42900,
+  "name": "神星の花",
+  "named": true
+ },
+ {
+  "id": 43000,
+  "name": "Lens Shield",
+  "named": true
+ },
+ {
+  "id": 43100,
+  "name": "Sacred Lance (Sphere)",
+  "named": true
+ },
+ {
+  "id": 43200,
+  "name": "Demon Core",
+  "named": true
+ },
+ {
+  "id": 43300,
+  "name": "獄槍ファーヴィ・オピス",
+  "named": true
+ },
+ {
+  "id": 43400,
+  "name": "女帝の涙",
+  "named": true
+ },
+ {
+  "id": 43500,
+  "name": "魔神鎌デスモノク",
+  "named": true
+ },
+ {
+  "id": 43600,
+  "name": "煌覇晶ファルク・イーリス",
+  "named": true
+ },
+ {
+  "id": 43700,
+  "name": "剛力の鉄槌",
+  "named": true
+ },
+ {
+  "id": 43800,
+  "name": "闇月弓",
+  "named": true
+ },
+ {
+  "id": 43900,
+  "name": "天地無双剣",
+  "named": true
+ },
+ {
+  "id": 44000,
+  "name": "Bariura Gem",
+  "named": true
+ },
+ {
+  "id": 44100,
+  "name": "Fairy Robe",
+  "named": true
+ },
+ {
+  "id": 44200,
+  "name": "盗賊神の指輪",
+  "named": true
+ },
+ {
+  "id": 44300,
+  "name": "魔石の荊冠",
+  "named": true
+ },
+ {
+  "id": 44400,
+  "name": "Phoenix Orb",
+  "named": true
+ },
+ {
+  "id": 44500,
+  "name": "ラ・ミラ変換機構",
+  "named": true
+ },
+ {
+  "id": 44501,
+  "name": "Illusion Gizmo",
+  "named": true
+ },
+ {
+  "id": 44600,
+  "name": "Origin Slate",
+  "named": true
+ },
+ {
+  "id": 44700,
+  "name": "魔導器・クロウガル",
+  "named": true
+ },
+ {
+  "id": 44701,
+  "name": "魔導器・クロリペスター",
+  "named": true
+ },
+ {
+  "id": 44702,
+  "name": "魔導器・アウルガロ",
+  "named": true
+ },
+ {
+  "id": 44703,
+  "name": "魔導器・カテダイク",
+  "named": true
+ },
+ {
+  "id": 44704,
+  "name": "魔導器・レイエノク",
+  "named": true
+ },
+ {
+  "id": 44705,
+  "name": "魔導器・ルノ=レイガ",
+  "named": true
+ },
+ {
+  "id": 44800,
+  "name": "ソーディアン・ディムロス",
+  "named": true
+ },
+ {
+  "id": 44801,
+  "name": "ソーディアン・アトワイト",
+  "named": true
+ },
+ {
+  "id": 44802,
+  "name": "Diabolic Fang",
+  "named": true
+ },
+ {
+  "id": 44803,
+  "name": "バルバトスリング",
+  "named": true
+ },
+ {
+  "id": 44900,
+  "name": "神宝花リクレシア",
+  "named": true
+ },
+ {
+  "id": 45000,
+  "name": "Ishrion",
+  "named": true
+ },
+ {
+  "id": 45100,
+  "name": "Eternal Armor",
+  "named": true
+ },
+ {
+  "id": 45200,
+  "name": "支援用魔導通信機",
+  "named": true
+ },
+ {
+  "id": 45201,
+  "name": "銀騎士隊の聖印",
+  "named": true
+ },
+ {
+  "id": 45202,
+  "name": "親愛の白綿飾",
+  "named": true
+ },
+ {
+  "id": 45300,
+  "name": "貴光鎧メルフォルナ",
+  "named": true
+ },
+ {
+  "id": 45310,
+  "name": "覇竜剣『天魁』",
+  "named": true
+ },
+ {
+  "id": 45400,
+  "name": "至富霊冠マルディウス",
+  "named": true
+ },
+ {
+  "id": 45500,
+  "name": "ヴィハラの紫金珠",
+  "named": true
+ },
+ {
+  "id": 45600,
+  "name": "Supreme Robe",
+  "named": true
+ },
+ {
+  "id": 45700,
+  "name": "濃縮魔石結晶",
+  "named": true
+ },
+ {
+  "id": 45800,
+  "name": "真魔核グリスタ",
+  "named": true
+ },
+ {
+  "id": 45900,
+  "name": "神器マハル=グラテカ",
+  "named": true
+ },
+ {
+  "id": 46000,
+  "name": "神慧の花",
+  "named": true
+ },
+ {
+  "id": 46100,
+  "name": "大盗神の宝冠",
+  "named": true
+ },
+ {
+  "id": 46200,
+  "name": "Occult Treasure",
+  "named": true
+ },
+ {
+  "id": 46201,
+  "name": "Bourn Jewel",
+  "named": true
+ },
+ {
+  "id": 46210,
+  "name": "Beiorg's Armor",
+  "named": true
+ },
+ {
+  "id": 46220,
+  "name": "Armor of Seals",
+  "named": true
+ },
+ {
+  "id": 46300,
+  "name": "Fury Core",
+  "named": true
+ },
+ {
+  "id": 46400,
+  "name": "Guardian Spirit",
+  "named": true
+ },
+ {
+  "id": 46500,
+  "name": "Divine Wings",
+  "named": true
+ },
+ {
+  "id": 46600,
+  "name": "Emperor Axe",
+  "named": true
+ },
+ {
+  "id": 46700,
+  "name": "Sky Helmet",
+  "named": true
+ },
+ {
+  "id": 46800,
+  "name": "神王装グラン・ローヌ",
+  "named": true
+ },
+ {
+  "id": 46900,
+  "name": "Dragon Earrings",
+  "named": true
+ },
+ {
+  "id": 47000,
+  "name": "神器テリオ=ビブラス",
+  "named": true
+ },
+ {
+  "id": 47100,
+  "name": "神器コルツ=レゼッタ",
+  "named": true
+ },
+ {
+  "id": 47200,
+  "name": "白輝聖鎧メルキオ",
+  "named": true
+ },
+ {
+  "id": 47201,
+  "name": "Duel Fragment",
+  "named": true
+ },
+ {
+  "id": 47202,
+  "name": "ゴーレム・コア",
+  "named": true
+ },
+ {
+  "id": 47203,
+  "name": "割れた護神輝彰・右片",
+  "named": true
+ },
+ {
+  "id": 47204,
+  "name": "割れた護神輝彰・左片",
+  "named": true
+ },
+ {
+  "id": 47205,
+  "name": "神命の導光石",
+  "named": true
+ },
+ {
+  "id": 47206,
+  "name": "氷輝天鎧レーゼ",
+  "named": true
+ },
+ {
+  "id": 47207,
+  "name": "叛神の罪過",
+  "named": true
+ },
+ {
+  "id": 47208,
+  "name": "緋炎宝フォルディア",
+  "named": true
+ },
+ {
+  "id": 47209,
+  "name": "神託の双聖環",
+  "named": true
+ },
+ {
+  "id": 47210,
+  "name": "Dandemagus",
+  "named": true
+ },
+ {
+  "id": 47211,
+  "name": "大盗神の宝石精",
+  "named": true
+ },
+ {
+  "id": 47212,
+  "name": "Antithesis Gem",
+  "named": true
+ },
+ {
+  "id": 47213,
+  "name": "導聖帝剣エステリグ",
+  "named": true
+ },
+ {
+  "id": 47214,
+  "name": "Dragon Mother",
+  "named": true
+ },
+ {
+  "id": 47300,
+  "name": "焔煉神槍ネグオーネ",
+  "named": true
+ },
+ {
+  "id": 47301,
+  "name": "氷晶神剣サリュオン",
+  "named": true
+ },
+ {
+  "id": 47400,
+  "name": "Sky Orb",
+  "named": true
+ },
+ {
+  "id": 47410,
+  "name": "Heaven's Edge",
+  "named": true
+ },
+ {
+  "id": 47500,
+  "name": "バロンシールド",
+  "named": true
+ },
+ {
+  "id": 47501,
+  "name": "邪刻刀キヨマサ",
+  "named": true
+ },
+ {
+  "id": 47502,
+  "name": "魔祓剣セレネー",
+  "named": true
+ },
+ {
+  "id": 47600,
+  "name": "Revelation Book",
+  "named": true
+ },
+ {
+  "id": 47601,
+  "name": "War Demon's Blade",
+  "named": true
+ },
+ {
+  "id": 47700,
+  "name": "魔鳳冠ヴァーミリオン",
+  "named": true
+ },
+ {
+  "id": 47800,
+  "name": "神器レド＝クローガ",
+  "named": true
+ },
+ {
+  "id": 47900,
+  "name": "Celgrad Gem",
+  "named": true
+ },
+ {
+  "id": 47901,
+  "name": "Lem Gem",
+  "named": true
+ },
+ {
+  "id": 47902,
+  "name": "Beiorg Gem",
+  "named": true
+ },
+ {
+  "id": 47903,
+  "name": "Wulgee Gem",
+  "named": true
+ },
+ {
+  "id": 47904,
+  "name": "Rakshult Gem",
+  "named": true
+ },
+ {
+  "id": 47905,
+  "name": "Zamburg Gem",
+  "named": true
+ },
+ {
+  "id": 47906,
+  "name": "Fal Nerga Gem",
+  "named": true
+ },
+ {
+  "id": 47907,
+  "name": "Estria Gem",
+  "named": true
+ },
+ {
+  "id": 47908,
+  "name": "魔封珠『メノン』",
+  "named": true
+ },
+ {
+  "id": 48000,
+  "name": "神貫雷弓『エシュオン』",
+  "named": true
+ },
+ {
+  "id": 48100,
+  "name": "四戦士の絆",
+  "named": true
+ },
+ {
+  "id": 48200,
+  "name": "ピアニーの薫香華",
+  "named": true
+ },
+ {
+  "id": 48201,
+  "name": "Phantom Gizmo",
+  "named": true
+ },
+ {
+  "id": 48205,
+  "name": "Thunder Pearl",
+  "named": true
+ },
+ {
+  "id": 48206,
+  "name": "幻導機・ジアクディール",
+  "named": true
+ },
+ {
+  "id": 48207,
+  "name": "神器ジェナ=グレパス",
+  "named": true
+ },
+ {
+  "id": 48208,
+  "name": "幻導機・アルドレート",
+  "named": true
+ },
+ {
+  "id": 48209,
+  "name": "幻導機・ヴァンダイト",
+  "named": true
+ },
+ {
+  "id": 48210,
+  "name": "幻導機・バルティウス",
+  "named": true
+ },
+ {
+  "id": 48211,
+  "name": "Curative Device",
+  "named": true
+ },
+ {
+  "id": 48212,
+  "name": "幻導機・スピルエクス",
+  "named": true
+ },
+ {
+  "id": 48213,
+  "name": "幻導機・セド",
+  "named": true
+ },
+ {
+  "id": 48214,
+  "name": "幻導機・サイヴォルド",
+  "named": true
+ },
+ {
+  "id": 48215,
+  "name": "Delusion Device",
+  "named": true
+ },
+ {
+  "id": 48216,
+  "name": "天聖環レーヌ・トリストア",
+  "named": true
+ },
+ {
+  "id": 48217,
+  "name": "幻導機・セクメティール",
+  "named": true
+ },
+ {
+  "id": 48218,
+  "name": "幻導機・ガルグヌス",
+  "named": true
+ },
+ {
+  "id": 48219,
+  "name": "幻導機・ネヌビース",
+  "named": true
+ },
+ {
+  "id": 48220,
+  "name": "幻導機・グランアス",
+  "named": true
+ },
+ {
+  "id": 48221,
+  "name": "幻導機・イシュカル",
+  "named": true
+ },
+ {
+  "id": 48222,
+  "name": "幻導機・トニトライド",
+  "named": true
+ },
+ {
+  "id": 48223,
+  "name": "幻導機・ヴォルドルグ",
+  "named": true
+ },
+ {
+  "id": 48224,
+  "name": "Blossom Device",
+  "named": true
+ },
+ {
+  "id": 48225,
+  "name": "幻導機・ディノセーゼ",
+  "named": true
+ },
+ {
+  "id": 48226,
+  "name": "Deflecting Device",
+  "named": true
+ },
+ {
+  "id": 48300,
+  "name": "Demon Striker",
+  "named": true
+ },
+ {
+  "id": 48301,
+  "name": "Demon Silk",
+  "named": true
+ },
+ {
+  "id": 48302,
+  "name": "Demon Igniter",
+  "named": true
+ },
+ {
+  "id": 48400,
+  "name": "Amenonuhoko",
+  "named": true
+ },
+ {
+  "id": 48410,
+  "name": "Dragon Eye",
+  "named": true
+ },
+ {
+  "id": 48420,
+  "name": "廻向の幻華鏡",
+  "named": true
+ },
+ {
+  "id": 48430,
+  "name": "綺神冠『レフ・ネヴァナ』",
+  "named": true
+ },
+ {
+  "id": 48500,
+  "name": "五光の軌跡",
+  "named": true
+ },
+ {
+  "id": 48600,
+  "name": "煉導器・ヴェラカンデオ",
+  "named": true
+ },
+ {
+  "id": 48601,
+  "name": "Brass Orb",
+  "named": true
+ },
+ {
+  "id": 48602,
+  "name": "煉導器・オルガンテ",
+  "named": true
+ },
+ {
+  "id": 48603,
+  "name": "煉導器・カリエント",
+  "named": true
+ },
+ {
+  "id": 48700,
+  "name": "義勇軍の錫杖",
+  "named": true
+ },
+ {
+  "id": 48800,
+  "name": "アルテマウェポン",
+  "named": true
+ },
+ {
+  "id": 48900,
+  "name": "Blazing Fists",
+  "named": true
+ },
+ {
+  "id": 49000,
+  "name": "雌雄一対の剣",
+  "named": true
+ },
+ {
+  "id": 49100,
+  "name": "神器ヴォール=メオン",
+  "named": true
+ },
+ {
+  "id": 49200,
+  "name": "メイリスの刻珠",
+  "named": true
+ },
+ {
+  "id": 49300,
+  "name": "統天刻剣ザルスゾード",
+  "named": true
+ },
+ {
+  "id": 49400,
+  "name": "冥凰華ネグロマス",
+  "named": true
+ },
+ {
+  "id": 49500,
+  "name": "Lotus Manuscript",
+  "named": true
+ },
+ {
+  "id": 49600,
+  "name": "聖煉冠レト",
+  "named": true
+ },
+ {
+  "id": 49700,
+  "name": "All-Seeing Eyes",
+  "named": true
+ },
+ {
+  "id": 49800,
+  "name": "Nature Shield",
+  "named": true
+ },
+ {
+  "id": 49900,
+  "name": "羽扇綸巾",
+  "named": true
+ },
+ {
+  "id": 49910,
+  "name": "英宝サウザンドメモリーズ",
+  "named": true
+ },
+ {
+  "id": 49920,
+  "name": "アーサーの鎧",
+  "named": true
+ },
+ {
+  "id": 49930,
+  "name": "第九魔神討伐隊の隊章",
+  "named": true
+ },
+ {
+  "id": 49940,
+  "name": "羅獄焔燼メドブレア",
+  "named": true
+ },
+ {
+  "id": 49950,
+  "name": "総統ハット",
+  "named": true
+ },
+ {
+  "id": 49960,
+  "name": "サムライのガントレット",
+  "named": true
+ },
+ {
+  "id": 49970,
+  "name": "グレートランス",
+  "named": true
+ },
+ {
+  "id": 49980,
+  "name": "怪盗の闇迅衣",
+  "named": true
+ },
+ {
+  "id": 49990,
+  "name": "クリスタル・コア",
+  "named": true
+ },
+ {
+  "id": 50000,
+  "name": "生命薬",
+  "named": true
+ },
+ {
+  "id": 50001,
+  "name": "強生命薬",
+  "named": true
+ },
+ {
+  "id": 50100,
+  "name": "希望の光",
+  "named": true
+ },
+ {
+  "id": 50200,
+  "name": "浄化薬",
+  "named": true
+ },
+ {
+  "id": 50400,
+  "name": "Atk Elixir",
+  "named": true
+ },
+ {
+  "id": 50401,
+  "name": "Brute Potion",
+  "named": true
+ },
+ {
+  "id": 50600,
+  "name": "Def Elixir",
+  "named": true
+ },
+ {
+  "id": 50601,
+  "name": "壁護薬",
+  "named": true
+ },
+ {
+  "id": 51000,
+  "name": "真武神薬",
+  "named": true
+ },
+ {
+  "id": 52300,
+  "name": "Demon Flute",
+  "named": true
+ },
+ {
+  "id": 52400,
+  "name": "復活薬",
+  "named": true
+ },
+ {
+  "id": 52500,
+  "name": "Barrier Potion",
+  "named": true
+ },
+ {
+  "id": 52600,
+  "name": "英雄神笛",
+  "named": true
+ },
+ {
+  "id": 60000,
+  "name": "ルチアの甘蜜酒",
+  "named": true
+ },
+ {
+  "id": 60010,
+  "name": "Life Jewel",
+  "named": true
+ },
+ {
+  "id": 60020,
+  "name": "Tactical Treatise",
+  "named": true
+ },
+ {
+  "id": 60030,
+  "name": "Serpent Blade",
+  "named": true
+ },
+ {
+  "id": 60040,
+  "name": "覇貂弓『碧姫』",
+  "named": true
+ },
+ {
+  "id": 60050,
+  "name": "導軍皇の星護符",
+  "named": true
+ },
+ {
+  "id": 60060,
+  "name": "White Vestments",
+  "named": true
+ },
+ {
+  "id": 60070,
+  "name": "斬奸斧カルカラデア",
+  "named": true
+ },
+ {
+  "id": 60080,
+  "name": "機甲式鎧ネイガルン",
+  "named": true
+ },
+ {
+  "id": 60090,
+  "name": "神霊の冥珠",
+  "named": true
+ },
+ {
+  "id": 60100,
+  "name": "ステムデルク兵法書",
+  "named": true
+ },
+ {
+  "id": 60110,
+  "name": "Demonic Regalia",
+  "named": true
+ },
+ {
+  "id": 60120,
+  "name": "Purgatory Verse",
+  "named": true
+ },
+ {
+  "id": 60130,
+  "name": "Celestial Staff",
+  "named": true
+ },
+ {
+  "id": 60140,
+  "name": "Defender's Blade",
+  "named": true
+ },
+ {
+  "id": 60150,
+  "name": "神器テルラ=エデン",
+  "named": true
+ },
+ {
+  "id": 60200,
+  "name": "Twilight Stone",
+  "named": true
+ },
+ {
+  "id": 60300,
+  "name": "Melord's Core",
+  "named": true
+ },
+ {
+  "id": 60400,
+  "name": "覇断の聖皚套",
+  "named": true
+ },
+ {
+  "id": 60410,
+  "name": "星辰の迅聖杖",
+  "named": true
+ },
+ {
+  "id": 60500,
+  "name": "Death Chakram",
+  "named": true
+ },
+ {
+  "id": 60510,
+  "name": "Admonition Crown",
+  "named": true
+ },
+ {
+  "id": 61000,
+  "name": "絶冥禁忌鉾アブスレグ",
+  "named": true
+ },
+ {
+  "id": 61010,
+  "name": "異蛮獣兜マグラジア",
+  "named": true
+ },
+ {
+  "id": 61020,
+  "name": "Survival Charm",
+  "named": true
+ },
+ {
+  "id": 61030,
+  "name": "弑神禍弓アラストラ",
+  "named": true
+ },
+ {
+  "id": 61040,
+  "name": "神魔狂鎧ゲネルガ",
+  "named": true
+ },
+ {
+  "id": 61050,
+  "name": "滅天儀『ゼグスティア』",
+  "named": true
+ },
+ {
+  "id": 61060,
+  "name": "輪天儀『リミルネート』",
+  "named": true
+ },
+ {
+  "id": 61070,
+  "name": "結天儀『ウィンティア』",
+  "named": true
+ },
+ {
+  "id": 61080,
+  "name": "Divine Master Key",
+  "named": true
+ },
+ {
+  "id": 62000,
+  "name": "聖鳳神の花冠",
+  "named": true
+ },
+ {
+  "id": 62010,
+  "name": "Ethereal Wall",
+  "named": true
+ },
+ {
+  "id": 62020,
+  "name": "Dark Axe",
+  "named": true
+ },
+ {
+  "id": 62030,
+  "name": "Dragon's Amulet",
+  "named": true
+ },
+ {
+  "id": 62040,
+  "name": "Demonbone Gem",
+  "named": true
+ },
+ {
+  "id": 62050,
+  "name": "Demontech Mail",
+  "named": true
+ },
+ {
+  "id": 62060,
+  "name": "Health Codex",
+  "named": true
+ },
+ {
+  "id": 62070,
+  "name": "Variable Arsenal",
+  "named": true
+ },
+ {
+  "id": 62080,
+  "name": "終天偽『ロクライザー』",
+  "named": true
+ },
+ {
+  "id": 62090,
+  "name": "Soul Armor",
+  "named": true
+ },
+ {
+  "id": 62100,
+  "name": "Regent Diadem",
+  "named": true
+ },
+ {
+  "id": 62110,
+  "name": "Barrier Mirror",
+  "named": true
+ },
+ {
+  "id": 62120,
+  "name": "Blessed Charm",
+  "named": true
+ },
+ {
+  "id": 62130,
+  "name": "神喰の紅翔弓",
+  "named": true
+ },
+ {
+  "id": 62140,
+  "name": "Demolishing Plate",
+  "named": true
+ },
+ {
+  "id": 62150,
+  "name": "Daybreak Moon",
+  "named": true
+ },
+ {
+  "id": 62160,
+  "name": "Skull General",
+  "named": true
+ },
+ {
+  "id": 62170,
+  "name": "Dauntless Shield",
+  "named": true
+ },
+ {
+  "id": 62180,
+  "name": "Anathema Tome",
+  "named": true
+ },
+ {
+  "id": 62190,
+  "name": "真闢慧剣クフェリア",
+  "named": true
+ },
+ {
+  "id": 62200,
+  "name": "皇宝オドルワンス",
+  "named": true
+ },
+ {
+  "id": 62210,
+  "name": "Deadening Armor",
+  "named": true
+ },
+ {
+  "id": 62220,
+  "name": "聖謳書ホースクリー",
+  "named": true
+ },
+ {
+  "id": 62230,
+  "name": "械狂の忌環砲",
+  "named": true
+ },
+ {
+  "id": 62240,
+  "name": "Dark Age Bow",
+  "named": true
+ },
+ {
+  "id": 62250,
+  "name": "秘天衣アヌーグル",
+  "named": true
+ },
+ {
+  "id": 62260,
+  "name": "Arcane Defenses",
+  "named": true
+ },
+ {
+  "id": 62270,
+  "name": "冥獄鎧ディカロス",
+  "named": true
+ },
+ {
+  "id": 62280,
+  "name": "不撓神盾レーヴグラン",
+  "named": true
+ },
+ {
+  "id": 62290,
+  "name": "Legacy Blade",
+  "named": true
+ },
+ {
+  "id": 62300,
+  "name": "禁滅冠イスクラヴォル",
+  "named": true
+ },
+ {
+  "id": 62310,
+  "name": "Altiste Talisman",
+  "named": true
+ },
+ {
+  "id": 62320,
+  "name": "Daltisk Phenomenon",
+  "named": true
+ },
+ {
+  "id": 62330,
+  "name": "龍脈凱星套ミラ",
+  "named": true
+ },
+ {
+  "id": 62340,
+  "name": "絶神崇環アルケス",
+  "named": true
+ },
+ {
+  "id": 62350,
+  "name": "応天仙慈刀『慶』",
+  "named": true
+ },
+ {
+  "id": 62360,
+  "name": "Conqueror's Helm",
+  "named": true
+ },
+ {
+  "id": 62370,
+  "name": "智神突銃ダスカローダ",
+  "named": true
+ },
+ {
+  "id": 62380,
+  "name": "永奉の天幻晶",
+  "named": true
+ },
+ {
+  "id": 62390,
+  "name": "極至の業鞭デロワ",
+  "named": true
+ },
+ {
+  "id": 62400,
+  "name": "Bow of Battles",
+  "named": true
+ },
+ {
+  "id": 62410,
+  "name": "誓神導衣ヴェスハリス",
+  "named": true
+ },
+ {
+  "id": 62420,
+  "name": "Annihilator Blade",
+  "named": true
+ },
+ {
+  "id": 63000,
+  "name": "Unyielding Device",
+  "named": true
+ },
+ {
+  "id": 64000,
+  "name": "天暝珠ラフィ・レクア",
+  "named": true
+ },
+ {
+  "id": 64001,
+  "name": "Diacles Halberd",
+  "named": true
+ },
+ {
+  "id": 64002,
+  "name": "崇星の極聖刃レデルソール",
+  "named": true
+ },
+ {
+  "id": 65000,
+  "name": "妖刀蒼鬼麟",
+  "named": true
+ },
+ {
+  "id": 65010,
+  "name": "バルムンク",
+  "named": true
+ },
+ {
+  "id": 65020,
+  "name": "ジークフリード",
+  "named": true
+ },
+ {
+  "id": 65030,
+  "name": "盤古の龍骸",
+  "named": true
+ },
+ {
+  "id": 65040,
+  "name": "妖剣ダーインスレイヴ",
+  "named": true
+ },
+ {
+  "id": 65050,
+  "name": "聖天杖レラスティマ",
+  "named": true
+ },
+ {
+  "id": 65060,
+  "name": "スマッシュ＆マジック",
+  "named": true
+ },
+ {
+  "id": 70000,
+  "name": "Beacon",
+  "named": true
+ },
+ {
+  "id": 70100,
+  "name": "Smoke Bomb",
+  "named": true
+ },
+ {
+  "id": 70200,
+  "name": "Teleport",
+  "named": true
+ },
+ {
+  "id": 70300,
+  "name": "God Crystal",
+  "named": true
+ },
+ {
+  "id": 70400,
+  "name": "Atk Crystal",
+  "named": true
+ },
+ {
+  "id": 70500,
+  "name": "Def Crystal",
+  "named": true
+ },
+ {
+  "id": 70600,
+  "name": "Detector",
+  "named": true
+ },
+ {
+  "id": 90001,
+  "name": "Dreadnought Shell Aleph",
+  "named": true
+ },
+ {
+  "id": 90101,
+  "name": "Mem Cache",
+  "named": true
+ },
+ {
+  "id": 90102,
+  "name": "Buccaneer Banner",
+  "named": true
+ },
+ {
+  "id": 110000,
+  "name": "Ruby",
+  "named": true
+ },
+ {
+  "id": 110001,
+  "name": "Grand Ruby",
+  "named": true
+ },
+ {
+  "id": 110010,
+  "name": "Sapphire",
+  "named": true
+ },
+ {
+  "id": 110011,
+  "name": "Grand Sapphire",
+  "named": true
+ },
+ {
+  "id": 110020,
+  "name": "Emerald",
+  "named": true
+ },
+ {
+  "id": 110021,
+  "name": "Grand Emerald",
+  "named": true
+ },
+ {
+  "id": 110030,
+  "name": "Topaz",
+  "named": true
+ },
+ {
+  "id": 110031,
+  "name": "Grand Topaz",
+  "named": true
+ },
+ {
+  "id": 110040,
+  "name": "Opal",
+  "named": true
+ },
+ {
+  "id": 110041,
+  "name": "Grand Opal",
+  "named": true
+ },
+ {
+  "id": 110050,
+  "name": "Amethyst",
+  "named": true
+ },
+ {
+  "id": 110051,
+  "name": "Grand Amethyst",
+  "named": true
+ },
+ {
+  "id": 110060,
+  "name": "Grand Garnet",
+  "named": true
+ },
+ {
+  "id": 110070,
+  "name": "Twin Stones",
+  "named": true
+ },
+ {
+  "id": 110080,
+  "name": "Memory Spinel",
+  "named": true
+ },
+ {
+  "id": 110100,
+  "name": "Legend Stone",
+  "named": true
+ },
+ {
+  "id": 120000,
+  "name": "Experience Token",
+  "named": true
+ },
+ {
+  "id": 120001,
+  "name": "Experience Badge",
+  "named": true
+ },
+ {
+  "id": 120010,
+  "name": "Fortune Box",
+  "named": true
+ },
+ {
+  "id": 120011,
+  "name": "Fortune Coffer",
+  "named": true
+ },
+ {
+  "id": 130000,
+  "name": "Experience Water",
+  "named": true
+ },
+ {
+  "id": 130001,
+  "name": "Experience Tonic",
+  "named": true
+ },
+ {
+  "id": 130010,
+  "name": "Experience Pill",
+  "named": true
+ },
+ {
+  "id": 130011,
+  "name": "Experience Serum",
+  "named": true
+ },
+ {
+  "id": 230003,
+  "name": "Shining Stone",
+  "named": true
+ },
+ {
+  "id": 230004,
+  "name": "Noble Blood Gem",
+  "named": true
+ },
+ {
+  "id": 230005,
+  "name": "Worship Charm",
+  "named": true
+ },
+ {
+  "id": 230006,
+  "name": "Spirit Band",
+  "named": true
+ },
+ {
+  "id": 230007,
+  "name": "Ring of Protection",
+  "named": true
+ },
+ {
+  "id": 230103,
+  "name": "Sacred Flag",
+  "named": true
+ },
+ {
+  "id": 230104,
+  "name": "Power Girdle",
+  "named": true
+ },
+ {
+  "id": 230105,
+  "name": "Forbidden Blade",
+  "named": true
+ },
+ {
+  "id": 230106,
+  "name": "Wrathful Needle",
+  "named": true
+ },
+ {
+  "id": 230107,
+  "name": "Heroic Serydelic",
+  "named": true
+ },
+ {
+  "id": 230203,
+  "name": "Guarding Light",
+  "named": true
+ },
+ {
+  "id": 230204,
+  "name": "白鬼甲マク・マウ",
+  "named": true
+ },
+ {
+  "id": 230205,
+  "name": "Myrmidon Helm",
+  "named": true
+ },
+ {
+  "id": 230206,
+  "name": "Warding Scepter",
+  "named": true
+ },
+ {
+  "id": 230207,
+  "name": "Akbutecca Crown",
+  "named": true
+ },
+ {
+  "id": 230303,
+  "name": "General's Gem",
+  "named": true
+ },
+ {
+  "id": 230304,
+  "name": "Affection Charm",
+  "named": true
+ },
+ {
+  "id": 234000,
+  "name": "Taboo Grimoire",
+  "named": true
+ },
+ {
+  "id": 235000,
+  "name": "Lupine Mantle",
+  "named": true
+ },
+ {
+  "id": 235001,
+  "name": "Automated Warrior",
+  "named": true
+ },
+ {
+  "id": 235002,
+  "name": "Armored Soul",
+  "named": true
+ },
+ {
+  "id": 235003,
+  "name": "Tourayet Adornment",
+  "named": true
+ },
+ {
+  "id": 235004,
+  "name": "星導套アキテーク",
+  "named": true
+ },
+ {
+  "id": 235005,
+  "name": "機征甲『アカツキ』",
+  "named": true
+ },
+ {
+  "id": 235006,
+  "name": "神衝鎧リヴァルブ",
+  "named": true
+ },
+ {
+  "id": 235007,
+  "name": "讃神具ラカトゥルス",
+  "named": true
+ },
+ {
+  "id": 235008,
+  "name": "Ultraboost Serum",
+  "named": true
+ },
+ {
+  "id": 236000,
+  "name": "Ambrosia Wine",
+  "named": true
+ },
+ {
+  "id": 236001,
+  "name": "託閃煌鏡フォリフォリ",
+  "named": true
+ },
+ {
+  "id": 237000,
+  "name": "Holy Beacon",
+  "named": true
+ },
+ {
+  "id": 238000,
+  "name": "Rainbow Regalia",
+  "named": true
+ },
+ {
+  "id": 238001,
+  "name": "誉望神杯ルファーレ",
+  "named": true
+ },
+ {
+  "id": 239000,
+  "name": "Sunblade",
+  "named": true
+ },
+ {
+  "id": 800000,
+  "name": "Gold Ingot",
+  "named": true
+ },
+ {
+  "id": 800001,
+  "name": "Prized Jewel",
+  "named": true
+ },
+ {
+  "id": 800002,
+  "name": "Gold Coin",
+  "named": true
+ },
+ {
+  "id": 800003,
+  "name": "Rainbow Hide",
+  "named": true
+ },
+ {
+  "id": 800004,
+  "name": "Unicorn Shard",
+  "named": true
+ },
+ {
+  "id": 800005,
+  "name": "Mino Shard",
+  "named": true
+ },
+ {
+  "id": 800006,
+  "name": "Adamite Shard",
+  "named": true
+ },
+ {
+  "id": 800007,
+  "name": "Star Dust",
+  "named": true
+ },
+ {
+  "id": 800010,
+  "name": "Moonlit Essence",
+  "named": true
+ },
+ {
+  "id": 800011,
+  "name": "Spice Pouch",
+  "named": true
+ },
+ {
+  "id": 800012,
+  "name": "Moon Bug",
+  "named": true
+ },
+ {
+  "id": 800013,
+  "name": "Undying Flame",
+  "named": true
+ },
+ {
+  "id": 800014,
+  "name": "Miracle Drop",
+  "named": true
+ },
+ {
+  "id": 800015,
+  "name": "Lunar Treat",
+  "named": true
+ },
+ {
+  "id": 800016,
+  "name": "Mooncake",
+  "named": true
+ },
+ {
+  "id": 800017,
+  "name": "Crescent Dew",
+  "named": true
+ },
+ {
+  "id": 800100,
+  "name": "Cursed Bone",
+  "named": true
+ },
+ {
+  "id": 800101,
+  "name": "Evil Drop",
+  "named": true
+ },
+ {
+  "id": 800102,
+  "name": "Heinous Dust",
+  "named": true
+ },
+ {
+  "id": 800103,
+  "name": "Candy Treat",
+  "named": true
+ },
+ {
+  "id": 800104,
+  "name": "Memory Fragment",
+  "named": true
+ },
+ {
+  "id": 800105,
+  "name": "Scroll of Black Arts",
+  "named": true
+ },
+ {
+  "id": 800106,
+  "name": "Radiant Quartz",
+  "named": true
+ },
+ {
+  "id": 800107,
+  "name": "Revenant Fragment",
+  "named": true
+ },
+ {
+  "id": 800200,
+  "name": "Snow Flake",
+  "named": true
+ },
+ {
+  "id": 800201,
+  "name": "Snow Crystal",
+  "named": true
+ },
+ {
+  "id": 800202,
+  "name": "Snow Gemstone",
+  "named": true
+ },
+ {
+  "id": 800203,
+  "name": "Miracle Frost",
+  "named": true
+ },
+ {
+  "id": 800204,
+  "name": "Frozen Heart",
+  "named": true
+ },
+ {
+  "id": 800205,
+  "name": "Frozen Soul",
+  "named": true
+ },
+ {
+  "id": 800206,
+  "name": "Candy Cane",
+  "named": true
+ },
+ {
+  "id": 800207,
+  "name": "Aspiration Stone",
+  "named": true
+ },
+ {
+  "id": 800208,
+  "name": "Peppermint Stick",
+  "named": true
+ },
+ {
+  "id": 800210,
+  "name": "Holiday Wreath",
+  "named": true
+ },
+ {
+  "id": 800211,
+  "name": "Gift Sack",
+  "named": true
+ },
+ {
+  "id": 800212,
+  "name": "Wooden Soldier",
+  "named": true
+ },
+ {
+  "id": 800213,
+  "name": "Toy Badge",
+  "named": true
+ },
+ {
+  "id": 800300,
+  "name": "Small Red Packet",
+  "named": true
+ },
+ {
+  "id": 800301,
+  "name": "Medium Red Packet",
+  "named": true
+ },
+ {
+  "id": 800302,
+  "name": "Big Red Packet",
+  "named": true
+ },
+ {
+  "id": 800303,
+  "name": "Embroidered Ball",
+  "named": true
+ },
+ {
+  "id": 800304,
+  "name": "Mandarin Orange",
+  "named": true
+ },
+ {
+  "id": 800305,
+  "name": "Nian Gao",
+  "named": true
+ },
+ {
+  "id": 800306,
+  "name": "Longevity Dew",
+  "named": true
+ },
+ {
+  "id": 800307,
+  "name": "Prosperity Essence",
+  "named": true
+ },
+ {
+  "id": 800308,
+  "name": "Jem",
+  "named": true
+ },
+ {
+  "id": 800309,
+  "name": "Happy Charm",
+  "named": true
+ },
+ {
+  "id": 800310,
+  "name": "Lucky Coin",
+  "named": true
+ },
+ {
+  "id": 800311,
+  "name": "Phoenix Feather",
+  "named": true
+ },
+ {
+  "id": 800312,
+  "name": "Fortune Cookie",
+  "named": true
+ },
+ {
+  "id": 800313,
+  "name": "Pineapple Tart",
+  "named": true
+ },
+ {
+  "id": 800314,
+  "name": "Auspicious Oranges",
+  "named": true
+ },
+ {
+  "id": 800315,
+  "name": "Nyami's Pudding",
+  "named": true
+ },
+ {
+  "id": 800316,
+  "name": "Salt",
+  "named": true
+ },
+ {
+  "id": 800400,
+  "name": "Lilium?",
+  "named": true
+ },
+ {
+  "id": 800401,
+  "name": "Ascension Bell",
+  "named": true
+ },
+ {
+  "id": 800402,
+  "name": "Rabbit's Foot",
+  "named": true
+ },
+ {
+  "id": 800403,
+  "name": "Rainbow Cupcake",
+  "named": true
+ },
+ {
+  "id": 800404,
+  "name": "Adorned Egg",
+  "named": true
+ },
+ {
+  "id": 800405,
+  "name": "Magic Chocolate",
+  "named": true
+ },
+ {
+  "id": 800406,
+  "name": "Magic Candy Bits",
+  "named": true
+ },
+ {
+  "id": 800407,
+  "name": "Cracked Egg",
+  "named": true
+ },
+ {
+  "id": 800408,
+  "name": "Gaian Carrot",
+  "named": true
+ },
+ {
+  "id": 800409,
+  "name": "Bunny Core",
+  "named": true
+ },
+ {
+  "id": 800410,
+  "name": "Carrot Cake",
+  "named": true
+ },
+ {
+  "id": 800411,
+  "name": "Mystical Eggs",
+  "named": true
+ },
+ {
+  "id": 800501,
+  "name": "Litrock",
+  "named": true
+ },
+ {
+  "id": 800502,
+  "name": "Heaven's Ash",
+  "named": true
+ },
+ {
+  "id": 800503,
+  "name": "Sacred Crystal",
+  "named": true
+ },
+ {
+  "id": 800504,
+  "name": "Spiritsand",
+  "named": true
+ },
+ {
+  "id": 800505,
+  "name": "Holy Crystal",
+  "named": true
+ },
+ {
+  "id": 800506,
+  "name": "Courage Fragment",
+  "named": true
+ },
+ {
+  "id": 800507,
+  "name": "Lucky Potion",
+  "named": true
+ },
+ {
+  "id": 800508,
+  "name": "Dark Tonic",
+  "named": true
+ },
+ {
+  "id": 800509,
+  "name": "Dark Elixir",
+  "named": true
+ },
+ {
+  "id": 800601,
+  "name": "Glowing Rose",
+  "named": true
+ },
+ {
+  "id": 800602,
+  "name": "Enchanted Bow",
+  "named": true
+ },
+ {
+  "id": 800603,
+  "name": "Love Arrow",
+  "named": true
+ },
+ {
+  "id": 800604,
+  "name": "Silk Handkerchief",
+  "named": true
+ },
+ {
+  "id": 800605,
+  "name": "Broken Pendant",
+  "named": true
+ },
+ {
+  "id": 800606,
+  "name": "Love Pendant",
+  "named": true
+ },
+ {
+  "id": 800607,
+  "name": "Chocolates",
+  "named": true
+ },
+ {
+  "id": 800608,
+  "name": "Box of Chocolates",
+  "named": true
+ },
+ {
+  "id": 800701,
+  "name": "Fire Essence",
+  "named": true
+ },
+ {
+  "id": 800702,
+  "name": "Water Essence",
+  "named": true
+ },
+ {
+  "id": 800703,
+  "name": "Earth Essence",
+  "named": true
+ },
+ {
+  "id": 800704,
+  "name": "Thunder Essence",
+  "named": true
+ },
+ {
+  "id": 800705,
+  "name": "Light Essence",
+  "named": true
+ },
+ {
+  "id": 800706,
+  "name": "Dark Essence",
+  "named": true
+ },
+ {
+  "id": 800707,
+  "name": "Orochi's Seal",
+  "named": true
+ },
+ {
+  "id": 800801,
+  "name": "Rose Bolt",
+  "named": true
+ },
+ {
+  "id": 800802,
+  "name": "Love Bullet",
+  "named": true
+ },
+ {
+  "id": 800803,
+  "name": "Pink Crystore",
+  "named": true
+ },
+ {
+  "id": 800804,
+  "name": "VALIS Schematics",
+  "named": true
+ },
+ {
+  "id": 800805,
+  "name": "Marriage Certificate",
+  "named": true
+ },
+ {
+  "id": 800901,
+  "name": "Ignis Shard",
+  "named": true
+ },
+ {
+  "id": 800902,
+  "name": "Algor Shard",
+  "named": true
+ },
+ {
+  "id": 800903,
+  "name": "Terra Shard",
+  "named": true
+ },
+ {
+  "id": 800904,
+  "name": "Fulgur Shard",
+  "named": true
+ },
+ {
+  "id": 800905,
+  "name": "Lux Shard",
+  "named": true
+ },
+ {
+  "id": 800906,
+  "name": "Umbra Shard",
+  "named": true
+ },
+ {
+  "id": 800907,
+  "name": "Elementum Tome",
+  "named": true
+ },
+ {
+  "id": 800908,
+  "name": "Geminus Tome",
+  "named": true
+ },
+ {
+  "id": 801001,
+  "name": "Mira's Holy Relic",
+  "named": true
+ },
+ {
+  "id": 801002,
+  "name": "Fuel Cell",
+  "named": true
+ },
+ {
+  "id": 801003,
+  "name": "Mysterious Gadget",
+  "named": true
+ },
+ {
+  "id": 801004,
+  "name": "Mechanical Lens",
+  "named": true
+ },
+ {
+  "id": 801005,
+  "name": "Clockwork Device",
+  "named": true
+ },
+ {
+  "id": 801006,
+  "name": "Fire Lacrima",
+  "named": true
+ },
+ {
+  "id": 801007,
+  "name": "Water Lacrima",
+  "named": true
+ },
+ {
+  "id": 801008,
+  "name": "Earth Lacrima",
+  "named": true
+ },
+ {
+  "id": 801009,
+  "name": "Thunder Lacrima",
+  "named": true
+ },
+ {
+  "id": 801010,
+  "name": "Light Lacrima",
+  "named": true
+ },
+ {
+  "id": 801011,
+  "name": "Dark Lacrima",
+  "named": true
+ },
+ {
+  "id": 801012,
+  "name": "Malevolent Essence",
+  "named": true
+ },
+ {
+  "id": 801013,
+  "name": "Pyrite Ore",
+  "named": true
+ },
+ {
+  "id": 801014,
+  "name": "Fairy Dust",
+  "named": true
+ },
+ {
+  "id": 801015,
+  "name": "Kitsu's Gift",
+  "named": true
+ },
+ {
+  "id": 801016,
+  "name": "Fae Blessing ",
+  "named": true
+ },
+ {
+  "id": 801017,
+  "name": "Void Stone",
+  "named": true
+ },
+ {
+  "id": 801018,
+  "name": "Fae Blazing",
+  "named": true
+ },
+ {
+  "id": 801019,
+  "name": "Void Gem",
+  "named": true
+ },
+ {
+  "id": 801101,
+  "name": "Veiled Drop",
+  "named": true
+ },
+ {
+  "id": 801102,
+  "name": "Occult Fang",
+  "named": true
+ },
+ {
+  "id": 801103,
+  "name": "Mystic Stone",
+  "named": true
+ },
+ {
+  "id": 801104,
+  "name": "Psychic Eye",
+  "named": true
+ },
+ {
+  "id": 801900,
+  "name": "Light Goddess Jar",
+  "named": true
+ },
+ {
+  "id": 801901,
+  "name": "Godsblood",
+  "named": true
+ },
+ {
+  "id": 801902,
+  "name": "Mannag's Howl",
+  "named": true
+ },
+ {
+  "id": 802001,
+  "name": "Prismatic Crystallite",
+  "named": true
+ },
+ {
+  "id": 802002,
+  "name": "Luminous Solvent",
+  "named": true
+ },
+ {
+  "id": 802003,
+  "name": "Quintan Snowflake",
+  "named": true
+ },
+ {
+  "id": 802004,
+  "name": "Kindling Notes",
+  "named": true
+ },
+ {
+  "id": 802005,
+  "name": "Excelsior Flux",
+  "named": true
+ },
+ {
+  "id": 802006,
+  "name": "Excelsior Lead",
+  "named": true
+ },
+ {
+  "id": 802007,
+  "name": "Broken Chip",
+  "named": true
+ },
+ {
+  "id": 802008,
+  "name": "Orochi's Opal",
+  "named": true
+ },
+ {
+  "id": 802009,
+  "name": "Sacred Regalia",
+  "named": true
+ },
+ {
+  "id": 802010,
+  "name": "Sacred Jadestones",
+  "named": true
+ },
+ {
+  "id": 818881,
+  "name": "Guardian Cloak",
+  "named": true
+ },
+ {
+  "id": 818882,
+  "name": "Aegis Cloak",
+  "named": true
+ },
+ {
+  "id": 818883,
+  "name": "Mystic Lantern",
+  "named": true
+ },
+ {
+  "id": 818884,
+  "name": "Providence Ring",
+  "named": true
+ },
+ {
+  "id": 818890,
+  "name": "Hallowed Skull",
+  "named": true
+ },
+ {
+  "id": 818891,
+  "name": "Sinister Orb",
+  "named": true
+ },
+ {
+  "id": 818892,
+  "name": "Ihsir's Guise",
+  "named": true
+ },
+ {
+  "id": 818895,
+  "name": "Demonic Skull",
+  "named": true
+ },
+ {
+  "id": 818896,
+  "name": "Ominous Orb",
+  "named": true
+ },
+ {
+  "id": 818897,
+  "name": "Patriot",
+  "named": true
+ },
+ {
+  "id": 818898,
+  "name": "Humble Egg Goo",
+  "named": true
+ },
+ {
+  "id": 818900,
+  "name": "Sacred Snowglobe",
+  "named": true
+ },
+ {
+  "id": 818901,
+  "name": "Frozen Myth",
+  "named": true
+ },
+ {
+  "id": 818902,
+  "name": "Advent Solace",
+  "named": true
+ },
+ {
+  "id": 818903,
+  "name": "Frozen Fantasy",
+  "named": true
+ },
+ {
+  "id": 818904,
+  "name": "Golden Heart",
+  "named": true
+ },
+ {
+  "id": 818905,
+  "name": "Shiny Bauble",
+  "named": true
+ },
+ {
+  "id": 818906,
+  "name": "Winter Donum",
+  "named": true
+ },
+ {
+  "id": 818907,
+  "name": "Winter Memoria",
+  "named": true
+ },
+ {
+  "id": 818910,
+  "name": "Xentar",
+  "named": true
+ },
+ {
+  "id": 818911,
+  "name": "Blighted Seal",
+  "named": true
+ },
+ {
+  "id": 818912,
+  "name": "Paskuan Enhancer",
+  "named": true
+ },
+ {
+  "id": 818913,
+  "name": "Item 818913",
+  "named": false
+ },
+ {
+  "id": 818914,
+  "name": "Item 818914",
+  "named": false
+ },
+ {
+  "id": 818915,
+  "name": "Blades of Ultor",
+  "named": true
+ },
+ {
+  "id": 818916,
+  "name": "Item 818916",
+  "named": false
+ },
+ {
+  "id": 818917,
+  "name": "Item 818917",
+  "named": false
+ },
+ {
+  "id": 818918,
+  "name": "Axe of Hadaron",
+  "named": true
+ },
+ {
+  "id": 818920,
+  "name": "Auspicious Lion Charm",
+  "named": true
+ },
+ {
+  "id": 818921,
+  "name": "AX Sphere",
+  "named": true
+ },
+ {
+  "id": 818922,
+  "name": "Bow of Andaria",
+  "named": true
+ },
+ {
+  "id": 818923,
+  "name": "Item 818923",
+  "named": false
+ },
+ {
+  "id": 818924,
+  "name": "Golden Lion Regalia",
+  "named": true
+ },
+ {
+  "id": 818925,
+  "name": "Fortunate Phoenix Crest",
+  "named": true
+ },
+ {
+  "id": 818926,
+  "name": "Prosperous Phoenix Emblem",
+  "named": true
+ },
+ {
+  "id": 818931,
+  "name": "Vulcan Axe",
+  "named": true
+ },
+ {
+  "id": 818932,
+  "name": "Glacies Staff",
+  "named": true
+ },
+ {
+  "id": 818933,
+  "name": "Vorpal Chainblades",
+  "named": true
+ },
+ {
+  "id": 818934,
+  "name": "Eremorn's Aegis",
+  "named": true
+ },
+ {
+  "id": 818935,
+  "name": "Ritus Staff",
+  "named": true
+ },
+ {
+  "id": 818936,
+  "name": "Nyami's Bells",
+  "named": true
+ },
+ {
+  "id": 818937,
+  "name": "Lop Blessing",
+  "named": true
+ },
+ {
+  "id": 818938,
+  "name": "Bond of Rih’alnase",
+  "named": true
+ },
+ {
+  "id": 818939,
+  "name": "Jeu'vrr's Heart",
+  "named": true
+ },
+ {
+  "id": 818940,
+  "name": "Jeu'vrr's Battleheart",
+  "named": true
+ },
+ {
+  "id": 818941,
+  "name": "Jeu'vrr's Warsong",
+  "named": true
+ },
+ {
+  "id": 818942,
+  "name": "Dehn's Edge",
+  "named": true
+ },
+ {
+  "id": 818943,
+  "name": "Dehn's Bladesong",
+  "named": true
+ },
+ {
+  "id": 818944,
+  "name": "Dehn's Swordmyth",
+  "named": true
+ },
+ {
+  "id": 818945,
+  "name": "Gray Gauntlet",
+  "named": true
+ },
+ {
+  "id": 818947,
+  "name": "Ka-rzn's Coils",
+  "named": true
+ },
+ {
+  "id": 818948,
+  "name": "Ka-rzn's Coilwhip",
+  "named": true
+ },
+ {
+  "id": 818949,
+  "name": "Ka-rzn's Excruciation",
+  "named": true
+ },
+ {
+  "id": 818951,
+  "name": "Jeu'vrr's Breath",
+  "named": true
+ },
+ {
+  "id": 818952,
+  "name": "Jeu'vrr's Oration",
+  "named": true
+ },
+ {
+  "id": 818953,
+  "name": "Jeu'vrr's Warcry",
+  "named": true
+ },
+ {
+  "id": 818954,
+  "name": "Blight's Core",
+  "named": true
+ },
+ {
+  "id": 818955,
+  "name": "Blight's Affliction",
+  "named": true
+ },
+ {
+  "id": 818956,
+  "name": "Blight's Ire",
+  "named": true
+ },
+ {
+  "id": 818957,
+  "name": "Blight's Curse",
+  "named": true
+ },
+ {
+  "id": 818958,
+  "name": "Blight's Oppression",
+  "named": true
+ },
+ {
+  "id": 818959,
+  "name": "Blight's Rage",
+  "named": true
+ },
+ {
+  "id": 818960,
+  "name": "Blight's Scourge",
+  "named": true
+ },
+ {
+  "id": 818961,
+  "name": "Blight's Torment",
+  "named": true
+ },
+ {
+  "id": 818962,
+  "name": "Blight's Wrath",
+  "named": true
+ },
+ {
+  "id": 818963,
+  "name": "Blight's Misfortune",
+  "named": true
+ },
+ {
+  "id": 818964,
+  "name": "Weaver's Core",
+  "named": true
+ },
+ {
+  "id": 818965,
+  "name": "Weaver's Poise",
+  "named": true
+ },
+ {
+  "id": 818966,
+  "name": "Weaver's Deceit",
+  "named": true
+ },
+ {
+  "id": 818967,
+  "name": "Weaver's Pride",
+  "named": true
+ },
+ {
+  "id": 818968,
+  "name": "Weaver's Wisdom",
+  "named": true
+ },
+ {
+  "id": 818969,
+  "name": "Weaver's Guile",
+  "named": true
+ },
+ {
+  "id": 818970,
+  "name": "Weaver's Conceit",
+  "named": true
+ },
+ {
+  "id": 818971,
+  "name": "Weaver's Acumen",
+  "named": true
+ },
+ {
+  "id": 818972,
+  "name": "Weaver's Artifice",
+  "named": true
+ },
+ {
+  "id": 818973,
+  "name": "Weaver's Audacity",
+  "named": true
+ },
+ {
+  "id": 818974,
+  "name": "Harbinger's Core",
+  "named": true
+ },
+ {
+  "id": 818975,
+  "name": "Harbinger's Thirst",
+  "named": true
+ },
+ {
+  "id": 818976,
+  "name": "Harbinger's Spite",
+  "named": true
+ },
+ {
+  "id": 818977,
+  "name": "Harbinger's Ardor",
+  "named": true
+ },
+ {
+  "id": 818978,
+  "name": "Harbinger's Greed",
+  "named": true
+ },
+ {
+  "id": 818979,
+  "name": "Harbinger's Cruelty",
+  "named": true
+ },
+ {
+  "id": 818980,
+  "name": "Harbinger's Desire",
+  "named": true
+ },
+ {
+  "id": 818981,
+  "name": "Harbinger's Avarice",
+  "named": true
+ },
+ {
+  "id": 818982,
+  "name": "Harbinger's Malice",
+  "named": true
+ },
+ {
+  "id": 818983,
+  "name": "Harbinger's Lust",
+  "named": true
+ },
+ {
+  "id": 818984,
+  "name": "Nhe'hed's Blessing",
+  "named": true
+ },
+ {
+  "id": 818985,
+  "name": "Nhe'hed's Wish",
+  "named": true
+ },
+ {
+  "id": 818986,
+  "name": "Nhe'hed's Will",
+  "named": true
+ },
+ {
+  "id": 818988,
+  "name": "Courage Buckler",
+  "named": true
+ },
+ {
+  "id": 818989,
+  "name": "Courage Guard",
+  "named": true
+ },
+ {
+  "id": 818990,
+  "name": "Courage Shield",
+  "named": true
+ },
+ {
+  "id": 818992,
+  "name": "Ke'hret's Paw",
+  "named": true
+ },
+ {
+  "id": 818993,
+  "name": "Ke'hret's Disintegration",
+  "named": true
+ },
+ {
+  "id": 818994,
+  "name": "Ke'hret's Insanguination",
+  "named": true
+ },
+ {
+  "id": 819002,
+  "name": "Bow of Fervor",
+  "named": true
+ },
+ {
+  "id": 819003,
+  "name": "Bow of Devotion",
+  "named": true
+ },
+ {
+  "id": 819004,
+  "name": "Bow of Passion",
+  "named": true
+ },
+ {
+  "id": 819005,
+  "name": "Orochi's Mark",
+  "named": true
+ },
+ {
+  "id": 819006,
+  "name": "Orochi's Symbol",
+  "named": true
+ },
+ {
+  "id": 819007,
+  "name": "Orochi's Crest",
+  "named": true
+ },
+ {
+  "id": 819008,
+  "name": "Pyre Orb",
+  "named": true
+ },
+ {
+  "id": 819009,
+  "name": "Pyrespark Orb",
+  "named": true
+ },
+ {
+  "id": 819010,
+  "name": "Pyre Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819011,
+  "name": "Tide Orb",
+  "named": true
+ },
+ {
+  "id": 819012,
+  "name": "Tidewater Orb",
+  "named": true
+ },
+ {
+  "id": 819013,
+  "name": "Tidal Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819014,
+  "name": "Forest Orb",
+  "named": true
+ },
+ {
+  "id": 819015,
+  "name": "Forestseed Orb",
+  "named": true
+ },
+ {
+  "id": 819016,
+  "name": "Forest Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819017,
+  "name": "Storm Orb",
+  "named": true
+ },
+ {
+  "id": 819018,
+  "name": "Stormstrike Orb",
+  "named": true
+ },
+ {
+  "id": 819019,
+  "name": "Storm Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819020,
+  "name": "Solar Orb",
+  "named": true
+ },
+ {
+  "id": 819021,
+  "name": "Solarflare Orb",
+  "named": true
+ },
+ {
+  "id": 819022,
+  "name": "Solar Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819023,
+  "name": "Lunar Orb",
+  "named": true
+ },
+ {
+  "id": 819024,
+  "name": "Lunarshadow Orb",
+  "named": true
+ },
+ {
+  "id": 819025,
+  "name": "Lunar Essence Orb",
+  "named": true
+ },
+ {
+  "id": 819089,
+  "name": "Crystallised Tears",
+  "named": true
+ },
+ {
+  "id": 819090,
+  "name": "Colorful Oval",
+  "named": true
+ },
+ {
+  "id": 819091,
+  "name": "Patterned Egg",
+  "named": true
+ },
+ {
+  "id": 819092,
+  "name": "Dyed Masterpiece",
+  "named": true
+ },
+ {
+  "id": 819093,
+  "name": "Rainbow Carrot",
+  "named": true
+ },
+ {
+  "id": 819094,
+  "name": "Miss Confire",
+  "named": true
+ },
+ {
+  "id": 819095,
+  "name": "Miss Travailler",
+  "named": true
+ },
+ {
+  "id": 819096,
+  "name": "Nougat P08",
+  "named": true
+ },
+ {
+  "id": 819097,
+  "name": "Explosive Genoise",
+  "named": true
+ },
+ {
+  "id": 819099,
+  "name": "Euphoric Illusion",
+  "named": true
+ },
+ {
+  "id": 819100,
+  "name": "Unblinking Stele",
+  "named": true
+ },
+ {
+  "id": 819101,
+  "name": "Platinum Sword",
+  "named": true
+ },
+ {
+  "id": 819102,
+  "name": "Platinum Bangle",
+  "named": true
+ },
+ {
+  "id": 819103,
+  "name": "Ignis Wing",
+  "named": true
+ },
+ {
+  "id": 819104,
+  "name": "Aqua Wing",
+  "named": true
+ },
+ {
+  "id": 819105,
+  "name": "Terra Wing",
+  "named": true
+ },
+ {
+  "id": 819106,
+  "name": "Aer Wing",
+  "named": true
+ },
+ {
+  "id": 819107,
+  "name": "Lux Wing",
+  "named": true
+ },
+ {
+  "id": 819108,
+  "name": "Umbra Wing",
+  "named": true
+ },
+ {
+  "id": 819109,
+  "name": "Chrome Steerwheel",
+  "named": true
+ },
+ {
+  "id": 819110,
+  "name": "Geared Steerwheel",
+  "named": true
+ },
+ {
+  "id": 819111,
+  "name": "Masked Steerwheel",
+  "named": true
+ },
+ {
+  "id": 819112,
+  "name": "Deva Sphere",
+  "named": true
+ },
+ {
+  "id": 819113,
+  "name": "Moro Sphere",
+  "named": true
+ },
+ {
+  "id": 819114,
+  "name": "Wildfire Wing",
+  "named": true
+ },
+ {
+  "id": 819115,
+  "name": "Tidal Wing",
+  "named": true
+ },
+ {
+  "id": 819116,
+  "name": "Shale Wing",
+  "named": true
+ },
+ {
+  "id": 819117,
+  "name": "Fulgur Wing",
+  "named": true
+ },
+ {
+  "id": 819118,
+  "name": "Star Wing",
+  "named": true
+ },
+ {
+  "id": 819119,
+  "name": "Nihil Wing",
+  "named": true
+ },
+ {
+  "id": 819120,
+  "name": "Silver Key",
+  "named": true
+ },
+ {
+  "id": 819121,
+  "name": "Gold Key",
+  "named": true
+ },
+ {
+  "id": 819122,
+  "name": "Diamond Key",
+  "named": true
+ },
+ {
+  "id": 819123,
+  "name": "Book of E.N.D.",
+  "named": true
+ },
+ {
+  "id": 819124,
+  "name": "Tempest of Akachi",
+  "named": true
+ },
+ {
+  "id": 819125,
+  "name": "Malevolent Charm",
+  "named": true
+ },
+ {
+  "id": 819126,
+  "name": "Voodoo Doll",
+  "named": true
+ },
+ {
+  "id": 819127,
+  "name": "Baiken's Mono-goggle",
+  "named": true
+ },
+ {
+  "id": 819128,
+  "name": "May's Pirate Tricorn",
+  "named": true
+ },
+ {
+  "id": 819129,
+  "name": "Johnny's Coin",
+  "named": true
+ },
+ {
+  "id": 819130,
+  "name": "Leo's Dictionary",
+  "named": true
+ },
+ {
+  "id": 819131,
+  "name": "Fairy Luck",
+  "named": true
+ },
+ {
+  "id": 819132,
+  "name": "Fairy Fortune",
+  "named": true
+ },
+ {
+  "id": 819133,
+  "name": "Fairy Fate",
+  "named": true
+ },
+ {
+  "id": 819136,
+  "name": "Jubilee Sphere",
+  "named": true
+ },
+ {
+  "id": 819137,
+  "name": "Snowbound Victory",
+  "named": true
+ },
+ {
+  "id": 819138,
+  "name": "Sacred Shield",
+  "named": true
+ },
+ {
+  "id": 819139,
+  "name": "Forbidden Apple",
+  "named": true
+ },
+ {
+  "id": 819140,
+  "name": "Yata no Kagami",
+  "named": true
+ },
+ {
+  "id": 819141,
+  "name": "Long Wu's Brand",
+  "named": true
+ },
+ {
+  "id": 819142,
+  "name": "Long Wu's Honor",
+  "named": true
+ },
+ {
+  "id": 819143,
+  "name": "Kuoni's Brand",
+  "named": true
+ },
+ {
+  "id": 819144,
+  "name": "Kuoni's Honor",
+  "named": true
+ },
+ {
+  "id": 819145,
+  "name": "Koto's Brand",
+  "named": true
+ },
+ {
+  "id": 819146,
+  "name": "Koto's Honor",
+  "named": true
+ },
+ {
+  "id": 819147,
+  "name": "Wyola's Brand",
+  "named": true
+ },
+ {
+  "id": 819148,
+  "name": "Wyola's Honor",
+  "named": true
+ },
+ {
+  "id": 819149,
+  "name": "Naude's Brand",
+  "named": true
+ },
+ {
+  "id": 819150,
+  "name": "Naude's Honor",
+  "named": true
+ },
+ {
+  "id": 819151,
+  "name": "Giselbert's Brand",
+  "named": true
+ },
+ {
+  "id": 819152,
+  "name": "Giselbert's Honor",
+  "named": true
+ },
+ {
+  "id": 819153,
+  "name": "Kagura Suzu",
+  "named": true
+ },
+ {
+  "id": 819156,
+  "name": "Crusader Medal",
+  "named": true
+ },
+ {
+  "id": 819157,
+  "name": "Sakura Blossom Medal",
+  "named": true
+ },
+ {
+  "id": 819158,
+  "name": "Sakura Medal",
+  "named": true
+ },
+ {
+  "id": 819159,
+  "name": "Shining Sun Medal",
+  "named": true
+ },
+ {
+  "id": 819160,
+  "name": "Shining Medal",
+  "named": true
+ },
+ {
+  "id": 819161,
+  "name": "Duskcrown Medal",
+  "named": true
+ },
+ {
+  "id": 819162,
+  "name": "Dusklight Medal",
+  "named": true
+ },
+ {
+  "id": 819163,
+  "name": "Sakura Onusa",
+  "named": true
+ },
+ {
+  "id": 819164,
+  "name": "Frogberge Egg",
+  "named": true
+ },
+ {
+  "id": 819165,
+  "name": "Elaina's Timepiece",
+  "named": true
+ },
+ {
+  "id": 819166,
+  "name": "Wrath of Grandt",
+  "named": true
+ },
+ {
+  "id": 819167,
+  "name": "Midoriya's Sphere",
+  "named": true
+ },
+ {
+  "id": 819168,
+  "name": "Grenadier Bracers",
+  "named": true
+ },
+ {
+  "id": 819169,
+  "name": "All Might's Cape",
+  "named": true
+ },
+ {
+  "id": 819170,
+  "name": "Ihsir's Wiles",
+  "named": true
+ },
+ {
+  "id": 819171,
+  "name": "Lucky Crescent",
+  "named": true
+ },
+ {
+  "id": 819172,
+  "name": "Gibbous Trinket",
+  "named": true
+ },
+ {
+  "id": 819173,
+  "name": "Yue'yuan",
+  "named": true
+ },
+ {
+  "id": 819174,
+  "name": "Kronax",
+  "named": true
+ },
+ {
+  "id": 819175,
+  "name": "Vesper Argentum",
+  "named": true
+ },
+ {
+  "id": 819176,
+  "name": "Blaze Blossom EX",
+  "named": true
+ },
+ {
+  "id": 819177,
+  "name": "Corrupted Blossom EX",
+  "named": true
+ },
+ {
+  "id": 819178,
+  "name": "Vellum of Curses",
+  "named": true
+ },
+ {
+  "id": 819179,
+  "name": "Vellum of Salvation",
+  "named": true
+ },
+ {
+  "id": 819180,
+  "name": "Vellum of Brilliance",
+  "named": true
+ },
+ {
+  "id": 819181,
+  "name": "Harvester Pickaxe",
+  "named": true
+ },
+ {
+  "id": 819182,
+  "name": "Mysterious Mask",
+  "named": true
+ },
+ {
+  "id": 819183,
+  "name": "Orphira",
+  "named": true
+ },
+ {
+  "id": 819184,
+  "name": "Tenrou Jade",
+  "named": true
+ },
+ {
+  "id": 819185,
+  "name": "Fairy Heart",
+  "named": true
+ },
+ {
+  "id": 819187,
+  "name": "Fiery Volt",
+  "named": true
+ },
+ {
+  "id": 819188,
+  "name": "Infernal Bolt",
+  "named": true
+ },
+ {
+  "id": 819189,
+  "name": "Corrupted Blossom",
+  "named": true
+ },
+ {
+  "id": 819190,
+  "name": "Blaze Blossom",
+  "named": true
+ },
+ {
+  "id": 819191,
+  "name": "Frigid Melody",
+  "named": true
+ },
+ {
+  "id": 819192,
+  "name": "Kindling Melody",
+  "named": true
+ },
+ {
+  "id": 819193,
+  "name": "Melodious Harmony",
+  "named": true
+ },
+ {
+  "id": 819194,
+  "name": "Quintan Emerald",
+  "named": true
+ },
+ {
+  "id": 819196,
+  "name": "Quintan Relic",
+  "named": true
+ },
+ {
+  "id": 819197,
+  "name": "Pallya",
+  "named": true
+ },
+ {
+  "id": 819198,
+  "name": "Flower of the Vale",
+  "named": true
+ },
+ {
+  "id": 819199,
+  "name": "Chrysalis Alpha",
+  "named": true
+ },
+ {
+  "id": 819200,
+  "name": "Chrysalis Omega",
+  "named": true
+ },
+ {
+  "id": 819201,
+  "name": "Chrysalis Zeta",
+  "named": true
+ },
+ {
+  "id": 819202,
+  "name": "Obrim",
+  "named": true
+ },
+ {
+  "id": 819203,
+  "name": "Zedus Spear V2",
+  "named": true
+ },
+ {
+  "id": 819204,
+  "name": "Prosklystios",
+  "named": true
+ },
+ {
+  "id": 819206,
+  "name": "Excelsior Chip MK-1",
+  "named": true
+ },
+ {
+  "id": 819207,
+  "name": "Excelsior Chip MK-2",
+  "named": true
+ },
+ {
+  "id": 819208,
+  "name": "Excelsior Chip MK-3",
+  "named": true
+ },
+ {
+  "id": 819210,
+  "name": "Uln'gha",
+  "named": true
+ },
+ {
+  "id": 819211,
+  "name": "Shura's Blade",
+  "named": true
+ },
+ {
+  "id": 819212,
+  "name": "Hachiman Blade",
+  "named": true
+ },
+ {
+  "id": 819213,
+  "name": "Hachiman Song",
+  "named": true
+ },
+ {
+  "id": 819214,
+  "name": "Vision",
+  "named": true
+ },
+ {
+  "id": 819215,
+  "name": "Providence",
+  "named": true
+ },
+ {
+  "id": 819216,
+  "name": "Living Armor",
+  "named": true
+ },
+ {
+  "id": 819217,
+  "name": "Resolute Carapace",
+  "named": true
+ },
+ {
+  "id": 819218,
+  "name": "Beiorg's Armor Mk II",
+  "named": true
+ },
+ {
+  "id": 819219,
+  "name": "Beiorg's Armor Mk V",
+  "named": true
+ },
+ {
+  "id": 819220,
+  "name": "Mora's Bane",
+  "named": true
+ },
+ {
+  "id": 819221,
+  "name": "Primal Desire",
+  "named": true
+ },
+ {
+  "id": 819222,
+  "name": "Bulwark of Menon",
+  "named": true
+ },
+ {
+  "id": 819223,
+  "name": "Thousand Mimics",
+  "named": true
+ },
+ {
+  "id": 819224,
+  "name": "Revenant Soul",
+  "named": true
+ },
+ {
+  "id": 819225,
+  "name": "Giselle's Kiss",
+  "named": true
+ },
+ {
+  "id": 819226,
+  "name": "Dragonbane",
+  "named": true
+ },
+ {
+  "id": 819227,
+  "name": "Seventy-two Forms",
+  "named": true
+ },
+ {
+  "id": 819228,
+  "name": "Czorag's Malice",
+  "named": true
+ },
+ {
+  "id": 819229,
+  "name": "Katerin's Torment",
+  "named": true
+ },
+ {
+  "id": 819230,
+  "name": "Hakuzo's Deceit",
+  "named": true
+ },
+ {
+  "id": 819231,
+  "name": "Vrana's Calling",
+  "named": true
+ },
+ {
+  "id": 819232,
+  "name": "Tarok's Bloodlust",
+  "named": true
+ },
+ {
+  "id": 819234,
+  "name": "Reparatrice",
+  "named": true
+ },
+ {
+  "id": 819235,
+  "name": "Apex Steerwheel",
+  "named": true
+ },
+ {
+  "id": 819236,
+  "name": "Yasakani Jewel",
+  "named": true
+ },
+ {
+  "id": 819237,
+  "name": "Yata's Mirror",
+  "named": true
+ },
+ {
+  "id": 819238,
+  "name": "Kusanagi Sword",
+  "named": true
+ },
+ {
+  "id": 819239,
+  "name": "Victory Chant",
+  "named": true
+ },
+ {
+  "id": 819240,
+  "name": "Fleeting Ballad",
+  "named": true
+ },
+ {
+  "id": 819241,
+  "name": "Requiem of Regret",
+  "named": true
+ },
+ {
+  "id": 819242,
+  "name": "Thrilling Harmony",
+  "named": true
+ },
+ {
+  "id": 819243,
+  "name": "Lament of Dread",
+  "named": true
+ },
+ {
+  "id": 819244,
+  "name": "Resolute Silence",
+  "named": true
+ },
+ {
+  "id": 819245,
+  "name": "Formless Chroma",
+  "named": true
+ },
+ {
+  "id": 819246,
+  "name": "Oath of a Sülde",
+  "named": true
+ },
+ {
+  "id": 819247,
+  "name": "Qormusta Tengri",
+  "named": true
+ },
+ {
+  "id": 819248,
+  "name": "Boar's Esteem",
+  "named": true
+ },
+ {
+  "id": 819249,
+  "name": "Vivid Vanity",
+  "named": true
+ },
+ {
+  "id": 819250,
+  "name": "Rat's Curiosity",
+  "named": true
+ },
+ {
+  "id": 819251,
+  "name": "Eureka Mixture",
+  "named": true
+ },
+ {
+  "id": 819252,
+  "name": "Ox's Languor",
+  "named": true
+ },
+ {
+  "id": 819253,
+  "name": "Windstorm Oxhead",
+  "named": true
+ },
+ {
+  "id": 819254,
+  "name": "Tiger's Ferocity",
+  "named": true
+ },
+ {
+  "id": 819255,
+  "name": "Commissar's Pride",
+  "named": true
+ },
+ {
+  "id": 819256,
+  "name": "Rabbit's Gusto",
+  "named": true
+ },
+ {
+  "id": 819257,
+  "name": "Harebrain Bucket",
+  "named": true
+ },
+ {
+  "id": 819258,
+  "name": "Dragon's Intrigue",
+  "named": true
+ },
+ {
+  "id": 819259,
+  "name": "Erisian Effigy",
+  "named": true
+ },
+ {
+  "id": 819260,
+  "name": "Eyepatch Mask",
+  "named": true
+ },
+ {
+  "id": 819261,
+  "name": "Rabbit Mask",
+  "named": true
+ },
+ {
+  "id": 819262,
+  "name": "Jason's Mask",
+  "named": true
+ },
+ {
+  "id": 819263,
+  "name": "Crescent of Khons",
+  "named": true
+ },
+ {
+  "id": 819264,
+  "name": "Harmony of Khons",
+  "named": true
+ },
+ {
+  "id": 819265,
+  "name": "Blessing of Khons",
+  "named": true
+ },
+ {
+  "id": 819266,
+  "name": "Miracle of Khons",
+  "named": true
+ },
+ {
+  "id": 819267,
+  "name": "Word of Athum",
+  "named": true
+ },
+ {
+  "id": 819268,
+  "name": "Cunei of Athum",
+  "named": true
+ },
+ {
+  "id": 819269,
+  "name": "Sha of Neith",
+  "named": true
+ },
+ {
+  "id": 819270,
+  "name": "Paradox of Neith",
+  "named": true
+ },
+ {
+  "id": 819271,
+  "name": "Snake's Poise",
+  "named": true
+ },
+ {
+  "id": 819272,
+  "name": "Neonback",
+  "named": true
+ },
+ {
+  "id": 819273,
+  "name": "Horse's Calm",
+  "named": true
+ },
+ {
+  "id": 819274,
+  "name": "Windswell",
+  "named": true
+ },
+ {
+  "id": 819275,
+  "name": "Goat's Compassion",
+  "named": true
+ },
+ {
+  "id": 819276,
+  "name": "Goldenhorn",
+  "named": true
+ },
+ {
+  "id": 819277,
+  "name": "Monkey's Instinct",
+  "named": true
+ },
+ {
+  "id": 819278,
+  "name": "Might and Mana",
+  "named": true
+ },
+ {
+  "id": 819279,
+  "name": "Rooster's Flair",
+  "named": true
+ },
+ {
+  "id": 819280,
+  "name": "Vetrukkaal",
+  "named": true
+ },
+ {
+  "id": 819281,
+  "name": "Dog's Loyalty",
+  "named": true
+ },
+ {
+  "id": 819282,
+  "name": "Carlancas",
+  "named": true
+ },
+ {
+  "id": 819284,
+  "name": "Iridescent Hope",
+  "named": true
+ },
+ {
+  "id": 819285,
+  "name": "Divine Master Gate",
+  "named": true
+ },
+ {
+  "id": 819286,
+  "name": "Seventh Element",
+  "named": true
+ },
+ {
+  "id": 819287,
+  "name": "Creator's Blade Kai",
+  "named": true
+ },
+ {
+  "id": 819288,
+  "name": "Drinker's Kettle",
+  "named": true
+ },
+ {
+  "id": 819289,
+  "name": "Stroke of Luck",
+  "named": true
+ },
+ {
+  "id": 819290,
+  "name": "Zartosht Blessing",
+  "named": true
+ },
+ {
+  "id": 819291,
+  "name": "Atar Unburning",
+  "named": true
+ },
+ {
+  "id": 819292,
+  "name": "Atar Eternal",
+  "named": true
+ },
+ {
+  "id": 819293,
+  "name": "Grand Cloak",
+  "named": true
+ },
+ {
+  "id": 819294,
+  "name": "Lad Mirazh",
+  "named": true
+ },
+ {
+  "id": 819295,
+  "name": "Arcane Bulwark",
+  "named": true
+ },
+ {
+  "id": 819296,
+  "name": "Lost Innocence",
+  "named": true
+ },
+ {
+  "id": 819297,
+  "name": "Unyielding Spirit",
+  "named": true
+ },
+ {
+  "id": 819298,
+  "name": "Seabound Vow",
+  "named": true
+ },
+ {
+  "id": 819299,
+  "name": "Well-worn Facemask",
+  "named": true
+ },
+ {
+  "id": 819300,
+  "name": "Well-worn Bracer",
+  "named": true
+ },
+ {
+  "id": 819301,
+  "name": "Well-worn Cape",
+  "named": true
+ },
+ {
+  "id": 819302,
+  "name": "Faded Jade",
+  "named": true
+ },
+ {
+  "id": 819303,
+  "name": "Faded Heart",
+  "named": true
+ },
+ {
+  "id": 819304,
+  "name": "Faded Jewel",
+  "named": true
+ },
+ {
+  "id": 819305,
+  "name": "Faded Mirror",
+  "named": true
+ },
+ {
+  "id": 819306,
+  "name": "Marred Sword",
+  "named": true
+ },
+ {
+  "id": 819307,
+  "name": "Tortured Mask",
+  "named": true
+ },
+ {
+  "id": 819308,
+  "name": "Animal Mask",
+  "named": true
+ },
+ {
+  "id": 819309,
+  "name": "Deceitful Mask",
+  "named": true
+ },
+ {
+  "id": 819311,
+  "name": "Aqua Leafage",
+  "named": true
+ },
+ {
+  "id": 819312,
+  "name": "Aqueous Foliage",
+  "named": true
+ },
+ {
+  "id": 819313,
+  "name": "Silver AGL .45 Colt",
+  "named": true
+ },
+ {
+  "id": 819314,
+  "name": "Grader 2043 .45",
+  "named": true
+ },
+ {
+  "id": 819315,
+  "name": "Dark AGL .45 Colt",
+  "named": true
+ },
+ {
+  "id": 819316,
+  "name": "Vash's Angel Arm",
+  "named": true
+ },
+ {
+  "id": 819317,
+  "name": "The Punisher",
+  "named": true
+ },
+ {
+  "id": 819318,
+  "name": "Knives' Angel Arm",
+  "named": true
+ },
+ {
+  "id": 819319,
+  "name": "Mark of Spire",
+  "named": true
+ },
+ {
+  "id": 819320,
+  "name": "Paragon's Roar",
+  "named": true
+ },
+ {
+  "id": 819321,
+  "name": "Luminous Nightmare",
+  "named": true
+ },
+ {
+  "id": 819322,
+  "name": "Luminous Chaos",
+  "named": true
+ },
+ {
+  "id": 819323,
+  "name": "Sisters' Fury",
+  "named": true
+ },
+ {
+  "id": 819324,
+  "name": "The Silver Blade",
+  "named": true
+ },
+ {
+  "id": 819325,
+  "name": "Radiant Autumn",
+  "named": true
+ },
+ {
+  "id": 819326,
+  "name": "Radiant Harvest",
+  "named": true
+ },
+ {
+  "id": 819332,
+  "name": "Noel's Experiment",
+  "named": true
+ },
+ {
+  "id": 819333,
+  "name": "Victory Roar",
+  "named": true
+ },
+ {
+  "id": 819334,
+  "name": "Dirge of Dread",
+  "named": true
+ },
+ {
+  "id": 819335,
+  "name": "Absolute Silence",
+  "named": true
+ },
+ {
+  "id": 819336,
+  "name": "Joyous Harmony",
+  "named": true
+ },
+ {
+  "id": 819337,
+  "name": "Eternal Ballad",
+  "named": true
+ },
+ {
+  "id": 819338,
+  "name": "Elegy of Regret",
+  "named": true
+ },
+ {
+  "id": 819339,
+  "name": "Sun Cuore's Will",
+  "named": true
+ },
+ {
+  "id": 819340,
+  "name": "Iron Justice",
+  "named": true
+ },
+ {
+  "id": 819341,
+  "name": "Sheriff's Bell",
+  "named": true
+ },
+ {
+  "id": 819343,
+  "name": "Liminal End",
+  "named": true
+ },
+ {
+  "id": 819344,
+  "name": "Serenity",
+  "named": true
+ },
+ {
+  "id": 819345,
+  "name": "Freedom",
+  "named": true
+ },
+ {
+  "id": 819346,
+  "name": "Chaos Core",
+  "named": true
+ },
+ {
+  "id": 819347,
+  "name": "Luminous Core",
+  "named": true
+ },
+ {
+  "id": 819348,
+  "name": "Prism Crown",
+  "named": true
+ },
+ {
+  "id": 819349,
+  "name": "Prism Heart",
+  "named": true
+ },
+ {
+  "id": 819350,
+  "name": "Omni Star",
+  "named": true
+ },
+ {
+  "id": 819351,
+  "name": "Woolie",
+  "named": true
+ },
+ {
+  "id": 819352,
+  "name": "Wings of Majesty",
+  "named": true
+ },
+ {
+  "id": 819353,
+  "name": "Wings of Glory",
+  "named": true
+ },
+ {
+  "id": 819355,
+  "name": "Infernal Majesty",
+  "named": true
+ },
+ {
+  "id": 819356,
+  "name": "Flaming Crown",
+  "named": true
+ },
+ {
+  "id": 819357,
+  "name": "Waveroar Majesty",
+  "named": true
+ },
+ {
+  "id": 819358,
+  "name": "Tidal Crown",
+  "named": true
+ },
+ {
+  "id": 819359,
+  "name": "Earthsong Majesty",
+  "named": true
+ },
+ {
+  "id": 819360,
+  "name": "Gaian Crown",
+  "named": true
+ },
+ {
+  "id": 819361,
+  "name": "Skybolt Majesty",
+  "named": true
+ },
+ {
+  "id": 819362,
+  "name": "Pulsing Crown",
+  "named": true
+ },
+ {
+  "id": 819363,
+  "name": "Radiant Majesty",
+  "named": true
+ },
+ {
+  "id": 819364,
+  "name": "Sunbreak Crown",
+  "named": true
+ },
+ {
+  "id": 819365,
+  "name": "Umbral Majesty",
+  "named": true
+ },
+ {
+  "id": 819366,
+  "name": "Gloaming Crown",
+  "named": true
+ },
+ {
+  "id": 819367,
+  "name": "Hypercharge Gizmo",
+  "named": true
+ },
+ {
+  "id": 819368,
+  "name": "Charge Gizmo",
+  "named": true
+ },
+ {
+  "id": 819369,
+  "name": "Dragonscall",
+  "named": true
+ },
+ {
+  "id": 819370,
+  "name": "Dragonsrest",
+  "named": true
+ },
+ {
+  "id": 819371,
+  "name": "Surging Kabuto",
+  "named": true
+ },
+ {
+  "id": 819372,
+  "name": "Torrent Helm",
+  "named": true
+ },
+ {
+  "id": 819373,
+  "name": "Discord DX",
+  "named": true
+ },
+ {
+  "id": 819374,
+  "name": "Summoner Special",
+  "named": true
+ },
+ {
+  "id": 819901,
+  "name": "Item 819901",
+  "named": false
+ },
+ {
+  "id": 819902,
+  "name": "Item 819902",
+  "named": false
+ },
+ {
+  "id": 819903,
+  "name": "Item 819903",
+  "named": false
+ },
+ {
+  "id": 819904,
+  "name": "Item 819904",
+  "named": false
+ },
+ {
+  "id": 819905,
+  "name": "Item 819905",
+  "named": false
+ },
+ {
+  "id": 819906,
+  "name": "Item 819906",
+  "named": false
+ },
+ {
+  "id": 819910,
+  "name": "Brave Crest",
+  "named": true
+ },
+ {
+  "id": 819923,
+  "name": "Brave Emblem",
+  "named": true
+ },
+ {
+  "id": 819924,
+  "name": "Gala_A5_FullBlight_1",
+  "named": true
+ },
+ {
+  "id": 819925,
+  "name": "Gala_A5_FullBlight_2",
+  "named": true
+ },
+ {
+  "id": 819926,
+  "name": "Gala_A5_FullBlight_3",
+  "named": true
+ },
+ {
+  "id": 819927,
+  "name": "Gala_AD111",
+  "named": true
+ },
+ {
+  "id": 819928,
+  "name": "Gala_AD112",
+  "named": true
+ },
+ {
+  "id": 819929,
+  "name": "Gala_AD113",
+  "named": true
+ },
+ {
+  "id": 819930,
+  "name": "Gala_AD121",
+  "named": true
+ },
+ {
+  "id": 819931,
+  "name": "Gala_AD122",
+  "named": true
+ },
+ {
+  "id": 819932,
+  "name": "Gala_AD123",
+  "named": true
+ },
+ {
+  "id": 819933,
+  "name": "Gala_AD131",
+  "named": true
+ },
+ {
+  "id": 819934,
+  "name": "Gala_AD132",
+  "named": true
+ },
+ {
+  "id": 819935,
+  "name": "Gala_AD133",
+  "named": true
+ },
+ {
+  "id": 819936,
+  "name": "Gala_AH111",
+  "named": true
+ },
+ {
+  "id": 819937,
+  "name": "Gala_AH112",
+  "named": true
+ },
+ {
+  "id": 819938,
+  "name": "Gala_AH113",
+  "named": true
+ },
+ {
+  "id": 819939,
+  "name": "Gala_AH121",
+  "named": true
+ },
+ {
+  "id": 819940,
+  "name": "Gala_AH122",
+  "named": true
+ },
+ {
+  "id": 819941,
+  "name": "Gala_AH123",
+  "named": true
+ },
+ {
+  "id": 819942,
+  "name": "Gala_AH131",
+  "named": true
+ },
+ {
+  "id": 819943,
+  "name": "Gala_AH132",
+  "named": true
+ },
+ {
+  "id": 819944,
+  "name": "Gala_AH133",
+  "named": true
+ },
+ {
+  "id": 819945,
+  "name": "Gala_D5_FullWeaver_1",
+  "named": true
+ },
+ {
+  "id": 819946,
+  "name": "Gala_D5_FullWeaver_2",
+  "named": true
+ },
+ {
+  "id": 819947,
+  "name": "Gala_D5_FullWeaver_3",
+  "named": true
+ },
+ {
+  "id": 819948,
+  "name": "Gala_DA111",
+  "named": true
+ },
+ {
+  "id": 819949,
+  "name": "Gala_DA112",
+  "named": true
+ },
+ {
+  "id": 819950,
+  "name": "Gala_DA113",
+  "named": true
+ },
+ {
+  "id": 819951,
+  "name": "Gala_DA121",
+  "named": true
+ },
+ {
+  "id": 819952,
+  "name": "Gala_DA122",
+  "named": true
+ },
+ {
+  "id": 819953,
+  "name": "Gala_DA123",
+  "named": true
+ },
+ {
+  "id": 819954,
+  "name": "Gala_DA131",
+  "named": true
+ },
+ {
+  "id": 819955,
+  "name": "Gala_DA132",
+  "named": true
+ },
+ {
+  "id": 819956,
+  "name": "Gala_DA133",
+  "named": true
+ },
+ {
+  "id": 819957,
+  "name": "Gala_DH111",
+  "named": true
+ },
+ {
+  "id": 819958,
+  "name": "Gala_DH112",
+  "named": true
+ },
+ {
+  "id": 819959,
+  "name": "Gala_DH113",
+  "named": true
+ },
+ {
+  "id": 819960,
+  "name": "Gala_DH121",
+  "named": true
+ },
+ {
+  "id": 819961,
+  "name": "Gala_DH122",
+  "named": true
+ },
+ {
+  "id": 819962,
+  "name": "Gala_DH123",
+  "named": true
+ },
+ {
+  "id": 819963,
+  "name": "Gala_DH131",
+  "named": true
+ },
+ {
+  "id": 819964,
+  "name": "Gala_DH132",
+  "named": true
+ },
+ {
+  "id": 819965,
+  "name": "Gala_DH133",
+  "named": true
+ },
+ {
+  "id": 819966,
+  "name": "Gala_H5_FullHarbinger_1",
+  "named": true
+ },
+ {
+  "id": 819967,
+  "name": "Gala_H5_FullHarbinger_2",
+  "named": true
+ },
+ {
+  "id": 819968,
+  "name": "Gala_H5_FullHarbinger_3",
+  "named": true
+ },
+ {
+  "id": 819969,
+  "name": "Gala_HA111",
+  "named": true
+ },
+ {
+  "id": 819970,
+  "name": "Gala_HA112",
+  "named": true
+ },
+ {
+  "id": 819971,
+  "name": "Gala_HA113",
+  "named": true
+ },
+ {
+  "id": 819972,
+  "name": "Gala_HA121",
+  "named": true
+ },
+ {
+  "id": 819973,
+  "name": "Gala_HA122",
+  "named": true
+ },
+ {
+  "id": 819974,
+  "name": "Gala_HA123",
+  "named": true
+ },
+ {
+  "id": 819975,
+  "name": "Gala_HA131",
+  "named": true
+ },
+ {
+  "id": 819976,
+  "name": "Gala_HA132",
+  "named": true
+ },
+ {
+  "id": 819977,
+  "name": "Gala_HA133",
+  "named": true
+ },
+ {
+  "id": 819978,
+  "name": "Gala_HD111",
+  "named": true
+ },
+ {
+  "id": 819979,
+  "name": "Gala_HD112",
+  "named": true
+ },
+ {
+  "id": 819980,
+  "name": "Gala_HD113",
+  "named": true
+ },
+ {
+  "id": 819981,
+  "name": "Gala_HD121",
+  "named": true
+ },
+ {
+  "id": 819982,
+  "name": "Gala_HD122",
+  "named": true
+ },
+ {
+  "id": 819983,
+  "name": "Gala_HD123",
+  "named": true
+ },
+ {
+  "id": 819984,
+  "name": "Gala_HD131",
+  "named": true
+ },
+ {
+  "id": 819985,
+  "name": "Gala_HD132",
+  "named": true
+ },
+ {
+  "id": 819986,
+  "name": "Gala_HD133",
+  "named": true
+ },
+ {
+  "id": 819990,
+  "name": "Item 819990",
+  "named": false
+ },
+ {
+  "id": 819991,
+  "name": "Item 819991",
+  "named": false
+ },
+ {
+  "id": 819992,
+  "name": "Item 819992",
+  "named": false
+ },
+ {
+  "id": 819993,
+  "name": "Item 819993",
+  "named": false
+ },
+ {
+  "id": 819994,
+  "name": "Item 819994",
+  "named": false
+ },
+ {
+  "id": 819995,
+  "name": "Item 819995",
+  "named": false
+ },
+ {
+  "id": 819996,
+  "name": "Item 819996",
+  "named": false
+ },
+ {
+  "id": 819997,
+  "name": "Item 819997",
+  "named": false
+ },
+ {
+  "id": 828011,
+  "name": "Item 828011",
+  "named": false
+ },
+ {
+  "id": 828012,
+  "name": "Item 828012",
+  "named": false
+ },
+ {
+  "id": 828013,
+  "name": "Reign Omega",
+  "named": true
+ },
+ {
+  "id": 828014,
+  "name": "Reign Alpha",
+  "named": true
+ },
+ {
+  "id": 828017,
+  "name": "Xenolith Omega",
+  "named": true
+ },
+ {
+  "id": 828018,
+  "name": "Xenolith Alpha",
+  "named": true
+ },
+ {
+  "id": 829901,
+  "name": "Item 829901",
+  "named": false
+ },
+ {
+  "id": 829902,
+  "name": "Item 829902",
+  "named": false
+ },
+ {
+  "id": 838001,
+  "name": "Wolven Shroud",
+  "named": true
+ },
+ {
+  "id": 838002,
+  "name": "Raven Plume",
+  "named": true
+ },
+ {
+  "id": 838003,
+  "name": "Shamrock Circlet",
+  "named": true
+ },
+ {
+  "id": 839901,
+  "name": "Item 839901",
+  "named": false
+ },
+ {
+  "id": 839902,
+  "name": "Item 839902",
+  "named": false
+ },
+ {
+  "id": 849901,
+  "name": "Item 849901",
+  "named": false
+ },
+ {
+  "id": 849902,
+  "name": "Item 849902",
+  "named": false
+ },
+ {
+  "id": 849903,
+  "name": "Item 849903",
+  "named": false
+ },
+ {
+  "id": 849904,
+  "name": "Item 849904",
+  "named": false
+ },
+ {
+  "id": 849905,
+  "name": "Item 849905",
+  "named": false
+ },
+ {
+  "id": 849906,
+  "name": "Item 849906",
+  "named": false
+ },
+ {
+  "id": 849990,
+  "name": "Charge Stone",
+  "named": true
+ },
+ {
+  "id": 858930,
+  "name": "Crystalline Egg",
+  "named": true
+ },
+ {
+  "id": 880001,
+  "name": "Ruby Relic",
+  "named": true
+ },
+ {
+  "id": 880003,
+  "name": "Emerald Relic",
+  "named": true
+ },
+ {
+  "id": 880011,
+  "name": "Sanguine Relic",
+  "named": true
+ },
+ {
+  "id": 880013,
+  "name": "Verdant Relic",
+  "named": true
+ },
+ {
+  "id": 880020,
+  "name": "Toy Medal",
+  "named": true
+ },
+ {
+  "id": 880100,
+  "name": "Plasma Fragment",
+  "named": true
+ },
+ {
+  "id": 880101,
+  "name": "Obsidian Quartz",
+  "named": true
+ },
+ {
+  "id": 880102,
+  "name": "Void Chunk",
+  "named": true
+ },
+ {
+  "id": 880111,
+  "name": "Cyclaw's Rage",
+  "named": true
+ },
+ {
+  "id": 880112,
+  "name": "Hydraloid's Wrath",
+  "named": true
+ },
+ {
+  "id": 880113,
+  "name": "Euryalis’ Grace",
+  "named": true
+ },
+ {
+  "id": 880114,
+  "name": "Grievesnare’s Will",
+  "named": true
+ },
+ {
+  "id": 880115,
+  "name": "Stormwing’s Charm",
+  "named": true
+ },
+ {
+  "id": 880116,
+  "name": "Netherhound’s Deceit",
+  "named": true
+ },
+ {
+  "id": 880201,
+  "name": "Mithril",
+  "named": true
+ },
+ {
+  "id": 880202,
+  "name": "Orihalcum",
+  "named": true
+ },
+ {
+  "id": 880211,
+  "name": "Fury of the Destroyer",
+  "named": true
+ },
+ {
+  "id": 880212,
+  "name": "Scorn of the Ice Queen",
+  "named": true
+ },
+ {
+  "id": 880213,
+  "name": "Bond of the Monster Hunter",
+  "named": true
+ },
+ {
+  "id": 880214,
+  "name": "Grief of the Storm Champion",
+  "named": true
+ },
+ {
+  "id": 880215,
+  "name": "Love of the Loremaster",
+  "named": true
+ },
+ {
+  "id": 880216,
+  "name": "Desire of the Shadow Cat",
+  "named": true
+ },
+ {
+  "id": 880217,
+  "name": "Choco Bunny",
+  "named": true
+ },
+ {
+  "id": 880218,
+  "name": "Chromatic Blossom",
+  "named": true
+ },
+ {
+  "id": 880219,
+  "name": "Viper Tail",
+  "named": true
+ },
+ {
+  "id": 880220,
+  "name": "Molted Wyrmscale",
+  "named": true
+ },
+ {
+  "id": 880221,
+  "name": "Sarayagaza Bloom",
+  "named": true
+ },
+ {
+  "id": 880222,
+  "name": "Bone Club",
+  "named": true
+ },
+ {
+  "id": 880223,
+  "name": "Eerie Bone",
+  "named": true
+ },
+ {
+  "id": 880224,
+  "name": "Shambler Cuttings",
+  "named": true
+ },
+ {
+  "id": 880225,
+  "name": "Phrun Stingers",
+  "named": true
+ },
+ {
+  "id": 880226,
+  "name": "Burbur Branch",
+  "named": true
+ },
+ {
+  "id": 880227,
+  "name": "Centipede Fang",
+  "named": true
+ },
+ {
+  "id": 880235,
+  "name": "Dhlerp Tail",
+  "named": true
+ },
+ {
+  "id": 880236,
+  "name": "Chronal Sand",
+  "named": true
+ },
+ {
+  "id": 880237,
+  "name": "Sea-star Crystal",
+  "named": true
+ },
+ {
+  "id": 880238,
+  "name": "Cthnos Chain",
+  "named": true
+ },
+ {
+  "id": 880239,
+  "name": "Whiteland Rock",
+  "named": true
+ },
+ {
+  "id": 880240,
+  "name": "Infused Herbs",
+  "named": true
+ },
+ {
+  "id": 880241,
+  "name": "Aqueous Plague",
+  "named": true
+ },
+ {
+  "id": 880242,
+  "name": "Old Fossil",
+  "named": true
+ },
+ {
+  "id": 880243,
+  "name": "Distilled Ether",
+  "named": true
+ },
+ {
+  "id": 880244,
+  "name": "Amber Butterfly",
+  "named": true
+ },
+ {
+  "id": 880301,
+  "name": "Corroded Token",
+  "named": true
+ },
+ {
+  "id": 880302,
+  "name": "Weathered Bell",
+  "named": true
+ },
+ {
+  "id": 880303,
+  "name": "Ghost-Touched Herbs",
+  "named": true
+ },
+ {
+  "id": 880304,
+  "name": "Saryn’s Robe",
+  "named": true
+ },
+ {
+  "id": 880305,
+  "name": "Ring of Henlecene",
+  "named": true
+ },
+ {
+  "id": 880306,
+  "name": "Broken crown",
+  "named": true
+ },
+ {
+  "id": 890001,
+  "name": "Orebi Emberstone",
+  "named": true
+ },
+ {
+  "id": 890002,
+  "name": "Orebi Cryostone",
+  "named": true
+ },
+ {
+  "id": 890003,
+  "name": "Orebi Galestone",
+  "named": true
+ },
+ {
+  "id": 890004,
+  "name": "Orebi Sparkstone",
+  "named": true
+ },
+ {
+  "id": 890005,
+  "name": "Orebi Gleamstone",
+  "named": true
+ },
+ {
+  "id": 890006,
+  "name": "Orebi Gloomstone",
+  "named": true
+ },
+ {
+  "id": 890007,
+  "name": "Inferno Omphalos",
+  "named": true
+ },
+ {
+  "id": 890008,
+  "name": "Blizzard Omphalos",
+  "named": true
+ },
+ {
+  "id": 890009,
+  "name": "Gaia Omphalos",
+  "named": true
+ },
+ {
+  "id": 890010,
+  "name": "Storm Omphalos",
+  "named": true
+ },
+ {
+  "id": 890011,
+  "name": "Dawn Omphalos",
+  "named": true
+ },
+ {
+  "id": 890012,
+  "name": "Dusk Omphalos",
+  "named": true
+ },
+ {
+  "id": 890013,
+  "name": "Proto Scale",
+  "named": true
+ },
+ {
+  "id": 890014,
+  "name": "Cloudweave",
+  "named": true
+ },
+ {
+  "id": 890015,
+  "name": "Ashes of Orebus",
+  "named": true
+ },
+ {
+  "id": 890016,
+  "name": "Spectral Ire",
+  "named": true
+ },
+ {
+  "id": 890017,
+  "name": "Ghostbloom",
+  "named": true
+ },
+ {
+  "id": 890018,
+  "name": "Spark of Life",
+  "named": true
+ },
+ {
+  "id": 890019,
+  "name": "Soul Splendor",
+  "named": true
+ },
+ {
+  "id": 890020,
+  "name": "Karcosan Plume",
+  "named": true
+ },
+ {
+  "id": 890021,
+  "name": "Lead Feather",
+  "named": true
+ },
+ {
+  "id": 890022,
+  "name": "Hellfire Grapnel",
+  "named": true
+ },
+ {
+  "id": 890023,
+  "name": "Hellfire Cartilage",
+  "named": true
+ },
+ {
+  "id": 890024,
+  "name": "Tears of Innocence",
+  "named": true
+ },
+ {
+  "id": 890025,
+  "name": "Grain of Sin",
+  "named": true
+ },
+ {
+  "id": 890033,
+  "name": "Whispering Shard",
+  "named": true
+ },
+ {
+  "id": 890034,
+  "name": "Replica Trinket",
+  "named": true
+ },
+ {
+  "id": 890035,
+  "name": "Ruse Scrap",
+  "named": true
+ },
+ {
+  "id": 890036,
+  "name": "Memory Vial",
+  "named": true
+ },
+ {
+  "id": 890037,
+  "name": "Royal Pinion",
+  "named": true
+ },
+ {
+  "id": 890038,
+  "name": "Crowsgrip",
+  "named": true
+ },
+ {
+  "id": 890039,
+  "name": "Ritual Bone",
+  "named": true
+ },
+ {
+  "id": 890040,
+  "name": "Grave Gold",
+  "named": true
+ },
+ {
+  "id": 890041,
+  "name": "Shattered Faith",
+  "named": true
+ },
+ {
+  "id": 890042,
+  "name": "Amulet of Renewal",
+  "named": true
+ },
+ {
+  "id": 890043,
+  "name": "Enveloping Grief",
+  "named": true
+ },
+ {
+  "id": 890044,
+  "name": "Glittersand",
+  "named": true
+ },
+ {
+  "id": 890045,
+  "name": "Scribesblood",
+  "named": true
+ },
+ {
+  "id": 890046,
+  "name": "Arcane Remnant",
+  "named": true
+ },
+ {
+  "id": 890047,
+  "name": "Oculus of Truth",
+  "named": true
+ },
+ {
+  "id": 890048,
+  "name": "Blood Soil",
+  "named": true
+ },
+ {
+  "id": 890049,
+  "name": "Starburst Dust",
+  "named": true
+ },
+ {
+  "id": 890050,
+  "name": "Bronze Ingot",
+  "named": true
+ },
+ {
+  "id": 890051,
+  "name": "Holy Kindling",
+  "named": true
+ },
+ {
+  "id": 890052,
+  "name": "Mountain Jewel",
+  "named": true
+ },
+ {
+  "id": 890060,
+  "name": "Champion's Thread",
+  "named": true
+ },
+ {
+  "id": 890061,
+  "name": "Demon Ore",
+  "named": true
+ },
+ {
+  "id": 890062,
+  "name": "Hi-Spec Powder",
+  "named": true
+ },
+ {
+  "id": 890063,
+  "name": "Crate of Hi-Spec Parts",
+  "named": true
+ },
+ {
+  "id": 890065,
+  "name": "Frigid Fang",
+  "named": true
+ },
+ {
+  "id": 890066,
+  "name": "Silver Ore",
+  "named": true
+ },
+ {
+  "id": 890067,
+  "name": "Sun's Tear",
+  "named": true
+ },
+ {
+  "id": 890068,
+  "name": "Chain Wristlet",
+  "named": true
+ },
+ {
+  "id": 890071,
+  "name": "Memory Fragment",
+  "named": true
+ },
+ {
+  "id": 890072,
+  "name": "Courage Stone",
+  "named": true
+ },
+ {
+  "id": 890073,
+  "name": "Wisdom Stone",
+  "named": true
+ },
+ {
+  "id": 890074,
+  "name": "Endurance Stone",
+  "named": true
+ },
+ {
+  "id": 890075,
+  "name": "Fortune Stone",
+  "named": true
+ },
+ {
+  "id": 890076,
+  "name": "Kranus's Spark",
+  "named": true
+ },
+ {
+  "id": 890077,
+  "name": "S'eljah's Crown",
+  "named": true
+ },
+ {
+  "id": 890078,
+  "name": "Joltstone",
+  "named": true
+ },
+ {
+  "id": 890079,
+  "name": "Red Fluff",
+  "named": true
+ },
+ {
+  "id": 890080,
+  "name": "Blue Fuzz",
+  "named": true
+ },
+ {
+  "id": 899998,
+  "name": "Most Bravest Blade",
+  "named": true
+ },
+ {
+  "id": 899999,
+  "name": "Bravest Blade",
+  "named": true
+ },
+ {
+  "id": 5008000,
+  "name": "Otherworldly Paradigm",
+  "named": true
+ },
+ {
+  "id": 5008001,
+  "name": "Final Embrace",
+  "named": true
+ },
+ {
+  "id": 8193749,
+  "name": "Discord DX",
+  "named": true
+ },
+ {
+  "id": 20000803,
+  "name": "Trash",
+  "named": true
+ },
+ {
+  "id": 88700001,
+  "name": "The Grail",
+  "named": true
+ },
+ {
+  "id": 88700002,
+  "name": "Photon Sword",
+  "named": true
+ },
+ {
+  "id": 88700003,
+  "name": "Caliburn",
+  "named": true
+ },
+ {
+  "id": 88700004,
+  "name": "Arondight",
+  "named": true
+ },
+ {
+  "id": 88700005,
+  "name": "Fragment",
+  "named": true
+ },
+ {
+  "id": 88700006,
+  "name": "Photon Bot",
+  "named": true
+ },
+ {
+  "id": 88700007,
+  "name": "Photon Scepter",
+  "named": true
+ },
+ {
+  "id": 88700008,
+  "name": "Cursed Photon Rod",
+  "named": true
+ },
+ {
+  "id": 88700009,
+  "name": "Photon Spear",
+  "named": true
+ }
+]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BFO Account Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">BFO Account Editor <span class="phase">web2</span></div>
+    <div class="topbar-actions">
+      <span class="db-label">Database: <strong>gme.sqlite</strong></span>
+      <input id="databaseUpload" class="hidden" type="file" accept=".sqlite,.db,.sqllite">
+      <button id="uploadDatabaseBtn" class="btn ghost" type="button">Import gme.sqlite</button>
+      <a id="downloadDatabaseBtn" class="btn primary" href="/api/gme/download" download="gme.sqlite">Download edited gme.sqlite</a>
+      <span id="saveStatus" class="save-status">Loading...</span>
+      <button id="reloadBtn" class="btn ghost" type="button">Reload</button>
+      <button id="settingsBtn" class="btn settings-button" type="button" aria-label="Editor settings" title="Editor settings">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m9 3-.7 2.3-2 .9-2.2-.5-2 3.5 1.6 1.8v2l-1.6 1.8 2 3.5 2.3-.5 1.9 1 .7 2.2h4l.7-2.3 2-.9 2.2.5 2-3.5-1.6-1.8v-2l1.6-1.8-2-3.5-2.3.5-1.9-1L13 3Z"/><circle cx="11" cy="12" r="3"/></svg>
+        Settings
+      </button>
+      <a class="btn" href="/">Hub</a>
+    </div>
+  </header>
+
+  <main class="gme-layout">
+    <aside class="gme-nav">
+      <button class="nav-tab active" data-mode="account">Account</button>
+      <button class="nav-tab" data-mode="units">Units <span id="unitCount" class="muted"></span></button>
+      <button class="nav-tab" data-mode="items">Items <span id="itemCount" class="muted"></span></button>
+
+      <div class="card gme-summary">
+        <h3>Database</h3>
+        <p class="muted small">Paste a gme.sqlite path to edit that file directly, or import/download a copy.</p>
+        <label class="path-label">File path <input id="databasePathInput" type="text" placeholder="E:\path\to\gme.sqlite"></label>
+        <button id="useDatabasePathBtn" class="btn small primary" type="button">Use this file</button>
+        <div id="dbDropZone" class="drop-zone">Drop gme.sqlite here to import</div>
+        <div id="summaryStats" class="summary-stats"></div>
+      </div>
+    </aside>
+
+    <section class="gme-list-col">
+      <div class="card list-tools">
+        <div class="card-head">
+          <h2 id="listTitle">Account</h2>
+          <button id="addBtn" class="btn small primary hidden" type="button">Add</button>
+        </div>
+        <input id="searchInput" class="search" type="search" placeholder="Search..." autocomplete="off">
+        <div id="inventoryFilters" class="hidden">
+          <div class="filter-row">
+            <select id="inventoryElement" aria-label="Inventory element"><option value="">All elements</option></select>
+            <select id="inventoryRarity" aria-label="Inventory rarity"><option value="">Any rarity</option></select>
+          </div>
+          <div class="filter-row">
+            <label class="chk" title="Only units included in unit.json"><input id="inventoryCurated" type="checkbox"> Curated</label>
+            <button id="resetInventoryFilters" class="btn small ghost" type="button">Clear filters</button>
+            <span id="inventoryMatchCount" class="muted small" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="recordList" class="record-list"></div>
+    </section>
+
+    <section id="addSection" class="gme-add-col hidden">
+      <div class="card add-card">
+        <div class="card-head">
+          <h2 id="addTitle">Add</h2>
+          <button id="closeAddBtn" class="btn small ghost" type="button">Close</button>
+        </div>
+        <div id="addPanel" class="add-panel"></div>
+      </div>
+    </section>
+
+    <section class="gme-editor-col">
+      <div id="editor" class="card editor-card">
+        <div class="empty-state">Loading account data...</div>
+      </div>
+    </section>
+  </main>
+
+  <datalist id="unitCatalogList"></datalist>
+  <datalist id="itemCatalogList"></datalist>
+  <dialog id="settingsDialog" class="settings-dialog" aria-labelledby="settingsTitle">
+    <div class="card-head"><h2 id="settingsTitle">Editor settings</h2><button id="closeSettingsBtn" class="btn small ghost" type="button">Close</button></div>
+    <p class="risk-warning"><strong>Use at your own risk.</strong> Incorrect values may cause your profile to stop working in-game. Keep a backup before editing.</p>
+    <div class="filter-row">
+      <label class="chk search-preference">
+        <input id="unlockFields" type="checkbox" aria-describedby="unlockFieldsHint">
+        <span class="check-copy"><strong>Unlock all fields</strong><span id="unlockFieldsHint">Allow manual BB/SBB IDs in the editor. Turns off when you reload the page.</span></span>
+      </label>
+    </div>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>

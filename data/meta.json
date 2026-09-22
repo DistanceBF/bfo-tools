@@ -1,0 +1,69 @@
+{
+ "aiVocab": {
+  "actionTypes": [
+   "attack",
+   "guard",
+   "wait",
+   "turn_end",
+   "skill"
+  ],
+  "searchTerms": [
+   "random",
+   "hp_min",
+   "hp_max"
+  ],
+  "selfConditionTypes": [
+   "skill",
+   "hp_pr_under",
+   "party_members"
+  ]
+ },
+ "elements": {
+  "1": "Fire",
+  "2": "Water",
+  "3": "Earth",
+  "4": "Thunder",
+  "5": "Light",
+  "6": "Dark"
+ },
+ "field": {
+  "xMax": 320,
+  "xMin": 0,
+  "yMax": 400,
+  "yMin": 200
+ },
+ "limits": {
+  "maxActionFlags": 12,
+  "maxMonstersPerStage": 6,
+  "maxPartyConditions": 4,
+  "maxSelfConditions": 5
+ },
+ "slots": [
+  {
+   "x": 180,
+   "y": 302
+  },
+  {
+   "x": 120,
+   "y": 248
+  },
+  {
+   "x": 96,
+   "y": 352
+  }
+ ],
+ "treasureTypes": {
+  "1": "Zel",
+  "2": "Karma",
+  "3": "Crystal",
+  "4": "Item"
+ },
+ "unitTypes": {
+  "1": "Lord",
+  "2": "Anima",
+  "3": "Breaker",
+  "4": "Guardian",
+  "5": "Oracle",
+  "6": "Special"
+ }
+}

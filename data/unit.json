@@ -1,0 +1,1385 @@
+[
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "10011",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "26:50:2:2,44:30:2:2,62:20:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "20:121:1,38:121:1,56:121:1",
+  "element": 1,
+  "id": 10011,
+  "move_speed": 3,
+  "name": "Fencer Vargas",
+  "rarity": 2,
+  "sbb_id": "110011",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 410,
+    "hp": 1030,
+    "rec": 320
+   },
+   {
+    "atk": 700,
+    "def": 574,
+    "hp": 1948,
+    "rec": 448
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "10030",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:121:1",
+  "element": 1,
+  "id": 10030,
+  "move_speed": 2,
+  "name": "Burny",
+  "rarity": 1,
+  "sbb_id": "110030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 320,
+    "def": 280,
+    "hp": 830,
+    "rec": 210
+   },
+   {
+    "atk": 432,
+    "def": 367,
+    "hp": 1628,
+    "rec": 273
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "46:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "40:121:1",
+  "element": 1,
+  "id": 10050,
+  "move_speed": 3,
+  "name": "Goblin",
+  "rarity": 1,
+  "sbb_id": "10050",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 450,
+    "def": 250,
+    "hp": 1000,
+    "rec": 100
+   },
+   {
+    "atk": 608,
+    "def": 330,
+    "hp": 1860,
+    "rec": 170
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:121:1",
+  "element": 1,
+  "id": 10202,
+  "move_speed": 1,
+  "name": "Fire Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 123,
+    "hp": 1000,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:121:1,72:121:1",
+  "element": 1,
+  "id": 10203,
+  "move_speed": 1,
+  "name": "Fire King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 123,
+    "hp": 1500,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:121:1,60:140:1,67:121:1,67:140:1,72:121:1,72:140:1",
+  "element": 1,
+  "id": 10204,
+  "move_speed": 1,
+  "name": "Fire God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 123,
+    "hp": 2000,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "66:34:2:2,72:33:2:2,78:33:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "66:150:1,66:100010:1,72:150:1,72:100010:1,78:150:1,78:100010:1",
+  "element": 1,
+  "id": 10312,
+  "move_speed": 1,
+  "name": "Burst Frog",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 700,
+    "def": 700,
+    "hp": 3300,
+    "rec": 50
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:121:1,78:121:1,82:121:1,86:121:1,74:150:1,84:140:1,88:140:1,92:140:1",
+  "element": 1,
+  "id": 10344,
+  "move_speed": 1,
+  "name": "Fire Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 550,
+    "def": 500,
+    "hp": 3500,
+    "rec": 450
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "60:30:2:2,70:30:2:2,80:40:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "60:140:1,70:140:1,72:150:1,74:100081:1,15:100015:1,20:100015:1",
+  "element": 1,
+  "id": 10452,
+  "move_speed": 1,
+  "name": "Power Imp Pakpak",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 1000,
+    "def": 500,
+    "hp": 500,
+    "rec": 50
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "20011",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "26:50:2:1,30:50:2:1",
+  "drop_check_count": 3,
+  "effect_frame": "20:122:1,24:122:1",
+  "element": 2,
+  "id": 20011,
+  "move_speed": 4,
+  "name": "Selena",
+  "rarity": 2,
+  "sbb_id": "120011",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 490,
+    "def": 360,
+    "hp": 1000,
+    "rec": 420
+   },
+   {
+    "atk": 706,
+    "def": 468,
+    "hp": 1830,
+    "rec": 693
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "20030",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:122:1",
+  "element": 2,
+  "id": 20030,
+  "move_speed": 2,
+  "name": "Squirty",
+  "rarity": 1,
+  "sbb_id": "120030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 300,
+    "def": 280,
+    "hp": 800,
+    "rec": 250
+   },
+   {
+    "atk": 396,
+    "def": 392,
+    "hp": 1596,
+    "rec": 408
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "20031",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "42:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "36:122:1",
+  "element": 2,
+  "id": 20031,
+  "move_speed": 2,
+  "name": "King Squirty",
+  "rarity": 2,
+  "sbb_id": "120031",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 360,
+    "def": 350,
+    "hp": 1170,
+    "rec": 360
+   },
+   {
+    "atk": 660,
+    "def": 672,
+    "hp": 2244,
+    "rec": 734
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "13:60:2:4,32:60:2:4",
+  "drop_check_count": 2,
+  "effect_frame": "7:122:1,26:122:1",
+  "element": 2,
+  "id": 20050,
+  "move_speed": 3,
+  "name": "Merman",
+  "rarity": 1,
+  "sbb_id": "20050",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 380,
+    "def": 350,
+    "hp": 950,
+    "rec": 200
+   },
+   {
+    "atk": 532,
+    "def": 462,
+    "hp": 1735,
+    "rec": 312
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:122:1",
+  "element": 2,
+  "id": 20202,
+  "move_speed": 1,
+  "name": "Water Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 120,
+    "def": 123,
+    "hp": 1000,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:122:1,72:122:1",
+  "element": 2,
+  "id": 20203,
+  "move_speed": 1,
+  "name": "Water King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 120,
+    "def": 123,
+    "hp": 1500,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:122:1,60:180:1,67:122:1,67:180:1,72:122:1,72:180:1",
+  "element": 2,
+  "id": 20204,
+  "move_speed": 1,
+  "name": "Water God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 120,
+    "def": 123,
+    "hp": 2000,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "66:34:2:2,76:33:2:2,86:33:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "66:190:1,66:200030:1,72:190:1,72:200030:1,78:190:1,78:200030:1",
+  "element": 2,
+  "id": 20302,
+  "move_speed": 3,
+  "name": "Sphere Frog",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 700,
+    "def": 700,
+    "hp": 3300,
+    "rec": 50
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:122:1,78:122:1,82:122:1,86:122:1,66:190:1,84:180:1,88:180:1,92:180:1",
+  "element": 2,
+  "id": 20334,
+  "move_speed": 1,
+  "name": "Water Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 450,
+    "def": 500,
+    "hp": 3500,
+    "rec": 550
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "60:30:2:2,70:30:2:2,80:40:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "60:180:1,70:180:1,60:190:1,74:200140:1,15:100015:1,20:100015:1",
+  "element": 2,
+  "id": 20442,
+  "move_speed": 1,
+  "name": "Guard Imp Ganju",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 1000,
+    "hp": 500,
+    "rec": 50
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "30011",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "26:50:2:1,32:20:2:4,38:30:2:4",
+  "drop_check_count": 3,
+  "effect_frame": "20:123:1,26:123:1,32:123:1",
+  "element": 3,
+  "id": 30011,
+  "move_speed": 2,
+  "name": "Pikeman Lance",
+  "rarity": 2,
+  "sbb_id": "130011",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 500,
+    "hp": 1010,
+    "rec": 150
+   },
+   {
+    "atk": 720,
+    "def": 700,
+    "hp": 1876,
+    "rec": 248
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "30030",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:123:1",
+  "element": 3,
+  "id": 30030,
+  "move_speed": 2,
+  "name": "Mossy",
+  "rarity": 1,
+  "sbb_id": "130030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 260,
+    "def": 350,
+    "hp": 850,
+    "rec": 220
+   },
+   {
+    "atk": 338,
+    "def": 501,
+    "hp": 1745,
+    "rec": 286
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "30031",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "42:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "36:123:1",
+  "element": 3,
+  "id": 30031,
+  "move_speed": 2,
+  "name": "King Mossy",
+  "rarity": 2,
+  "sbb_id": "130031",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 300,
+    "def": 450,
+    "hp": 1300,
+    "rec": 260
+   },
+   {
+    "atk": 598,
+    "def": 787,
+    "hp": 2425,
+    "rec": 551
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:123:1",
+  "element": 3,
+  "id": 30202,
+  "move_speed": 1,
+  "name": "Earth Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 122,
+    "def": 122,
+    "hp": 1100,
+    "rec": 122
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:123:1,72:123:1",
+  "element": 3,
+  "id": 30203,
+  "move_speed": 1,
+  "name": "Earth King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 122,
+    "def": 122,
+    "hp": 1650,
+    "rec": 122
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:123:1,60:230:1,67:123:1,67:230:1,72:123:1,72:230:1",
+  "element": 3,
+  "id": 30204,
+  "move_speed": 1,
+  "name": "Earth God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 122,
+    "def": 122,
+    "hp": 2200,
+    "rec": 122
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:123:1,78:123:1,82:123:1,86:123:1,74:240:1,84:230:1,88:230:1,92:230:1",
+  "element": 3,
+  "id": 30324,
+  "move_speed": 1,
+  "name": "Earth Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 450,
+    "def": 450,
+    "hp": 4000,
+    "rec": 450
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "60:30:2:2,70:30:2:2,80:40:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "60:230:1,70:230:1,72:230:1,74:300120:1,15:100015:1,20:100015:1",
+  "element": 3,
+  "id": 30432,
+  "move_speed": 1,
+  "name": "Healing Imp Fwahl",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 500,
+    "hp": 500,
+    "rec": 700
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "40011",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 8,
+  "effect_frame": "24:124:1",
+  "element": 4,
+  "id": 40011,
+  "move_speed": 3,
+  "name": "Warrior Eze",
+  "rarity": 2,
+  "sbb_id": "140011",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 580,
+    "def": 320,
+    "hp": 1180,
+    "rec": 120
+   },
+   {
+    "atk": 812,
+    "def": 420,
+    "hp": 2070,
+    "rec": 210
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "40030",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:124:1",
+  "element": 4,
+  "id": 40030,
+  "move_speed": 2,
+  "name": "Sparky",
+  "rarity": 1,
+  "sbb_id": "140030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 320,
+    "def": 280,
+    "hp": 830,
+    "rec": 210
+   },
+   {
+    "atk": 432,
+    "def": 367,
+    "hp": 1628,
+    "rec": 273
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "42:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "36:124:1",
+  "element": 4,
+  "id": 40031,
+  "move_speed": 2,
+  "name": "Unit 40031",
+  "rarity": 2,
+  "sbb_id": "40031",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 390,
+    "def": 330,
+    "hp": 1200,
+    "rec": 250
+   },
+   {
+    "atk": 702,
+    "def": 629,
+    "hp": 2268,
+    "rec": 533
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:124:1",
+  "element": 4,
+  "id": 40202,
+  "move_speed": 1,
+  "name": "Thunder Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 130,
+    "def": 120,
+    "hp": 900,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:124:1,72:124:1",
+  "element": 4,
+  "id": 40203,
+  "move_speed": 1,
+  "name": "Thunder King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 130,
+    "def": 120,
+    "hp": 1350,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:124:1,60:280:1,67:124:1,67:280:1,72:124:1,72:280:1",
+  "element": 4,
+  "id": 40204,
+  "move_speed": 1,
+  "name": "Thunder God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 130,
+    "def": 120,
+    "hp": 1800,
+    "rec": 120
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:124:1,78:124:1,82:124:1,86:124:1,74:290:1,84:280:1,88:280:1,92:280:1",
+  "element": 4,
+  "id": 40324,
+  "move_speed": 1,
+  "name": "Thunder Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 600,
+    "def": 450,
+    "hp": 3000,
+    "rec": 450
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 3,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "60:30:2:2,70:30:2:2,80:40:2:2",
+  "drop_check_count": 2,
+  "effect_frame": "60:280:1,70:280:1,72:290:1,74:400130:1,25:100015:1,30:100015:1",
+  "element": 4,
+  "id": 40432,
+  "move_speed": 1,
+  "name": "Vigor Imp Molin",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 3,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 500,
+    "hp": 3000,
+    "rec": 50
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:125:1",
+  "element": 5,
+  "id": 50030,
+  "move_speed": 2,
+  "name": "Unit 50030",
+  "rarity": 1,
+  "sbb_id": "50030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 300,
+    "def": 400,
+    "hp": 830,
+    "rec": 300
+   },
+   {
+    "atk": 393,
+    "def": 580,
+    "hp": 1587,
+    "rec": 390
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "42:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "36:125:1",
+  "element": 5,
+  "id": 50031,
+  "move_speed": 2,
+  "name": "King Glowy",
+  "rarity": 2,
+  "sbb_id": "50031",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 350,
+    "def": 520,
+    "hp": 1160,
+    "rec": 350
+   },
+   {
+    "atk": 655,
+    "def": 870,
+    "hp": 2207,
+    "rec": 665
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "32:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "30:320:1",
+  "element": 5,
+  "id": 50131,
+  "move_speed": 1,
+  "name": "Jewel Ghost",
+  "rarity": 2,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 1300,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "42:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "40:320:1",
+  "element": 5,
+  "id": 50132,
+  "move_speed": 1,
+  "name": "Jewel King",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 1800,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "40:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "38:320:1",
+  "element": 5,
+  "id": 50133,
+  "move_speed": 1,
+  "name": "Jewel God",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 2300,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:125:1",
+  "element": 5,
+  "id": 50202,
+  "move_speed": 1,
+  "name": "Light Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 125,
+    "hp": 950,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:125:1,72:125:1",
+  "element": 5,
+  "id": 50203,
+  "move_speed": 1,
+  "name": "Light King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 125,
+    "hp": 1400,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:125:1,60:320:1,67:125:1,67:320:1,72:125:1,72:320:1",
+  "element": 5,
+  "id": 50204,
+  "move_speed": 1,
+  "name": "Light God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 125,
+    "def": 125,
+    "hp": 1850,
+    "rec": 125
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:125:1,78:125:1,82:125:1,86:125:1,64:320:1,84:500211:1,88:500211:1,92:500211:1",
+  "element": 5,
+  "id": 50364,
+  "move_speed": 1,
+  "name": "Light Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 550,
+    "def": 550,
+    "hp": 3200,
+    "rec": 550
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:126:1",
+  "element": 6,
+  "id": 60030,
+  "move_speed": 2,
+  "name": "Unit 60030",
+  "rarity": 1,
+  "sbb_id": "60030",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 400,
+    "def": 200,
+    "hp": 730,
+    "rec": 200
+   },
+   {
+    "atk": 584,
+    "def": 260,
+    "hp": 1410,
+    "rec": 260
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "60050",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "30:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "24:126:1",
+  "element": 6,
+  "id": 60050,
+  "move_speed": 1,
+  "name": "Skeleton",
+  "rarity": 1,
+  "sbb_id": "0",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 480,
+    "def": 230,
+    "hp": 930,
+    "rec": 90
+   },
+   {
+    "atk": 634,
+    "def": 302,
+    "hp": 1695,
+    "rec": 151
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:126:1",
+  "element": 6,
+  "id": 60132,
+  "move_speed": 1,
+  "name": "Metal Ghost",
+  "rarity": 3,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 1000,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:20:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "67:126:1,72:126:1",
+  "element": 6,
+  "id": 60133,
+  "move_speed": 1,
+  "name": "Metal King",
+  "rarity": 4,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 1500,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "73:80:2:1,78:10:2:1,83:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "60:126:1,60:600170:1,67:126:1,67:600170:1,72:126:1,72:600170:1",
+  "element": 6,
+  "id": 60134,
+  "move_speed": 1,
+  "name": "Metal God",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 123,
+    "def": 123,
+    "hp": 2000,
+    "rec": 123
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 2,
+  "back_move_type": 1,
+  "bb_id": "0",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "63:100:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "57:126:1",
+  "element": 6,
+  "id": 60142,
+  "move_speed": 1,
+  "name": "Mimic",
+  "rarity": 3,
+  "sbb_id": "0",
+  "skill_move_type": 2,
+  "stats": [
+   {
+    "atk": 666,
+    "def": 666,
+    "hp": 1188,
+    "rec": 666
+   },
+   {
+    "atk": 666,
+    "def": 666,
+    "hp": 1188,
+    "rec": 666
+   }
+  ]
+ },
+ {
+  "after_image": 1,
+  "attack_move_type": 1,
+  "back_move_type": 1,
+  "bb_id": "",
+  "cursor_disp_pos": "0,0",
+  "damage_frame": "80:70:2:1,86:10:2:1,92:10:2:1,98:10:2:1",
+  "drop_check_count": 2,
+  "effect_frame": "74:126:1,78:126:1,82:126:1,86:126:1,74:600171:1,84:600171:1,88:600171:1,92:600171:1",
+  "element": 6,
+  "id": 60334,
+  "move_speed": 1,
+  "name": "Dark Crystal",
+  "rarity": 5,
+  "sbb_id": "",
+  "skill_move_type": 1,
+  "stats": [
+   {
+    "atk": 500,
+    "def": 500,
+    "hp": 3500,
+    "rec": 500
+   }
+  ]
+ }
+]

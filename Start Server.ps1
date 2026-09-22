@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
 
 function Find-Python {
-    $candidates = @('py', 'python')
+    $candidates = @('py', 'python', "$env:WINDIR\py.exe")
     $candidates += @(Get-ChildItem -Path @(
         "$env:LOCALAPPDATA\Programs\Python\Python*\python.exe",
         "$env:ProgramFiles\Python*\python.exe",

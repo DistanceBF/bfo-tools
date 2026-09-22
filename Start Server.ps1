@@ -4,7 +4,11 @@ Set-Location -LiteralPath $PSScriptRoot
 
 function Find-Python {
     $candidates = @('py', 'python')
-    $candidates += @(Get-ChildItem -Path "$env:LOCALAPPDATA\Programs\Python\Python*\python.exe" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName)
+    $candidates += @(Get-ChildItem -Path @(
+        "$env:LOCALAPPDATA\Programs\Python\Python*\python.exe",
+        "$env:ProgramFiles\Python*\python.exe",
+        "$env:LOCALAPPDATA\Microsoft\WindowsApps\python*.exe"
+    ) -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName)
     foreach ($candidate in $candidates) {
         if (-not (Get-Command $candidate -ErrorAction SilentlyContinue)) { continue }
         $arguments = @('-c', 'import sys, sqlite3; assert sys.version_info[:3] == (3, 14, 7); print(sys.executable)')
@@ -73,8 +77,8 @@ try {
         }
         Write-Host 'Installing Python 3.14.7. This may take a few minutes...'
         & winget install --id Python.Python.3.14 --version 3.14.7 --exact --source winget --scope user --accept-package-agreements --accept-source-agreements
-        if ($LASTEXITCODE -ne 0) { throw 'Python installation failed. Review the installer message above.' }
         $python = Find-Python
+        if (-not $python) { throw 'Python 3.14.7 was not found after setup. If WinGet says it is already installed, restart Windows or add Python to PATH, then run this launcher again.' }
     }
     if (-not $python) { throw 'Python 3.14.7 was not found. Run Install and Start.bat first.' }
     if ($Install) {

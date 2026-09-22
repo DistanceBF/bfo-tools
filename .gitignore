@@ -3,6 +3,7 @@ web2/*.sqlite
 web2/*.db
 web2/*.sqllite
 web2/.active-gme-path.txt
+data/gme.sqlite
 missions/*.json
 .backups/
 backup/

@@ -1,4 +1,4 @@
-param([switch]$Install)
+param([switch]$Install, [switch]$CheckUpdates)
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
 
@@ -37,6 +37,33 @@ function Find-Java {
     }
 }
 
+function Invoke-Updater {
+    param([string]$python)
+    Write-Host 'Checking GitHub for tool updates...'
+    $checkJson = & $python (Join-Path $PSScriptRoot 'updater.py') check 2>&1
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host 'Update check could not complete. Continuing with the installed version.' -ForegroundColor Yellow
+        return
+    }
+    try { $check = $checkJson | ConvertFrom-Json } catch {
+        Write-Host 'Update check returned an invalid response. Continuing.' -ForegroundColor Yellow
+        return
+    }
+    if (-not $check.available) {
+        $message = if ($check.message) { $check.message } else { "Tools are current ($($check.current))." }
+        Write-Host $message
+        return
+    }
+    Write-Host "New version $($check.latest) found. Downloading update..." -ForegroundColor Cyan
+    $applyJson = & $python (Join-Path $PSScriptRoot 'updater.py') apply 2>&1
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host 'Update failed. Continuing with the installed version.' -ForegroundColor Yellow
+        Write-Host ($applyJson -join [Environment]::NewLine)
+        return
+    }
+    Write-Host "Update downloaded and installed: $($check.latest)" -ForegroundColor Green
+}
+
 try {
     $python = Find-Python
     if (-not $python -and $Install) {
@@ -65,6 +92,7 @@ try {
         Write-Host "Java ready: $java"
         Write-Host 'Setup complete. Python and Java are ready. Starting the server...'
     }
+    if ($CheckUpdates) { Invoke-Updater $python }
     & $python (Join-Path $PSScriptRoot 'launch_server.py')
     exit $LASTEXITCODE
 } catch {

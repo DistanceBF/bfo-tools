@@ -254,9 +254,27 @@ def _catalog_rows(rows):
 
 
 def _gme_unit_records():
-    path = os.path.join(bundle.DATA_DIR, "units", "unit.json")
+    path = os.path.join(bundle.DATA_DIR, "units", "unit_mst.json")
     with open(path, "r", encoding="utf-8-sig") as source:
-        return _catalog_map(json.load(source))
+        rows = json.load(source)["2r9cNSdt"]
+    records = {}
+    for row in rows:
+        unit_id = int(row["pn16CNah"])
+        records[unit_id] = {
+            "id": unit_id,
+            "name": row["utP1c0CD"],
+            "rarity": int(row["7ofj5xa1"]),
+            "element": int(row["iNy0ZU5M"]),
+            "bb_id": row["nj9Lw7mV"],
+            "sbb_id": row["iEFZ6H19"],
+            "stats": [
+                {"hp": int(row["UZ1Bj7w2"]), "atk": int(row["i9Tn7kYr"]),
+                 "def": int(row["q78KoWsg"]), "rec": int(row["92ij6UGB"])},
+                {"hp": int(row["3WMz78t6"]), "atk": int(row["omuyP54D"]),
+                 "def": int(row["32INDST4"]), "rec": int(row["X9P3AN5d"])},
+            ],
+        }
+    return records
 
 
 def _gme_state(profile=None):
@@ -328,7 +346,7 @@ def _gme_update_account(payload):
 def _unit_defaults(unit_id):
     rec = _gme_unit_records().get(int(unit_id))
     if rec is None:
-        raise ValueError("Unit %s is missing from data/units/unit.json" % unit_id)
+        raise ValueError("Unit %s is missing from data/units/unit_mst.json" % unit_id)
     stats = rec.get("stats") or [{}]
     max_stats = stats[-1]
     return {

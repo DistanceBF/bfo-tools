@@ -1,5 +1,11 @@
 # BFO Mission Builder
 
+## Credits
+
+Special thanks to **Evan**, who played a major part in this project. This
+tool builds on the work in the original
+[BFO Mission Builder repository](https://github.com/Seltraeh/BFO-Mission-Builder).
+
 A local tool for **recreating Brave Frontier's lost mission data**, and the
 repository that collects what the community rebuilds.
 

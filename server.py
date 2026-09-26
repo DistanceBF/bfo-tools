@@ -462,10 +462,47 @@ def _gme_delete_unit(payload):
     return _gme_state(profile)
 
 
+def _gme_allow_duplicate_items(con):
+    """Remove legacy item-ID uniqueness while preserving inventory instances."""
+    schema = con.execute(
+        "select sql from sqlite_master where type = 'table' and name = 'user_items'"
+    ).fetchone()[0]
+    updated, count = re.subn(
+        r",\s*UNIQUE\s*\(\s*user_id\s*,\s*item_id\s*\)", "", schema,
+        flags=re.IGNORECASE,
+    )
+    if not count:
+        return
+    extras = con.execute(
+        "select sql from sqlite_master where tbl_name = 'user_items' "
+        "and type in ('index', 'trigger') and sql is not null"
+    ).fetchall()
+    sequence = None
+    if "AUTOINCREMENT" in schema.upper():
+        sequence = con.execute("select seq from sqlite_sequence where name = 'user_items'").fetchone()
+    temporary = re.sub(
+        r"^(CREATE\s+TABLE\s+)(?:user_items|\"user_items\"|\[user_items\]|`user_items`)",
+        r"\1user_items_migration", updated, count=1, flags=re.IGNORECASE,
+    )
+    if temporary == updated:
+        raise ValueError("Unrecognized user_items schema; no changes made")
+    con.execute(temporary)
+    columns = [row[1] for row in con.execute("pragma table_info(user_items)")]
+    names = ", ".join('"' + name.replace('"', '""') + '"' for name in columns)
+    con.execute("insert into user_items_migration (%s) select %s from user_items" % (names, names))
+    con.execute("drop table user_items")
+    con.execute("alter table user_items_migration rename to user_items")
+    if sequence:
+        con.execute("update sqlite_sequence set seq = max(seq, ?) where name = 'user_items'", [sequence[0]])
+    for extra in extras:
+        con.execute(extra[0])
+
+
 def _gme_upsert_item(payload):
     profile = _gme_profile(payload)
     _gme_backup(profile)
     with closing(_gme_connect(profile)) as con:
+        con.execute("begin immediate")
         cur = con.cursor()
         account = _gme_account(cur)
         existing_id = payload.get("instance_id")
@@ -518,6 +555,8 @@ def _gme_upsert_item(payload):
         else:
             fields = ["user_id"] + GME_ITEM_FIELDS
             marks = ", ".join("?" for _ in fields)
+            if info["is_sphere"]:
+                _gme_allow_duplicate_items(con)
             cur.execute(
                 "insert into user_items (%s) values (%s)" % (", ".join(fields), marks),
                 [row[f] for f in fields],

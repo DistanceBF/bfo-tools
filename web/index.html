@@ -9,7 +9,7 @@
 <body>
   <header class="topbar">
     <div class="brand">BFO Web Links <span class="phase">Hub</span></div>
-    <div class="topbar-actions"><button id="checkUpdates" class="btn ghost" type="button">Check for Updates</button><span id="updateStatus" class="save-status"></span></div>
+    <div class="topbar-actions"><button id="checkUpdates" class="btn ghost" type="button">Check for Updates</button><button id="openNews" class="btn ghost" type="button" aria-haspopup="dialog">News</button><span id="updateStatus" class="save-status"></span></div>
   </header>
 
   <main class="link-hub">
@@ -34,24 +34,30 @@
           <span class="muted small">Browse units, items, and game data</span>
         </button>
 
-        <button class="btn link-card" data-url="https://example.com">
+        <button class="btn link-card" type="button" disabled>
           <span class="link-title">Web Page 4</span>
-          <span class="muted small">Add your fourth link</span>
+          <span class="muted small">Coming soon</span>
         </button>
 
-        <button class="btn link-card" data-url="https://example.com">
+        <button class="btn link-card" type="button" disabled>
           <span class="link-title">Web Page 5</span>
-          <span class="muted small">Add your fifth link</span>
+          <span class="muted small">Coming soon</span>
         </button>
 
-        <button class="btn link-card" data-url="https://example.com">
+        <button class="btn link-card" type="button" disabled>
           <span class="link-title">Web Page 6</span>
-          <span class="muted small">Add your sixth link</span>
+          <span class="muted small">Coming soon</span>
         </button>
       </div>
     </section>
   </main>
 
+  <dialog id="newsDialog" class="news-dialog" aria-labelledby="newsTitle">
+    <div class="card-head"><h2 id="newsTitle">News &amp; Patch Notes</h2><button id="closeNews" class="btn ghost" type="button">Close</button></div>
+    <p class="muted small">What's changed in each BFO Tools release.</p>
+    <div id="newsContent" aria-live="polite"></div>
+    <button id="refreshNews" class="btn" type="button">Refresh news</button>
+  </dialog>
   <script src="app.js"></script>
 </body>
 </html>

@@ -277,6 +277,23 @@ def _gme_unit_records():
     return records
 
 
+def _gme_item_records():
+    path = os.path.join(bundle.DATA_DIR, "items", "item_mst.json")
+    with open(path, "r", encoding="utf-8-sig") as source:
+        rows = json.load(source)["2C7LDzYk"]
+    return {
+        int(row["kixHbe54"]): {
+            "id": int(row["kixHbe54"]),
+            "name": row["c7Z6xDB2"],
+            "named": bool(row["c7Z6xDB2"]),
+            "thumbnail": row["Mt3Y0bo5"],
+            "max_stack": int(row["m9gd5h1u"]),
+            "is_sphere": row["h0K7wjeH"] == "3",
+        }
+        for row in rows
+    }
+
+
 def _gme_state(profile=None):
     profile = profile or _gme_profile()
     units_catalog = [
@@ -290,7 +307,7 @@ def _gme_state(profile=None):
         }
         for unit_id, rec in _gme_unit_records().items()
     ]
-    items_catalog = _catalog_rows(bundle.items())
+    items_catalog = list(_gme_item_records().values())
     unit_names = _catalog_map(units_catalog)
     item_names = _catalog_map(items_catalog)
     with closing(_gme_connect(profile)) as con:
@@ -309,6 +326,7 @@ def _gme_state(profile=None):
             info = item_names.get(d.get("item_id"), {})
             d["name"] = info.get("name", "")
             d["thumbnail"] = info.get("thumbnail", "")
+            d["max_stack"] = info.get("max_stack")
             items.append(d)
         return {
             "profile": profile,
@@ -451,26 +469,49 @@ def _gme_upsert_item(payload):
         cur = con.cursor()
         account = _gme_account(cur)
         existing_id = payload.get("instance_id")
+        current = None
+        if existing_id:
+            current = cur.execute(
+                "select * from user_items where instance_id = ? and user_id = ?",
+                [int(existing_id), account["id"]],
+            ).fetchone()
+            if current is None:
+                raise ValueError("Item stack not found")
+        item_id = int(payload.get("item_id", current["item_id"] if current else 0))
+        info = _gme_item_records().get(item_id)
+        if not info:
+            raise ValueError("Item %s is missing from data/items/item_mst.json" % item_id)
+        limit = info["max_stack"]
+        quantity = payload.get("item_num", current["item_num"] if current else 1)
+        if isinstance(quantity, bool) or str(quantity) != str(int(quantity)):
+            raise ValueError("Quantity must be a whole number")
+        quantity = int(quantity)
+        if quantity < 1 or quantity > limit:
+            raise ValueError("%s allows 1 to %s per stack" % (info["name"], limit))
         row = {
             "user_id": account["id"],
-            "item_id": int(payload.get("item_id") or 0),
-            "item_num": int(payload.get("item_num") or 1),
+            "item_id": item_id,
+            "item_num": quantity,
             "favorite_flg": int(payload.get("favorite_flg") or 0),
             "disp_order": int(payload.get("disp_order") or 0),
         }
         for field in GME_ITEM_FIELDS:
             if field in payload:
                 row[field] = _coerce_gme_value(payload[field])
-        if not existing_id:
+        if not existing_id and not info["is_sphere"]:
             existing = cur.execute(
-                "select instance_id, item_num from user_items where user_id = ? and item_id = ?",
+                "select instance_id, item_num from user_items where user_id = ? and item_id = ? order by instance_id desc",
                 [account["id"], row["item_id"]],
             ).fetchone()
             if existing:
                 existing_id = existing["instance_id"]
-                row["item_num"] = int(existing["item_num"] or 0) + int(row["item_num"] or 0)
+                row["item_num"] = 1 if limit == 1 else int(existing["item_num"] or 0) + quantity
+                if row["item_num"] > limit:
+                    raise ValueError("%s allows at most %s per stack" % (info["name"], limit))
         if existing_id:
             fields = [f for f in GME_ITEM_FIELDS if f in payload]
+            if "item_num" not in fields:
+                fields.append("item_num")
             sets = ", ".join("%s = ?" % f for f in fields)
             values = [row[f] for f in fields] + [int(existing_id)]
             cur.execute("update user_items set %s where instance_id = ?" % sets, values)

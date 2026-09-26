@@ -307,6 +307,12 @@ function rowIcon(row) {
 
 function fieldInput(row, field, label, type) {
   const value = row[field] ?? "";
+  if (field === "item_num") {
+    return `<label>${label}
+      <input data-field="item_num" type="number" min="1" step="1" ${row.max_stack ? `max="${row.max_stack}"` : ""} value="${escapeAttr(value)}">
+      <span class="muted small">${row.max_stack ? `Maximum ${row.max_stack} per stack` : "Unknown stack limit"}</span>
+    </label>`;
+  }
   if (type === "unit-type") {
     return `
       <label>
@@ -571,7 +577,7 @@ function unitAddRow(unit) {
 
 function itemAddRow(item) {
   return `
-    <button class="unit" type="button" data-add-item="${item.id}" title="Add or update this item">
+    <button class="unit" type="button" data-add-item="${item.id}" title="Maximum ${item.max_stack} per stack${item.is_sphere ? '; adds a separate sphere to your inventory' : item.max_stack === 1 ? '; selects an existing copy if owned' : ''}">
       ${iconImg(itemIcon(item), item.name || "Item", "item-thumb")}
       <span class="uname${item.named ? "" : " unnamed"}">${escapeHtml(item.name || "Unnamed item")}</span>
       <span class="uid">#${item.id}</span>
@@ -594,7 +600,8 @@ function addSelectedUnit(unitId) {
 }
 
 function addSelectedItem(itemId) {
-  const qty = Number($("newItemQty").value || 1);
+  const item = state.itemCatalog.find((entry) => entry.id === itemId);
+  const qty = item?.max_stack === 1 ? 1 : Number($("newItemQty").value || 1);
   if (!itemId) return setStatus("Choose an item first", "dirty");
   return saveWithStatus("/api/gme/item", { item_id: itemId, item_num: qty }, (payload) => {
     clearSearchAfterAdd("items");

@@ -174,6 +174,7 @@ def _set_active_gme_path(path):
     if not path.lower().endswith((".sqlite", ".db", ".sqllite")):
         raise ValueError("File must be a .sqlite, .db, or .sqllite database")
     _gme_validate_db(path)
+    _gme_restore_item_constraint(GME_DEFAULT_PROFILE, path=path)
     with open(GME_ACTIVE_PATH_FILE, "w", encoding="utf-8") as fh:
         fh.write(path)
     return _gme_state(GME_DEFAULT_PROFILE)
@@ -218,6 +219,7 @@ def _gme_upload_database(body):
         fh.write(body)
     try:
         _gme_validate_db(tmp)
+        _gme_restore_item_constraint(profile, path=tmp)
         if os.path.exists(final):
             os.makedirs(BACKUP_DIR, exist_ok=True)
             stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -294,8 +296,50 @@ def _gme_item_records():
     }
 
 
+def _gme_restore_item_constraint(profile, path=None):
+    """Restore one inventory row per account/item for game-compatible crafting."""
+    path = path or _gme_db_path(profile)
+    with closing(sqlite3.connect(path)) as con:
+        for index in con.execute('pragma index_list("user_items")').fetchall():
+            if not index[2] or index[4]:
+                continue
+            name = index[1].replace('"', '""')
+            columns = [row[2] for row in con.execute('pragma index_info("%s")' % name)]
+            if len(columns) == 2 and set(columns) == {"user_id", "item_id"}:
+                return False
+
+        os.makedirs(BACKUP_DIR, exist_ok=True)
+        stamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        backup = os.path.join(BACKUP_DIR, "gme.before-item-repair.%s.sqlite" % stamp)
+        with closing(sqlite3.connect(backup)) as destination:
+            con.backup(destination)
+
+        # Keep the oldest instance and its extra fields; merge ownership counts.
+        with con:
+            con.execute("begin immediate")
+            groups = con.execute(
+                "select user_id, item_id, min(instance_id), sum(item_num), "
+                "max(favorite_flg) from user_items group by user_id, item_id "
+                "having count(*) > 1"
+            ).fetchall()
+            for user_id, item_id, instance_id, quantity, favorite in groups:
+                con.execute(
+                    "update user_items set item_num = ?, favorite_flg = ? where instance_id = ?",
+                    [quantity, favorite, instance_id],
+                )
+                con.execute(
+                    "delete from user_items where user_id = ? and item_id = ? and instance_id != ?",
+                    [user_id, item_id, instance_id],
+                )
+            con.execute(
+                "create unique index user_items_account_item_unique on user_items(user_id, item_id)"
+            )
+        return True
+
+
 def _gme_state(profile=None):
     profile = profile or _gme_profile()
+    _gme_restore_item_constraint(profile)
     units_catalog = [
         {
             "id": unit_id,
@@ -327,6 +371,7 @@ def _gme_state(profile=None):
             d["name"] = info.get("name", "")
             d["thumbnail"] = info.get("thumbnail", "")
             d["max_stack"] = info.get("max_stack")
+            d["is_sphere"] = info.get("is_sphere", False)
             items.append(d)
         return {
             "profile": profile,
@@ -462,42 +507,6 @@ def _gme_delete_unit(payload):
     return _gme_state(profile)
 
 
-def _gme_allow_duplicate_items(con):
-    """Remove legacy item-ID uniqueness while preserving inventory instances."""
-    schema = con.execute(
-        "select sql from sqlite_master where type = 'table' and name = 'user_items'"
-    ).fetchone()[0]
-    updated, count = re.subn(
-        r",\s*UNIQUE\s*\(\s*user_id\s*,\s*item_id\s*\)", "", schema,
-        flags=re.IGNORECASE,
-    )
-    if not count:
-        return
-    extras = con.execute(
-        "select sql from sqlite_master where tbl_name = 'user_items' "
-        "and type in ('index', 'trigger') and sql is not null"
-    ).fetchall()
-    sequence = None
-    if "AUTOINCREMENT" in schema.upper():
-        sequence = con.execute("select seq from sqlite_sequence where name = 'user_items'").fetchone()
-    temporary = re.sub(
-        r"^(CREATE\s+TABLE\s+)(?:user_items|\"user_items\"|\[user_items\]|`user_items`)",
-        r"\1user_items_migration", updated, count=1, flags=re.IGNORECASE,
-    )
-    if temporary == updated:
-        raise ValueError("Unrecognized user_items schema; no changes made")
-    con.execute(temporary)
-    columns = [row[1] for row in con.execute("pragma table_info(user_items)")]
-    names = ", ".join('"' + name.replace('"', '""') + '"' for name in columns)
-    con.execute("insert into user_items_migration (%s) select %s from user_items" % (names, names))
-    con.execute("drop table user_items")
-    con.execute("alter table user_items_migration rename to user_items")
-    if sequence:
-        con.execute("update sqlite_sequence set seq = max(seq, ?) where name = 'user_items'", [sequence[0]])
-    for extra in extras:
-        con.execute(extra[0])
-
-
 def _gme_upsert_item(payload):
     profile = _gme_profile(payload)
     _gme_backup(profile)
@@ -523,7 +532,13 @@ def _gme_upsert_item(payload):
         if isinstance(quantity, bool) or str(quantity) != str(int(quantity)):
             raise ValueError("Quantity must be a whole number")
         quantity = int(quantity)
-        if quantity < 1 or quantity > limit:
+        if info["is_sphere"]:
+            # Saving a copy must not overwrite the shared ownership count.
+            quantity = int(current["item_num"]) if current else 1
+        if quantity < 1:
+            raise ValueError("Quantity must be at least 1")
+        # Sphere item_num counts owned copies, not the per-stack limit in the catalog.
+        if not info["is_sphere"] and quantity > limit:
             raise ValueError("%s allows 1 to %s per stack" % (info["name"], limit))
         row = {
             "user_id": account["id"],
@@ -535,15 +550,16 @@ def _gme_upsert_item(payload):
         for field in GME_ITEM_FIELDS:
             if field in payload:
                 row[field] = _coerce_gme_value(payload[field])
-        if not existing_id and not info["is_sphere"]:
+        row["item_num"] = quantity
+        if not existing_id:
             existing = cur.execute(
                 "select instance_id, item_num from user_items where user_id = ? and item_id = ? order by instance_id desc",
                 [account["id"], row["item_id"]],
             ).fetchone()
             if existing:
                 existing_id = existing["instance_id"]
-                row["item_num"] = 1 if limit == 1 else int(existing["item_num"] or 0) + quantity
-                if row["item_num"] > limit:
+                row["item_num"] = 1 if limit == 1 and not info["is_sphere"] else int(existing["item_num"] or 0) + quantity
+                if not info["is_sphere"] and row["item_num"] > limit:
                     raise ValueError("%s allows at most %s per stack" % (info["name"], limit))
         if existing_id:
             fields = [f for f in GME_ITEM_FIELDS if f in payload]
@@ -555,8 +571,6 @@ def _gme_upsert_item(payload):
         else:
             fields = ["user_id"] + GME_ITEM_FIELDS
             marks = ", ".join("?" for _ in fields)
-            if info["is_sphere"]:
-                _gme_allow_duplicate_items(con)
             cur.execute(
                 "insert into user_items (%s) values (%s)" % (", ".join(fields), marks),
                 [row[f] for f in fields],
@@ -569,8 +583,17 @@ def _gme_delete_item(payload):
     profile = _gme_profile(payload)
     _gme_backup(profile)
     with closing(_gme_connect(profile)) as con:
-        con.execute("delete from user_items where instance_id = ?",
-                    [int(payload.get("instance_id") or 0)])
+        con.execute("begin immediate")
+        account = _gme_account(con.cursor())
+        params = [int(payload.get("instance_id") or 0), account["id"]]
+        row = con.execute(
+            "select * from user_items where instance_id = ? and user_id = ?", params
+        ).fetchone()
+        info = _gme_item_records().get(row["item_id"], {}) if row else {}
+        if row and info.get("is_sphere") and row["item_num"] > 1:
+            con.execute("update user_items set item_num = item_num - 1 where instance_id = ? and user_id = ?", params)
+        else:
+            con.execute("delete from user_items where instance_id = ? and user_id = ?", params)
         con.commit()
     return _gme_state(profile)
 

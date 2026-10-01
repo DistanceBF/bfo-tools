@@ -103,6 +103,7 @@ const state = {
   itemCatalog: [],
   selectedUnitId: null,
   selectedItemId: null,
+  selectedItemCopy: 0,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -173,13 +174,14 @@ function render() {
     button.classList.toggle("active", button.dataset.mode === state.mode);
   });
   $("unitCount").textContent = state.units.length;
-  $("itemCount").textContent = state.items.length;
+  const itemCount = state.items.reduce((total, item) => total + (item.is_sphere ? Number(item.item_num) : 1), 0);
+  $("itemCount").textContent = itemCount;
   $("summaryStats").innerHTML = `
     <div><strong>${escapeHtml(state.account?.username || "Account")}</strong></div>
     <div class="muted small">${escapeHtml(state.databasePath || "web2/gme.sqlite")}</div>
     <div>Level ${state.account?.level ?? 0}</div>
     <div>${state.units.length} units</div>
-    <div>${state.items.length} item stacks</div>
+    <div>${itemCount} item stacks / individual spheres</div>
   `;
   $("databasePathInput").value = state.databasePath || "";
 
@@ -257,24 +259,32 @@ function renderItems() {
     const text = `${item.instance_id} ${item.item_id} ${item.name}`.toLowerCase();
     return !q || text.includes(q);
   });
-  $("recordList").innerHTML = rows.map((item) => `
-    <button class="record-row ${item.instance_id === state.selectedItemId ? "active" : ""}" data-item="${item.instance_id}">
+  const selected = state.items.find((item) => item.instance_id === state.selectedItemId) || state.items[0];
+  if (selected) {
+    state.selectedItemId = selected.instance_id;
+    state.selectedItemCopy = Math.max(0, Math.min(state.selectedItemCopy, selected.is_sphere ? selected.item_num - 1 : 0));
+  }
+  $("recordList").innerHTML = rows.map((item) => Array.from({ length: item.is_sphere ? item.item_num : 1 }, (_, copy) => `
+    <button class="record-row ${item.instance_id === state.selectedItemId && copy === state.selectedItemCopy ? "active" : ""}" data-item="${item.instance_id}" data-copy="${copy}">
       ${iconImg(itemIcon(item), item.name || "Item", "item-thumb")}
       <span class="record-main">
         <span class="record-name">${escapeHtml(item.name || "Unnamed item")}</span>
-        <span class="muted small">Item ${item.item_id} | Qty ${item.item_num}</span>
+        <span class="muted small">Item ${item.item_id} | ${item.is_sphere ? `Sphere copy ${copy + 1}` : `Qty ${item.item_num}`}</span>
       </span>
     </button>
-  `).join("");
+  `).join("")).join("");
   document.querySelectorAll("[data-item]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedItemId = Number(button.dataset.item);
+      state.selectedItemCopy = Number(button.dataset.copy);
       renderItems();
     });
   });
-  const selected = state.items.find((item) => item.instance_id === state.selectedItemId) || state.items[0];
-  if (selected) state.selectedItemId = selected.instance_id;
   renderForm(selected ? selected.name || "Item" : "Item", selected, itemFields, saveItem, deleteItem);
+  if (selected?.is_sphere) {
+    $("deleteRecord").textContent = "Delete this copy";
+    $("editor").insertAdjacentHTML("beforeend", '<p class="muted small">Each card represents one sphere. Copies share one database record, so saved fields apply to all copies of this sphere.</p>');
+  }
 }
 
 function renderForm(title, row, fields, onSave, onDelete) {
@@ -308,9 +318,15 @@ function rowIcon(row) {
 function fieldInput(row, field, label, type) {
   const value = row[field] ?? "";
   if (field === "item_num") {
-    return `<label>${label}
-      <input data-field="item_num" type="number" min="1" step="1" ${row.max_stack ? `max="${row.max_stack}"` : ""} value="${escapeAttr(value)}">
-      <span class="muted small">${row.max_stack ? `Maximum ${row.max_stack} per stack` : "Unknown stack limit"}</span>
+    if (row.is_sphere) {
+      return `<label>Quantity
+        <input class="locked-field" type="number" min="1" max="1" value="1" readonly>
+        <span class="muted small">One sphere per card. Use Add or Delete to change how many you own.</span>
+      </label>`;
+    }
+    return `<label>${row.is_sphere ? "Copies owned" : label}
+      <input data-field="item_num" type="number" min="1" step="1" ${!row.is_sphere && row.max_stack ? `max="${row.max_stack}"` : ""} value="${escapeAttr(value)}">
+      <span class="muted small">${row.is_sphere ? "Total copies owned, stored in item_num" : row.max_stack ? `Maximum ${row.max_stack} per stack` : "Unknown stack limit"}</span>
     </label>`;
   }
   if (type === "unit-type") {
@@ -370,9 +386,10 @@ async function saveItem() {
 }
 
 async function deleteItem() {
-  if (!confirm("Delete this item stack from the account?")) return;
+  const item = state.items.find((entry) => entry.instance_id === state.selectedItemId);
+  if (!confirm(item?.is_sphere ? "Delete one copy of this sphere?" : "Delete this item stack from the account?")) return;
   await saveWithStatus("/api/gme/item/delete", { instance_id: state.selectedItemId }, () => {
-    state.selectedItemId = null;
+    if (!item?.is_sphere || item.item_num <= 1) state.selectedItemId = null;
   });
 }
 
@@ -526,7 +543,7 @@ function renderItemAdd(panel) {
         </label>
       </div>
       <div class="add-config">
-        <label>Quantity <input id="newItemQty" type="number" value="1" min="1"></label>
+        <label>Quantity (non-spheres) <input id="newItemQty" type="number" value="1" min="1"><span class="muted small">Spheres always add one copy per click.</span></label>
         <span id="newItemCount" class="muted small"></span>
       </div>
       <div class="filter-row">
@@ -577,7 +594,7 @@ function unitAddRow(unit) {
 
 function itemAddRow(item) {
   return `
-    <button class="unit" type="button" data-add-item="${item.id}" title="Maximum ${item.max_stack} per stack${item.is_sphere ? '; adds a separate sphere to your inventory' : item.max_stack === 1 ? '; selects an existing copy if owned' : ''}">
+    <button class="unit" type="button" data-add-item="${item.id}" title="${item.is_sphere ? 'Add one sphere copy' : `Maximum ${item.max_stack} per stack${item.max_stack === 1 ? '; selects an existing copy if owned' : ''}`}">
       ${iconImg(itemIcon(item), item.name || "Item", "item-thumb")}
       <span class="uname${item.named ? "" : " unnamed"}">${escapeHtml(item.name || "Unnamed item")}</span>
       <span class="uid">#${item.id}</span>
@@ -601,13 +618,14 @@ function addSelectedUnit(unitId) {
 
 function addSelectedItem(itemId) {
   const item = state.itemCatalog.find((entry) => entry.id === itemId);
-  const qty = item?.max_stack === 1 ? 1 : Number($("newItemQty").value || 1);
+  const qty = item?.is_sphere || item?.max_stack === 1 ? 1 : Number($("newItemQty").value || 1);
   if (!itemId) return setStatus("Choose an item first", "dirty");
   return saveWithStatus("/api/gme/item", { item_id: itemId, item_num: qty }, (payload) => {
     clearSearchAfterAdd("items");
     const added = newestBy(payload.items, "instance_id", (item) => item.item_id === itemId);
     if (added) {
       state.selectedItemId = added.instance_id;
+      state.selectedItemCopy = added.is_sphere ? added.item_num - 1 : 0;
       state.mode = "items";
     }
   });
